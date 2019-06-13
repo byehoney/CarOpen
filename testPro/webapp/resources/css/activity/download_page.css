@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, button, input, textarea, th, td {margin: 0;  padding: 0;}
+body, button, input, select, textarea {font:12px microsoft YaHei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;}
+code, kbd, pre, samp, tt {font-family: "Courier New", Courier,monospace;}
+small {font-size: 12px;}
+i,em{ font-style:normal;}
+ul, ol {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+abbr[title], acronym[title] {border-bottom:1px dotted;cursor:help;}
+q:before, q:after {content: '';}
+legend {color: #000;}
+fieldset {border: none;}
+img{border:none;vertical-align:top;}
+button, input, select, textarea {font-size: 100%;}
+table {border-collapse:collapse;border-spacing: 0;}
+hr {border: none;  height: 1px;}
+.clearfix:after{display:block;clear:both; content:'';}
+.clearfix{zoom:1;}
+html,body{min-height:100%;}
+html{font-size:625%}
+@media only screen and (min-width: 320px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 374px){
+    html {
+        font-size: 366.2% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+.download_content{width:100%;}
+.download_content .page_t{width:100%;height:1.91rem;background:url(../../image/activity/download_page/download_ioc1.jpg) no-repeat; background-size:100% 100%;}
+.download_content .page_c{width:100%;height:4.3rem;background:url(../../image/activity/download_page/download_ioc2.jpg) no-repeat;    background-size:100% 100%;}
+.download_content .page_b{width:100%;height:3.47rem;background:url(../../image/activity/download_page/download_ioc3.jpg) no-repeat;    background-size:100% 100%;padding-top:1.3rem;}
+.page_c div{width:1.66rem;height:2.32rem;background:url(../../image/activity/download_page/logo.png) no-repeat;background-size:100% 100%;margin:0 auto;}
+.page_b a{width:1.67rem;height:.78rem;line-height:.78rem;border-radius:.06rem;font-size:.26rem;color:#373737;margin:0 auto;display:block;padding-left:.98rem;}
+.page_b a.apple{background:url(../../image/activity/download_page/apple.png) no-repeat #fff .32rem center;background-size:15%; }
+.page_b a.android{background:url(../../image/activity/download_page/android.png) no-repeat #fff .32rem center;background-size:15%; }
+
+
+
+
+
+
+

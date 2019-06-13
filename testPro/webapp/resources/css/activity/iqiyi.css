@@ -1,0 +1,379 @@
+html {
+  font-size: 625%;
+}
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 312.5% !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 350% !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 390.625% !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 417.9% !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 468.75% !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 546.875% !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 625% !important;
+  }
+}
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.topbanner {
+  width: 100%;
+  height: 3.68rem;
+  background: url('../../image/activity/iqiyi/topbanner.png') no-repeat;
+  background-size: 100% 100%;
+}
+.cont {	
+  background-color: #f1d799;
+  overflow: hidden;
+}
+.rules{
+	width: 6rem;
+	margin: .2rem auto;
+	background-color:#fff;
+	border-radius:.1rem;
+	padding-bottom:.56rem;
+}
+.act_txt {  
+  font-size: .18rem;
+  padding:.18rem 0 .64rem;
+  border-bottom:1px dashed #f1d799;
+  position:relative;
+}
+.act_txt h3 {
+	width:1rem;
+	height:.29rem;
+	line-height:.29rem;
+	border:2px solid #f0871d;
+	padding-left:.1rem;	
+	margin:0 0 .1rem .2rem;
+	color: #f0871d;
+	font-size: .18rem;
+}
+.act_txt h3 span{
+	width:.99rem;
+	height: 100%;
+	text-align:center;
+	border-left:2px solid #f0871d;
+	display:inline-block;
+}
+.act_txt div {
+	margin: 0 .2rem;
+	color: #3f3a35;
+}
+.act_txt div span {
+	line-height: .36rem;
+}
+.act_txt div p {
+	line-height: .36rem;
+	width: 5.25rem;
+	margin-left: 0.05rem;
+	text-align: justify;
+}
+.act_txt div:last-child {
+	margin-bottom: .15rem;
+}
+.small_icon{
+	width:.14rem;
+	height:.27rem;
+	background:url(../../image/activity/iqiyi/small_icon.png) no-repeat;
+	background-size:.4rem;
+	display:inline-block;
+	position:absolute;
+}
+.small_icon.small_left{
+	background-position:0 -.03rem;
+	left:0;
+	bottom:-.15rem;
+}
+.small_icon.small_right{
+	background-position:-.24rem -.02rem;
+	right:0;
+	bottom:-.15rem;
+}
+.phbox {
+  width:4.8rem;
+  margin: .58rem auto .64rem;
+}
+.phbox input.phnum {
+  width: 100%;
+  height: .7rem;
+  background-color: #edcf96;
+  border-radius: .15rem; 
+  display: block;
+  outline: none;
+  line-height: .7rem;
+  color: #a7936a;
+  font-size: .3rem;
+  text-align: center;
+}
+.ex_popup {
+  width: 4.8rem;
+  height: .7rem;
+  line-height:.7rem;
+  text-align:center;
+  font-size:.3rem;
+  color:#fff;
+  background: url(../../image/activity/iqiyi/ex_popup.png) no-repeat;
+  background-size: 100% 100%;
+  margin:0 auto;
+  cursor: pointer;
+}
+.lisbg {
+  background: url(../../image/activity/iqiyi/lis_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+.example_lis {
+  width: 6rem;
+  margin: 0 auto;
+}
+.example_lis ul {
+  overflow: hidden;
+}
+.example_lis li {
+  width: 1.93rem;
+  height: 1.36rem;
+}
+.example_lis li p {
+  font-size: .22rem;
+  color: #f5cc87;
+  line-height: .3rem;
+  text-shadow: 0px 3px 3px #171a28;
+  text-align: center;
+}
+.example_lis li p:first-child {
+  margin-top: .36rem;
+}
+.example_lis .lis1,
+.example_lis .lis2 {
+  margin-right: .1rem;
+}
+.present {
+  overflow: hidden;
+  font-size: .22rem;
+  margin: 0 auto;
+}
+.present .example_img {
+	width:4.56rem;
+	background: url(../../image/activity/iqiyi/ex_img01.png) no-repeat;	
+}
+.present .financial_img {
+	width: 5.26rem;	
+	background: url(../../image/activity/iqiyi/ex_img02.png) no-repeat;	
+}
+.present .example_img,.present .financial_img{
+	height: .7rem;
+	background-size: 100% 100%;
+	margin: .38rem auto 0;
+}
+.present .pre_list {
+	width: 5.2rem;
+	padding: .08rem .4rem .24rem;
+	margin: .18rem auto 0;
+}
+.present .pre_list tr td {	
+	text-align: center;
+}
+thead tr td{
+	font-size:.24rem;
+	color:#3e3a35;
+}
+.present .pre_list tr td:last-child {
+  border-right: none;
+}
+.present table {
+  width: 100%;
+  margin: 0 auto;
+}
+.present thead tr {
+  color: #fcc214;
+}
+.present thead td {
+  padding: .14rem 0;
+}
+.present tbody td {
+  line-height: .6rem;
+}
+.present tbody tr{
+	font-size:.28rem;
+	color: #f29200;
+}
+.present tbody tr:last-child {
+  border-bottom: none;
+}
+.pre_cont{
+	padding:0;
+}
+.present p{
+	text-align:center;
+	font-size:.28rem;
+	color:#f18a05;
+	margin:.35rem 0;
+}
+.present .ranking{
+	width:5.28rem;
+	height:3.73rem;
+	background: url(../../image/activity/iqiyi/ranking.png) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	position:relative;
+}
+.foot_txt{
+	margin:.32rem 0 .2rem;
+	text-align: center;
+	color: #c98a15;
+}
+.foot_txt div,.foot_txt p{
+	line-height: .52rem;
+}
+.foot_txt div {
+  font-size: .24rem;  
+}
+.foot_txt p {
+  font-size: .2rem;
+}
+.popup {
+  width: 6rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  text-align: center;
+  z-index: 60;
+  border-radius:.15rem;
+  display: none;
+}
+.pop_bd {
+	background-color:#fff;
+	overflow: hidden;
+	border-radius: .15rem;
+}
+.pop_bd input.btn_mobnumber {
+	width: 5.1rem;
+    height: .7rem;
+    background-color: #edcf96;
+    border-radius: .15rem; 
+    display: block;
+    outline: none;
+    line-height: .7rem;
+    color: #a7936a;
+    font-size: .24rem;
+    text-align: center;
+	margin:.7rem auto 0;
+}
+.pop_bd .pop_check {
+  height: .7rem;
+  width: 5.12rem;
+  margin: .29rem auto 0;
+}
+.pop_bd .pop_check input {
+  width: 2.96rem;
+  height:.7rem;
+  line-height: .7rem;
+  padding-left: .26rem;  
+  font-size: .24rem;
+  color: #a49169;
+  float: left;
+  outline: none;
+  background-color: #edcf96;
+  border-radius: .15rem; 
+}
+.pop_bd .pop_check_msg .pop_msg_count {
+  line-height: .7rem;
+  padding: 0 .12rem;
+  background-color: #f18d00;
+  font-size: .24rem;
+  color: #fff;
+  border-radius: .1rem;
+  float: right;
+  cursor: pointer;
+}
+.pop_bd .pop_check_txt .img-code {
+  vertical-align: middle;
+  cursor: pointer;
+  height: .71rem;
+  width: 1.72rem;
+  float: right;
+  font-size: .18rem;
+}
+.pop_bd .pop_agr {
+  margin-top: .29rem;
+  color: #bebebe;
+  font-size: .18rem;
+}
+.pop_bd .pop_agr .agree {
+  width: .28rem;
+  height: .25rem;
+  margin-left: 1.42rem;
+  margin-right: .1rem;
+  background: url("../../image/activity/iqiyi/circle_off.png") no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+.pop_bd .pop_agr .pop_agron {
+  background-image: url("../../image/activity/iqiyi/circle_on.png");
+}
+.pop_bd .pop_agr span {
+	color:#bfbebe;
+	line-height: .32rem;
+	float: left;
+}
+.pop_bd .pop_agr span a {
+  color: #a49169;
+}
+.pop_bd .go_reg {
+ margin:.3rem auto .66rem;
+}
+#overlay {
+  background: #000;
+  opacity: 0.5;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+.error_msg {
+  width: 3.8rem;
+  padding: .38rem 0;
+  font-size: .18rem;
+  background-color: #ccc ;
+  background: rgba(3, 3, 3, 0.5);
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-left: -1.9rem;
+  text-align: center;
+  z-index: 70;
+  color: #fff;
+  word-break: break-all;
+}
+.error_msg p {
+  line-height: .36rem;
+}

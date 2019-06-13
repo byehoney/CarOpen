@@ -1,0 +1,195 @@
+body,p,ul{margin:0;padding:0}
+li{list-style:none}
+input{border:0;outline:0}
+.clearfix{zoom:1}
+.clearfix:after{display:block;content:'';clear:both}
+.fl,.fr{display:inline}
+.fl{float:left}
+.fr{float:right}
+.borRadian{border-radius:5px}
+html{font-size:625%}
+@media only screen and (min-width: 320px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+@keyframes verical-slow {
+  2% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  4% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  6% {
+    transform: translate(0, 1.5px) rotate(-1.5deg); }
+  8% {
+    transform: translate(0, -1.5px) rotate(-1.5deg); }
+  10% {
+    transform: translate(0, 2.5px) rotate(1.5deg); }
+  12% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  14% {
+    transform: translate(0, -1.5px) rotate(1.5deg); }
+  16% {
+    transform: translate(0, -0.5px) rotate(-1.5deg); }
+  18% {
+    transform: translate(0, 0.5px) rotate(-1.5deg); }
+  20% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  22% {
+    transform: translate(0, 0.5px) rotate(-1.5deg); }
+  24% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  26% {
+    transform: translate(0, 0.5px) rotate(0.5deg); }
+  28% {
+    transform: translate(0, 0.5px) rotate(1.5deg); }
+  30% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  32% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  34% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  36% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  38% {
+    transform: translate(0, 1.5px) rotate(-1.5deg); }
+  40% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  42% {
+    transform: translate(0, 2.5px) rotate(-1.5deg); }
+  44% {
+    transform: translate(0, 1.5px) rotate(0.5deg); }
+  46% {
+    transform: translate(0, -1.5px) rotate(2.5deg); }
+  48% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  50% {
+    transform: translate(0, 0.5px) rotate(0.5deg); }
+  52% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  54% {
+    transform: translate(0, -1.5px) rotate(1.5deg); }
+  56% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  58% {
+    transform: translate(0, 0.5px) rotate(2.5deg); }
+  60% {
+    transform: translate(0, 2.5px) rotate(2.5deg); }
+  62% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  64% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  66% {
+    transform: translate(0, 1.5px) rotate(-0.5deg); }
+  68% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  70% {
+    transform: translate(0, 1.5px) rotate(0.5deg); }
+  72% {
+    transform: translate(0, 2.5px) rotate(1.5deg); }
+  74% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  76% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  78% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  80% {
+    transform: translate(0, 1.5px) rotate(1.5deg); }
+  82% {
+    transform: translate(0, -0.5px) rotate(0.5deg); }
+  84% {
+    transform: translate(0, 1.5px) rotate(2.5deg); }
+  86% {
+    transform: translate(0, -1.5px) rotate(-1.5deg); }
+  88% {
+    transform: translate(0, -0.5px) rotate(2.5deg); }
+  90% {
+    transform: translate(0, 2.5px) rotate(-0.5deg); }
+  92% {
+    transform: translate(0, 0.5px) rotate(-0.5deg); }
+  94% {
+    transform: translate(0, 2.5px) rotate(0.5deg); }
+  96% {
+    transform: translate(0, -0.5px) rotate(1.5deg); }
+  98% {
+    transform: translate(0, -1.5px) rotate(-0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } }
+@keyframes swinging{
+    0% { transform: rotate(0); }
+    5% { transform: rotate(10deg); }
+    10% { transform: rotate(-9deg); }
+    15% { transform: rotate(8deg); }
+    20% { transform: rotate(-7deg); }
+    25% { transform: rotate(6deg); }
+    30% { transform: rotate(-5deg); }
+    35% { transform: rotate(4deg); }
+    40% { transform: rotate(-3deg); }
+    45% { transform: rotate(2deg); }
+    50% { transform: rotate(0); } 
+    100% { transform: rotate(0); }
+} 
+body,html{min-height:100%}
+body{background:url(../../../image/static/activity/olympic/come_on_back_body.png) no-repeat #017bb3;background-size:100%}
+.share{background:url(../../../image/static/activity/olympic/share_body.png) no-repeat;background-size:100% 100%}
+.main{padding-bottom:.2rem}
+nav{padding-top:.86rem}
+.back{background:url(../../../image/static/activity/olympic/come_on_back.png) no-repeat left top;background-size:3.59rem 1.67rem}
+.logo{display:block;width:1.14rem;height:1.67rem;margin:0 auto;text-indent:-9999em}
+.loginText,.redPackets,.regText{font-size:.3rem;color:#fff;text-align:center}
+.loginText{padding:.8rem 0 .6rem 0}
+.regText{font-size:.2rem;padding:.5rem 0 .22rem 0}
+.redPackets{padding:.42rem 0 .3rem 0}
+.redPackets p:first-child{height:.5rem;line-height:.5rem;padding-bottom:.1rem}
+.redPackets .smallText{font-size:.24rem}
+.redPackets .redShake{display:inline-block;width:1.86rem;background-color:#8d0ff7;color:#eef61a;box-shadow:0 .05rem #621a7d;animation-duration:5s;animation-iteration-count:infinite;animation-name:swinging;animation-timing-function:ease-in-out}
+.loginBox,.regBox{position:relative;padding:0 11%;width:78%}
+.loginBox{padding-bottom:.9rem}
+.regBox{padding-bottom:.3rem}
+.tip{display:none;position:absolute;top:.24rem;left:50%;margin-left:-30%;padding:.4rem 4%;width:52%;background-color:rgba(0,0,0,.5);font-size:.28rem;color:#fff;text-align:center}
+.loginBtn,.mobileInput,.msgInput,.pasInput,.valInput{display:block;width:100%;height:.7rem;margin:0 auto;color:#b1b1b1;font-size:.24rem}
+.mobileInput,.msgInput,.pasInput,.valInput{padding:.2rem 0 .2rem 3%;height:.3rem;width:97%}
+.msgInput,.valInput{width:65%}
+.imgSpan,.msgBtn{width:30%;height:.7rem;line-height:.7rem;font-size:.22rem;color:#0598d5;text-align:center;background-color:#fff}
+.msgRe{color:#000}
+.imgSpan img{width:100%;height:100%}
+.loginBtn{margin-top:.34rem;line-height:.7rem;font-size:.28rem;color:#fff;text-align:center;background-color:#f6a01a}
+.regBox li:nth-child(1),.regBox li:nth-child(2){margin-bottom:.18rem}
+.description li{width:32.8%;height:2.46rem;padding-top:.36rem;background-color:#2089bd;border:5px solid #1283b8;border-left:none;border-right:none;text-align:center;color:#fff;font-size:.18rem}
+.description li p{line-height:.24rem}
+.description li:nth-child(2){margin:0 .8%}
+.iconL,.iconM,.iconR{width:.74rem;height:.74rem;margin:0 auto;background-position:-1.22rem -.04rem}
+.bigP{padding:.14rem 0 .2rem 0;font-size:.24rem}
+.getBox{padding-top:.76rem;font-size:.28rem;text-align:center}
+.bBottom,.bMiddle,.bTop,.prize{width:90%;margin:0 auto;background-repeat:no-repeat;background-size:100% 100%}
+.bTop{height:2.26rem;background-image:url(../../../image/static/activity/olympic/bTop_back.png)}
+.bMiddle{height:3.08rem;background-image:url(../../../image/static/activity/olympic/bMiddle_back.png)}
+.bBottom{position:relative;width:96.875%;height:.61rem;padding-top:.2rem;margin-top:-.58rem;background-image:url(../../../image/static/activity/olympic/bBottom_back.png)}
+.bBottom a,.prize a{color:#fff;cursor:pointer}
+.bBottom a{text-decoration:underline}
+.prize a{display:block;width:87%;height:.7rem;line-height:.7rem;margin:0 auto;background-color:#f44c4c}
+.prize{height:2.08rem;padding-top:1.14rem;margin-top:-.22rem;background-color:#fff}

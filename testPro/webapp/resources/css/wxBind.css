@@ -1,0 +1,26 @@
+.main-body{
+  text-align: center;
+  padding: 30% 0;
+}
+.main-body .body-img img{
+  width: 90px;
+  display:inline-block;
+}
+.main-body p{
+  margin-top: 15px;
+  font-size: 25px;
+}
+.button-box{
+  padding:0 10px;
+}
+.button-box a{
+  display: block;
+  padding:10px 0;
+  text-align: center;
+  background-color: #00afeb;
+  color: #fff;
+  border-radius: 3px;
+}
+.button-box a:active{
+  background-color: #08a0d4;
+}

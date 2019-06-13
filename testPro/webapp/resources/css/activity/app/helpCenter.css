@@ -1,0 +1,143 @@
+.main{
+    max-width: 640px;
+    margin:0 auto;
+    background-color: #efeeee;
+    padding: .2rem 0 .5rem 0;
+}
+.content{
+    width: 100%;
+    padding: .24rem 0 .2rem 0;
+    background-color: #ffffff;
+}
+.contList li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.contList li.marginB{
+    margin-bottom: .35rem;
+}
+.contList li .icons,.contList li .select{
+    width: .58rem;
+    height: .59rem;
+    margin: 0 auto .14rem;
+}
+.contList li .icons{
+    background: url("../../../image/activity/app_helpCenter/littleIcon01.png") no-repeat center;
+    background-size: .58rem;
+}
+.contList li.select .icons{
+    background: url("../../../image/activity/app_helpCenter/littleIcon02.png") no-repeat center;
+    background-size: .58rem;
+}
+.contList li .aboutIcon,.contList li.select .aboutIcon{
+    background-position: .05rem .02rem;
+}
+.contList li .loginIcon,.contList li.select .loginIcon{
+    background-position: .03rem -.675rem;
+}
+.contList li .chargeIcon,.contList li.select .chargeIcon{
+    background-position: 0 -1.38rem;
+}
+.contList li .investIcon,.contList li.select .investIcon{
+    background-position: 0 -2.085rem;
+}
+.contList li .safeIcon,.contList li.select .safeIcon{
+    background-position: .07rem -2.8rem;
+}
+.contList li .redIcon,.contList li.select .redIcon{
+    background-position: 0 -3.41rem;
+}
+.contList li .broowIcon,.contList li.select .broowIcon{
+    background-position: 0 -4.15rem;
+}
+.contList li p{
+    font-size: .24rem;
+    color: #666666;
+    line-height: 1;
+}
+.contList li.select p{
+    color: #0bacf7;
+}
+.title{
+    font-size: .28rem;
+    color: #333333;
+    height: 1.07rem;
+    line-height: 1.07rem;
+    padding-left: .24rem;
+}
+.questionList li{
+    background-color: #ffffff;
+}
+.questionList li .questionDiv{
+    height: .88rem;
+    line-height: .88rem;
+    margin-left: .2rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.questionList li .questionDiv p{
+    font-size: .26rem;
+    color: #666666;
+}
+.questionList li .questionDiv p.longeWith{
+    line-height: .38rem;
+    margin-top: .08rem;
+    width: 90%;
+}
+.questionList li .questionDiv .arrow{
+    display: block;
+    width: .22rem;
+    height: .22rem;
+    border-top: .04rem solid #8a8b8b;
+    border-right: .04rem solid #8a8b8b;
+    -webkit-transform-origin:center center;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition:all .2s linear;
+    transform-origin:center center;
+    transform:rotate(45deg);
+    transition:all .2s linear;
+    margin: .3rem .19rem 0 0;
+}
+.questionList li .questionDiv .arrowDown{
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.contentDiv{
+    padding: .15rem .2rem .25rem .2rem;
+    background: #f5f5f5;
+}
+.contentDiv p{
+    overflow: hidden;
+    font-size: .24rem;
+    color: #999999;
+    line-height: .38rem;
+}
+.numBox,.wordBox{
+    float: left;
+}
+.numBox{
+    width: 3%;
+    text-align: left;
+    margin-right: 3%;
+}
+.wordBox{
+    width: 94%;
+}
+.hide{
+    display: none;
+}
+.redDiv table{
+    font-size: .24rem;
+    width: 100%;
+    color:#999;
+    margin-top: .1rem;
+}
+.redDiv table tr th,.redDiv table tr td{
+    height:.5rem;
+    border:.02rem solid #e5e5e5;
+}
+.redDiv table tr th{
+    background-color: #dce9e0;
+    font-weight: normal;
+    border:.02rem solid #c4d9cb;
+}

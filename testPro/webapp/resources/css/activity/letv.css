@@ -1,0 +1,203 @@
+html {
+  font-size: 625%;
+}
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 312.5% !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 350% !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 390.625% !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 417.9% !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 468.75% !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 546.875% !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 625% !important;
+  }
+}
+body{background:#1f0f36;}
+input{outline-style:none;}
+.LetvPage{max-width:640px;margin:0 auto;background:#1f0f36;}
+.banner img{width:100%;}
+.LetvPage .container{margin:0 .32rem;position:relative;padding-bottom:.84rem;}
+.LetvPage .members{margin-top:-1rem;}
+.members div{width:50%;text-align:center;}
+.members h3{font-size:.28rem;color:#89fd69;padding-bottom:.12rem;}
+.members p{line-height:.3rem;font-size:.2rem;color:#fff;}
+.members .vip{
+	width: 2.2rem;
+    margin: 0 auto;}
+.LetvPage .sbox{text-align:center;border-radius:.1rem;}
+.LetvPage .phnum {width:5.38rem;height:.54rem;display:block;margin:.6rem auto 0;font-size:.24rem;color:#fff;border:3px solid #89fd69;background: #1f0f36;}
+.LetvPage .ex_popup {width:5.44rem;height:.6rem;line-height:.6rem;margin:.36rem auto 0;background-color: #89fd69;font-size:.32rem;color:#191919;}
+.LetvPage .communal{width:5.74rem;height:.32rem;}
+.LetvPage .about_icon{background:url(../../image/activity/letv/about.png) no-repeat;background-size:100% 100%;margin:1.04rem auto .42rem;}
+.Letv_icon{background:url(../../image/activity/letv/Letv.png) no-repeat;background-size:100% 100%;margin:.64rem auto .42rem;}
+.rules_icon{background:url(../../image/activity/letv/rules.png) no-repeat;background-size:100% 100%;margin:.56rem auto .3rem;}
+.details_list{width:5.76rem;margin:0 auto;}
+.details_list li{width:2.85rem;height:3.65rem;text-align:center;border:1px solid #78d761;border-right:none;float:left;}
+.small{background:url(../../image/activity/letv/small.png) no-repeat;background-size:3.21rem;margin:.44rem auto .32rem;}
+.units_ioc{width:1.18rem;height:1.5rem;background-position:-.32rem 0;}
+.eyes_ioc{width:1.22rem;height:1.5rem;background-position:-1.91rem 0;}
+.flowers_ioc{width:1.7rem;height:1.62rem;background-position:0 -1.72rem;}
+.shield_ioc{width:1.2rem;height:1.62rem;background-position:-1.9rem -1.74rem;}
+.details_list li p{line-height:.3rem;font-size:.22rem;color:#fff;padding:0 .1rem;}
+.details_list li.borderB{border-bottom:none;}
+.details_list li.borderR{border-right:1px solid #78d761;}
+.LetvPage .pic{width:5.74rem;height:3.76rem;background:url(../../image/activity/letv/pic.png) no-repeat;background-size:100% 100%;margin:0 auto;}
+.LetvPage .activity_rules{font-size:.22rem;color:#fff;padding:0 .08rem .4rem;}
+.LetvPage ol{padding-left:.36rem;list-style-type:decimal;}
+.LetvPage ol li{line-height:.38rem;text-align:justify;font-size:.22rem;color:#fff;}
+
+.change_icon{background:url(../../image/activity/letv/change.png) no-repeat;background-size:100% 100%;margin:.46rem auto .34rem;}
+.ewm_img{
+	width:1.63rem;
+	height:1.63rem;
+	background:url(../../image/activity/letv/ewmimg.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+}
+.way_tit{
+	font-size:.28rem;
+	font-weight:bold;
+	color:#86f767;
+	line-height:.36rem;
+	margin:.36rem auto .22rem;
+}
+.wap_tit{
+	text-align: center;
+}
+.change_way{
+	font-size:.22rem;
+	color:#fff;
+	line-height:.3rem;
+	text-align: justify;
+}
+
+.popup,.successfully{width: 5.1rem;border: 5px solid #000;border-radius: .16rem; background-color: #fff; position: fixed;left: 50%;margin-left: -2.6rem;font-size: .22rem; z-index: 3; }
+.popup {display:none;padding:.54rem 0 .23rem;top: 24%;}
+.couse_btn{width:.33rem;height:.33rem;background:url(../../image/activity/letv/couse.png) no-repeat;background-size:100% 100%;position:absolute;top:.06rem;right:.12rem;}
+.popup input {
+  border: 2px solid #000;
+  border-radius: .1rem;
+  padding-left: .22rem;
+  line-height: .54rem;
+}
+
+.popup .btn_mobnumber {
+  display: block;
+  width: 4.56rem;
+  margin: 0 auto;
+  text-indent:.22rem;
+  padding:0;
+}
+.popup .pop_check {
+  width: 4.60rem;
+  margin: .16rem auto 0;
+}
+.popup .pop_num {
+  width: 2.22rem;
+  float: left;
+}
+.popup .img_code,
+.popup .pop_msg_count {
+  width: 1.95rem;
+  height: .54rem;
+  line-height: .54rem;
+  border: 2px solid #000;
+  border-radius: .1rem; 
+  vertical-align: middle;
+  cursor: pointer;
+  float: right;
+  color:#000;
+}
+.popup .pop_msg_count {
+  font-weight: bold;
+  background:#73d15d;
+  text-align: center;
+}
+.popup .reSendCode{
+	background-color: #b8b8b8;
+	color:#2f2d2d;
+}
+.popup .pop_agr {
+  margin-top: .44rem;
+  overflow: hidden;
+}
+.popup .pop_agr .agree {
+  width: .26rem;
+  height: .26rem;
+  margin-left: .72rem;
+  margin-right: .2rem;
+  background: url(../../image/activity/letv/circle_off.png) center top no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  margin-top: .01rem;
+}
+.popup .pop_agr .pop_agron {
+  background: url(../../image/activity/letv/circle_on.png) center top no-repeat;
+  background-size: 100% 100%;
+}
+.popup .pop_agr span {
+  float: left;
+}
+.pop_agr a{color:#000;}
+.popup .go_reg {
+  width: 1.98rem;
+  margin: .16rem auto 0;
+  line-height: .54rem;
+  background-color: #73d15d;
+  border: 2px solid #000;
+  border-radius: .1rem;
+  text-align: center;
+  font-weight: bold;
+}
+#overlay {
+  display: none;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+} 
+.errormsg {
+	display:none;
+  	width: 4.2rem;
+    padding: .38rem 0;
+    font-size: .18rem;
+    background: rgba(255,255,255,1);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -2.1rem;
+    text-align: center;
+    z-index: 4;
+    color: red;
+    word-break: break-all;
+    border: 3px solid #000;
+    border-radius: .2rem;
+}

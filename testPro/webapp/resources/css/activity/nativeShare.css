@@ -1,0 +1,50 @@
+/**
+ * Create Time: 2015-06-16 19:52
+ */
+#nativeShare {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    z-index: 9999999999;
+    background: #fff;
+}
+
+#nativeShare .label {
+    padding: 5px;
+    font-size: 20px;
+}
+
+#nativeShare .list {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nativeShare .list span {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#nativeShare .list span i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nativeShare .weixin i {
+    background-image: url('../../image/app/apptyj/icon/weixin_friend.png');
+    background-size: cover;
+}
+
+#nativeShare .weixin_timeline i {
+    background-image: url('../../image/app/apptyj/icon/weixin.png');
+    background-size: cover;
+}
+

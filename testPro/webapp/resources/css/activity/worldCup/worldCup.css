@@ -1,0 +1,868 @@
+body{
+    background: #29b644 ;
+    height:100%;
+    width:100%;
+}
+.Wps_page{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
+}
+.banner img {
+    display: block;
+    width: 100%;
+}
+/*点球赢现金*/
+.gameBox{
+    width: 100%;
+    margin-top: -1.16rem;
+    position:  relative;
+}
+.ball_net{
+    width: 87.2%;
+    height: 3.54rem;
+    background: url('../../../image/activity/worldCup/goal.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.ballBox{
+    width: 100%;
+    height: 3.79rem;
+    background: url('../../../image/activity/worldCup/scrimmage.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top:-.66rem;
+    padding-top: 1.3rem;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    color: #90f8c7;
+    margin-bottom: .24rem;
+}
+.ballBox .status_one,.ballBox .status_two{
+    font-size: .36rem;
+    line-height: .44rem;
+    /* display:  none; */
+}
+.ballBox .status_one span{
+    font-size: .44rem;
+    color:#fff;
+}
+.ballBox .activity_end,.ballBox .activity_noStart{
+    font-size:.44rem;
+    margin-top:.36rem;
+}
+.Wps_page .corm{
+    width:1.32rem;
+    height: .52rem;
+    background: url('../../../image/activity/worldCup/corm.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    margin-left: -.66rem;
+}
+.ball{
+    width: 1.22rem;
+    height: 1.23rem;
+    background: url('../../../image/activity/worldCup/ball.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    margin-left: -.61rem;
+}
+.ball_net .gifts{
+    background: url('../../../image/activity/worldCup/small.png') no-repeat;
+    background-size: 2rem;
+    position: absolute;
+}
+.gifts.gift_01{
+    width:1.98rem;
+    height:.9rem;
+    top: .6rem;
+    left: 9%;
+    background-position: 0 0;
+}
+.gifts.gift_02{
+    width:1.96rem;
+    height:.84rem;
+    top: 2.7rem;
+    right: 10%;
+    background-position: 0 -1.05rem;
+}
+.gifts.gift_03{
+    width:1.74rem;
+    height:.88rem;
+    top: 2.1rem;
+    left: 34%;
+    background-position: 0 -2rem;
+}
+.gifts.gift_04{
+    width:1.64rem;
+    height:.8rem;
+    top: 1.75rem;
+    left: 64%;
+    background-position: 0 -2.9rem;
+}
+.gifts.gift_05{
+    width:1.94rem;
+    height:.86rem;
+    top: .76rem;
+    left: 64%;
+    background-position: 0 -3.82rem;
+}
+.gifts.gift_06{
+    width:1.92rem;
+    height:.88rem;
+    top:2.7rem;
+    left: 9%;
+    background-position: 0 -4.8rem;
+}
+.gifts.gift_07{
+    width:1.4rem;
+    height:.75rem;
+    top: .86rem;
+    left: 40%;
+    background-position: 0 -5.76rem;
+}
+.gifts.gift_08{
+    width:1.62rem;
+    height:.8rem;
+    top: 1.57rem;
+    left: 14%;
+    background-position: 0 -6.62rem;
+}
+.ball.active{
+    transition:all;
+    animation:my 0.5s linear infinite;
+}
+@keyframes my{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.animated {
+    animation-duration: 3s;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite
+}
+@keyframes bounce {
+    0%,20%,53%,80%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1);
+        transform: translateZ(0)
+    }
+
+    40%,43% {
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transform: translate3d(0,-25px,0)
+    }
+
+    70% {
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transform: translate3d(0,-20px,0)
+    }
+
+    85% {
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+        transform: translate3d(0,-15px,0)
+    }
+
+    90% {
+        transform: translate3d(0,-4px,0)
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+    transform-origin: center bottom
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale3d(.3,.3,.3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+.zoomAnimated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+.zoomIn {
+    animation-name: zoomIn;
+    transform-origin: center center
+}
+.record{
+    width:1.96rem;
+    height:.44rem;
+    line-height: .44rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #fff;
+    background: #4ac160;
+    border-radius:.22rem;
+    text-decoration: underline;
+    margin:.26rem auto .66rem;
+}
+.noRecord{
+    width:1.96rem;
+    height:.44rem;
+}
+/*计算器*/
+.earnings_cont .earnings_title{
+    width:3.5rem;
+    line-height: .68rem;
+    text-align: center;
+    font-size: .18rem;
+    font-weight:  bold;
+    color: #db550c;
+    background: #e5d6ab;
+    margin: -.48rem auto 0;
+    border-radius:.34rem;
+    position:  relative;
+    z-index: 8;
+}
+.earnings_cont .typeface{
+    font-size: .38rem;
+}
+.earnings_cont{
+    margin: 0 .26rem .8rem;
+    overflow:  hidden;
+}
+.earnings_cont .earnings_title span{
+    font-size: .38rem;
+    font-weight: bold;
+    vertical-align:  bottom;
+}
+.earnings_cont .piece_bg{
+    background: #dfffe5;
+    border-radius:.1rem;
+    padding: .34rem  .36rem .32rem;
+    margin-top: -.34rem;
+    position:  relative;
+    z-index: 4;
+}
+.piece_bg .rank_cont{
+   line-height: .44rem;
+    font-weight: bold;
+    margin-top: .4rem;
+}
+.earnings_left{
+    line-height: .44rem;
+    font-size: .24rem;
+    color: #333;
+    text-align: justify;
+}
+.earnings_right{
+    width: 1.42rem;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    font-size: .22rem;
+    color: #fff;
+    background: #29b644;
+    border-radius:.22rem;
+}
+.grey{
+    background: #989f99;
+}
+.Invite_right{
+    width: 1.64rem;
+}
+.Invite_right a{
+    display: block;
+    width:100%;
+    height:100%;
+    color:#fff;
+}
+.earnings_left i{
+    display: inline-block;
+    width: .14rem;
+    height: .14rem;
+    background: #29b644;
+    border-radius:50%;
+    margin-right:.1rem;
+}
+.earnings_left span{
+    color: #29b644;
+    font-size: .28rem;
+}
+.earnings_left span.ml{
+    margin-left:.26rem;
+}
+ .invest_btn,.employ_btn,.repetition_btn {
+    width: 88%;
+    height: .74rem;
+    line-height: .74rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #fff;
+    border-radius: .37rem;
+    cursor: pointer;
+    margin: .42rem auto 0;
+}
+.invest_btn,.employ_btn {
+    background: #f16401;
+    background: -moz-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -webkit-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -o-linear-gradient(#f16401,#e1580b,#ce4b16);
+}
+.employ_btn,.repetition_btn{
+    width: 80%;
+}
+.repetition_btn {
+     background: #ffc348;
+ }
+.count p{
+    height: .84rem;
+    line-height: .84rem;
+}
+.count input{
+    display: inline-block;
+    width:3.6rem;
+    height: .52rem;
+    background:  #fff;
+    border-radius: .26rem;
+    margin-left: .1rem;
+    text-indent:.4em;
+}
+/*冲榜拿豪礼*/
+.Wps_page .gift_pic{
+    position: relative;
+}
+.Wps_page .gift_pic img{
+    width: 100%;
+    display: block;
+}
+.gift_pic .share{
+    position: absolute;
+    bottom: 3%;
+    right: 11%;
+}
+.gift_pic .share p{
+    text-align:  center;
+    font-size: .24rem;
+    color: #fff;
+}
+.gift_pic .share p:nth-of-type(1){
+    padding-left: .34rem;
+}
+.gift_pic .share p:nth-of-type(2){
+    font-size: .22rem;
+    color: #ffe430;
+}
+.gift_pic .share p:nth-of-type(2) span{
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+/*奖品列表*/
+.gift_list{
+    background: url('../../../image/activity/worldCup/arrow_top.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: -.5rem;
+    padding-bottom: .6rem;
+}
+.gift_list .gift_top{
+    text-align: center;
+    padding-top: .8rem;
+}
+.gift_top_pic p,.rank_list div p{
+    line-height: .44rem;;
+    font-size: .24rem;
+    color: #fff;
+}
+.gift_top_pic p:nth-of-type(1),.rank_list div p:nth-of-type(1){
+    text-shadow:.04rem  .04rem .16rem #28894b;
+    font-weight: bold;
+}
+
+.gift_list .gift_top_pic{
+    width:50%;
+}
+.gift_top_pic img{
+    width:2.45rem;
+    display: block;
+    margin:0 auto;
+}
+.gift_top_right img{
+    width:2.35rem;
+}
+.gift_top_pic p:nth-of-type(2),.rank_list div p:nth-of-type(2){
+     font-size: .22rem;
+     color: #fee32f;
+ }
+.gift_top_pic p:nth-of-type(2) span,.rank_list div p:nth-of-type(2) span{
+    font-size: .3rem;
+    font-weight: bold;
+}
+.gift_list .details{
+    width: 89%;
+    margin:.26rem auto 0;
+}
+.details .mt{
+    margin-top: .22rem;
+}
+.rank_list img{
+    float:left;
+    display: block;
+}
+.rank_list img.hair_dryer{
+    width:.8rem;
+    margin-left: .6rem;
+}
+.rank_list img.hw_ipad{
+    width:1.36rem;
+    margin: .12rem 0 0 .24rem;
+}
+.rank_list img.Sony_headset{
+    width:1.24rem;
+    margin: .2rem 0 0 .24rem;
+}
+.rank_list img.thermantidote{
+    width:.54rem;
+    margin-left: .6rem;
+}
+.rank_list img.pot{
+    width:.8rem;
+    margin-left: .4rem;
+}
+.rank_list img.gift_bag{
+    width:.86rem;
+    margin-top: .1rem;
+    margin-left: .14rem;
+}
+.rank_list div{
+    float: right;
+    width: 71%;
+}
+.rank_list div.w74{
+    width: 74%;
+}
+.Wps_page .gift_bg{
+    width: 78%;
+    padding: 4% 5%;
+    margin:0 auto;
+    background: #45bf5c;
+    border-radius:.1rem .1rem 0 0;
+}
+.earnings_cont .base_person{
+    width: 86%;
+    margin: .48rem auto 0;
+    display: block;
+}
+.earnings_cont .chart{
+    width: 100%;
+    margin: .26rem auto 0;
+    display: block;
+}
+.piece p{
+    text-align: center;
+    font-size:.2rem;
+    color:#29b644;
+    margin-top: .4rem;
+    font-weight:  bold;
+}
+.piece .no_acquisition{
+    color:#333;
+    margin-bottom: .46rem;
+}
+.no_ranklist{
+    color:#da540e;
+}
+.Wps_page .bottom_pic {
+    width: 100%;
+    height: 1.09rem;
+    background: url(../../../image/activity/worldCup/bottom_pic.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top:.7rem;
+}
+.rule_pic {
+    position: fixed;
+    top: 58%;
+    right: 0;
+    width: .6rem;
+    height: 1.82rem;
+    background: url(../../../image/activity/worldCup/rule.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 103;
+}
+.rule_pic a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.site_pic {
+    position: fixed;
+    top: 75%;
+    right: 0;
+    width: .54rem;
+    height: 2.07rem;
+    background: url(../../../image/activity/worldCup/site.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 99;
+}
+.earnings_cont .prize{
+    width: 90%;
+    height: .62rem;
+    line-height: .62rem;
+    text-align: center;
+    font-size:.28rem;
+    color:#29b644;
+    background:#fff;
+    border-radius: .31rem;
+    margin: .3rem auto 0;
+}
+/*弹窗*/
+.overlay {
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    /* display: none; */
+}
+.err {
+    display: none;
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+.pop_box {
+    width: 94%;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    margin-left:-47%;
+    background-color: #dfffe5;
+    z-index: 400;
+    border-radius: .1rem;
+    text-align: center;
+    padding: 3% 0;
+    display: none;
+}
+.pop_box .close_btn {
+    position: absolute;
+    width: .62rem;
+    height: .6rem;
+    background: url(../../../image/activity/worldCup/close_btn.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    right: .24rem;
+    top: .24rem;
+}
+.pop_box p{
+    font-size:.4rem;
+    color: #e44347;
+    font-weight:  bold;
+}
+.red_packet{
+    width: 5.15rem;
+    height: 3.83rem;
+    background: url(../../../image/activity/worldCup/red_packet.png) no-repeat;
+    background-size: 100% 100%;
+    margin:.4rem auto 0;
+}
+.red_packet span{
+    display:block;
+    font-size:.24rem;
+    color:#fff;
+    padding:.36rem 0 .4rem 1.3rem;
+}
+.red_packet div{
+    font-size:.61rem;
+    color:#fff;
+    font-weight: bold;
+}
+.calculator{
+    width: 94%;
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    margin-left:-47%;
+    z-index: 400;
+    border-radius: .1rem;
+    text-align: center;
+    padding: 3% 0;
+    display: none;
+}
+.piece_bg .count p{
+    font-size:.24rem;
+    color: #333;
+    margin: 0;
+}
+.count .money span{
+    display: inline-block;
+    width:3.58rem;
+    height: .5rem;
+    line-height:.5rem;
+    border-radius: .25rem;
+    margin-left: .1rem;
+    border: .01rem solid #e55b08;
+    vertical-align: middle;
+}
+.count .money span em{
+    float: left;
+    width: 54%;
+    height: .52rem;
+    line-height:.52rem;
+    text-align: right;
+    font-size:.28rem;
+    color:#29b644;
+}
+.money span em:nth-of-type(2){
+   padding-right:3%;
+    width: 40%;
+}
+.calculator .piece_bg p.no_ranklist{
+    margin: 0;
+    color: #da540e;
+}
+.calculator .invest{
+    width: 92%;
+    margin: .18rem auto .22rem;
+}
+.calculator .invest span{
+    width: 42%;
+    height:.74rem;
+    line-height: .74rem;
+    text-align: center;
+    border-radius:.37rem;
+    font-size:.28rem;
+    cursor: pointer;
+}
+.calculator .invest .cancel_btn{
+    background:#ffc348;
+    color:#d45012;
+}
+.calculator .invest .go_invest{
+    background: #f16401;
+    background: -moz-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -webkit-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -o-linear-gradient(#f16401,#e1580b,#ce4b16);
+    color:#fff;
+}
+.prize_pop{
+    width: 64%;
+    position: fixed;
+    top: 28%;
+    left: 50%;
+    margin-left: -32%;
+    font-size:.24rem;
+    font-weight:  bold;
+    z-index: 400;
+    border-radius: .1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.common_prize_bg{
+    background-color: #dfffe5;
+    overflow: hidden;
+    padding-bottom:.26rem;
+}
+.prize_pop h3{
+    height:.76rem;
+    line-height: .76rem;
+    color:#fff;
+    background: #e35a09;
+    letter-spacing: .02rem;
+}
+.close_off{
+    position: absolute;
+    width: .4rem;
+    height: .4rem;
+    background: url(../../../image/activity/worldCup/close_off.png) no-repeat center center;
+    background-size: .22rem .2rem;
+    right: .25rem;
+    top: .18rem;
+    cursor: pointer;
+}
+.welfare_big{
+    width: 1.71rem;
+    height: 1.47rem;
+    background: url(../../../image/activity/worldCup/welfare_big.png) no-repeat;
+    background-size: 100% 100%;
+    margin:.38rem auto .16rem;
+}
+.prize_pop p{
+    color:#e35a09;
+}
+.prize_pop .go_raffle{
+    width: 68%;
+    height: .74rem;
+    line-height: .74rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    border-radius: .37rem;
+    ackground: #f16401;
+    background: -moz-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -webkit-linear-gradient(#f16401,#e1580b,#ce4b16);
+    background: -o-linear-gradient(#f16401,#e1580b,#ce4b16);
+    cursor: pointer;
+    margin: .42rem auto 0;
+    letter-spacing: .04rem;
+}
+.prize_info{
+   padding: .58rem .6rem .3rem;
+}
+.prize_info div{
+    overflow: hidden;
+    margin-bottom:.24rem;
+}
+.prize_info img{
+    float: left;
+    width: .71rem
+}
+.prize_info span{
+    width: 2rem;
+    float: right;
+    height:.62rem;
+    line-height:.62rem;
+    font-size: .26rem;
+    color: #e44347;
+    text-align: left;
+}
+
+
+/*地址的弹窗样式*/
+.site_cont{
+    width: 90%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    background-color: #fff;
+    z-index: 400;
+    display: none;
+}
+.site_cont .close_btn{
+    position: absolute;
+    width: .5rem;
+    height: .5rem;
+    background: url(../../../image/activity/worldCup/close_btn.png) no-repeat 0 0;
+    background-size: 100%;
+    right: 0;
+    top: -.64rem;
+}
+.addTitle{
+    width: 100%;
+    height: .9rem;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .9rem;
+    background-color: #e35a09;
+    color: #fff;
+}
+.addTitle .modifyAdd{
+    position: absolute;
+    right:.26rem;
+    text-decoration: underline;
+    color:#fff;
+    display: none;
+}
+.addInfo{
+    padding-top: .35rem;
+    width: 94%;
+    margin:0 auto;
+}
+.addInfo li{
+    height:.56rem;
+    line-height:.56rem;
+    border: .02rem solid #e35a09;
+    margin-bottom: .27rem;
+    position: relative;
+    padding-left:.15rem;
+    border-radius: .04rem;
+}
+.addInfo li input{
+    display: inline-block;
+    width:95%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:.15rem;
+    color: #e35a09;
+    font-size: .24rem;
+}
+::-webkit-input-placeholder {
+    color: #e35a09;
+    text-overflow: ellipsis;
+}
+.newAddBox,.modifyBox{
+    display: none;
+    margin: 5% 2%;
+    font-size: .24rem;
+}
+.newAddBox li{
+    width: 46%;
+    height: .56rem;
+    line-height: .56rem;
+    text-align: center;
+    border: 0.02rem solid #e35a09;
+    border-radius: .8rem;
+}
+.newAddBox li.backAct{
+    color:#e35a09;
+}
+.newAddBox li.saveAdd{
+    height: .6rem;
+    line-height: .6rem;
+    background-color: #e35a09;
+    color:#fff8e3;
+    border: none;
+}
+
+.modifyBox .modifyBack a{
+    display: block;
+    width: 46%;
+    height:.6rem;
+    line-height: .6rem;
+    text-align: center;
+    background-color: #e35a09;
+    border-radius: .05rem;
+    font-size: .24rem;
+    margin:0 auto;
+    color:#fff;
+    border-radius: .8rem;
+}
+.Wps_page .clickMe_btn{
+    width:.71rem;
+    height: .44rem;
+    line-height:.4rem;
+    text-align: center;
+    background: url('../../../image/activity/worldCup/clickMe_btn.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 62%;
+    top: 60%;
+    font-size:.2rem;
+    color:#fff;
+
+}

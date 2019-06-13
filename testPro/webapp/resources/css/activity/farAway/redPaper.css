@@ -1,0 +1,850 @@
+.main{
+    max-width:750px;
+    margin:0 auto;
+    position: relative;
+}
+.partOne{
+    width: 100%;
+    height: 9.42rem;
+    background: url("../../../image/activity/farAway/partOneBg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.banner{
+    display: block;
+    width: 100%;
+    height: 3.14rem;
+    padding-top: .98rem;
+    position: relative;
+    z-index: 88;
+}
+
+.redBox{
+    width: 6.14rem;
+    height: 6.06rem;
+    margin: -.9rem auto 0;
+    position: relative;
+}
+.redBox .redBag{
+    display: block;
+    width: 100%;
+
+}
+.tipWord{
+    width: 100%;
+    height: .62rem;
+    /*padding-top: .05rem;*/
+    position: absolute;
+    bottom: .96rem;
+    text-align: center;
+    line-height: .3rem;
+}
+.tipWord p{
+    font-size: .2rem;
+    color: #4b1bc6;
+}
+.tipWord p .blodSpan{
+    font-weight: bold;
+}
+.Calculator{
+    width: 100%;
+    /*height: 4.36rem;*/
+    background: #8ae1ff;
+    margin-top: -.4rem;
+}
+.CalculatorDiv{
+    width: 100%;
+    height: 3.71rem;
+    background: url("../../../image/activity/farAway/Calculator.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.field {
+    position: absolute;
+    top: -.5rem;
+    text-align: center;
+    width: 100%;
+}
+.field .number {
+    display: inline-block;
+    height: .42rem;
+    font-size: .28rem;
+    color: #333333;
+    text-align: center;
+    width: 70%;
+}
+.field .number::-webkit-input-placeholder{
+    color: #b6abd2
+}
+.field p {
+    font-size: .22rem;
+    color: #4968ec;
+    margin-top: -.1rem;
+    font-weight: bold;
+    display: none;
+}
+.field p i {
+    display: inline-block;
+    width: .08rem;
+    height: .08rem;
+    background: #f64f4f;
+    border-radius: 50%;
+    margin-right: .1rem;
+}
+.calculate-cont {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 1.15rem;
+}
+.counter{
+    width: 84.8%;
+}
+.counter .listUl li{
+    display: flex;
+    display: box; /* OLD - Android 4.4- */
+    display: -webkit-box;/* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    /* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+
+}
+.counter span {
+    width: .78rem;
+    height: .75rem;
+    margin-right: .03rem;
+    float: left;
+    cursor: pointer;
+}
+.counter .listUl li:nth-child(1) span:nth-child(1){
+    background: url("../../../image/activity/farAway/num_1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(1) span:nth-child(2){
+    background: url("../../../image/activity/farAway/num_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(1) span:nth-child(3){
+    background: url("../../../image/activity/farAway/num_3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(1) span:nth-child(4){
+    background: url("../../../image/activity/farAway/num_4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(1) span:nth-child(5){
+    background: url("../../../image/activity/farAway/num_5.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(1) span:nth-child(6){
+    background: url("../../../image/activity/farAway/num_6.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(1){
+    background: url("../../../image/activity/farAway/num_7.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(2){
+    background: url("../../../image/activity/farAway/num_8.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(3){
+    background: url("../../../image/activity/farAway/num_9.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(4){
+    background: url("../../../image/activity/farAway/num_10.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(5){
+    background: url("../../../image/activity/farAway/num_11.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter .listUl li:nth-child(2) span:nth-child(6){
+    background: url("../../../image/activity/farAway/num_12.png") no-repeat;
+    background-size: 100% 100%;
+}
+.counter span.count-btn{
+    height: .89rem;
+}
+.counter span.mt8{
+    margin-top: .08rem;
+}
+.receive,.getRedPackage {
+    width: .85rem;
+    height: 1.82rem;
+    background: url(../../../image/activity/farAway/button.png) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.notice {
+    width:6.28rem;
+    height:.85rem;
+    background:url("../../../image/activity/farAway/ims_bg.png") no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.notice .horn_ioc {
+    width: .43rem;
+    height: .43rem;
+    background: url("../../../image/activity/farAway/voice.png") no-repeat;
+    background-size: 100% 100%;
+    margin: .11rem .34rem 0 .52rem;
+}
+.notice .notice_title {
+    width: 4.62rem;
+    float: left;
+    height: .55rem;
+}
+.notice .notice_title ul {
+    width: 4.62rem;
+    height:.55rem;
+    overflow: hidden;
+}
+.notice .notice_title ul li {
+    height:.55rem;
+    line-height:.65rem;
+    overflow: hidden;
+}
+.notice .notice_title ul li .moreleft {
+    width:1.45rem;
+    font-size:.22rem;
+    color:#4b1bc6;
+    font-weight: bold;
+}
+
+.notice .notice_title .moreright {
+    font-size:.22rem;
+    color:#4b1bc6;
+    margin-left:.5rem;
+    font-weight: bold;
+}
+/*partTwo样式*/
+.activeTitle{
+    width: 100%;
+    height: 2.29rem;
+    background: url("../../../image/activity/farAway/partTwoBg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.giftOne,.giftTwo,.giftThree,.giftFour{
+    width: 100%;
+}
+.giftOne{
+    height: 3.22rem;
+    background: url("../../../image/activity/farAway/iphone8_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.giftOne .phoneImg,.giftTwo .phoneImg,.giftThree .phoneImg,.giftFour .phoneImg{
+    width: 2.35rem;
+}
+.giftOne .phoneImg{
+    margin: .38rem .32rem 0 12%;
+}
+.modleDiv{
+    margin-top: 1.1rem;
+}
+.titleP{
+    font-size: .2rem;
+    color: #4b1bc6;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .25rem;
+}
+.titleOther{
+    padding-right: .3rem;
+}
+.titleP em{
+    font-size: .3rem;
+    margin-right: .15rem;
+}
+.titleP span{
+    margin-right: .15rem;
+}
+.phoneBg{
+    width: 2.82rem;
+    height: .76rem;
+    background: url("../../../image/activity/farAway/phoneBg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.phoneBg p{
+    font-size: .22rem;
+    color: #4b1bc6;
+    text-align: center;
+    font-weight: bold;
+    height: .3rem;
+    line-height: .3rem;
+}
+.phoneBg p.pt6{
+    padding-top: .07rem;
+}
+.giftTwo{
+    height: 2.62rem;
+    padding-top: .08rem;
+    background: url("../../../image/activity/farAway/xiaomi_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.giftTwo .phoneImg{
+    margin: 0 .32rem 0 12%;
+}
+.modleDivTwo{
+    margin-top: .6rem;
+}
+.modleDivThree{
+    margin-top: .7rem;
+}
+.modleDivOther{
+    margin-top: .55rem;
+}
+
+.giftThree{
+    height: 2.7rem;
+    padding-top: .1rem;
+    background: url("../../../image/activity/farAway/huawei_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.giftThree .phoneImg{
+    margin: 0 .32rem 0 12%;
+}
+.giftFour{
+    height: 2.96rem;
+    padding-top: .12rem;
+    background: url("../../../image/activity/farAway/hongmi_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.giftFour .phoneImg{
+    margin: 0 .32rem 0 12%;
+}
+.partThree{
+    width: 100%;
+    padding-top: .77rem;
+    background: #8ae1ff;
+    text-align: center;
+    position: relative;
+}
+.ranking{
+    font-size: .24rem;
+    text-align: center;
+}
+.ranking .rankingSpan{
+    color: #4b1bc6;
+}
+.ranking .rankingSpan em{
+    font-weight: bold;
+}
+.ranking .moreSpan{
+    color: #e44a4e;
+    text-decoration: underline;
+    margin-left: .2rem;
+}
+.giftCont{
+    margin-top: 1rem;
+    text-align: center;
+}
+.giftCont>p{
+    font-size: .3rem;
+    color: #4b1bc6;
+    height: .42rem;
+    line-height: .42rem;
+}
+.giftCont p span{
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    outline: none;
+    width: 2.3rem;
+    height: .73rem;
+    margin: .22rem auto 0;
+    border: .04rem solid #976401;
+    border-radius: .08rem;
+    font-size: .34rem;
+    color: #976401;
+    background: #eecf29;
+    text-align: center;
+    font-weight: bold;
+}
+.tips{
+    margin-top: .26rem;
+    position: absolute;
+    width:100%;
+    bottom:1.4rem;
+}
+.tips p{
+    font-size: .18rem;
+    text-align: center;
+    color: #5a58d2;
+    line-height: .27rem;
+}
+/*活动详情按钮样式*/
+.activeDetial{
+    position: fixed;
+    right: 0;
+    top: 40.2%;
+    z-index: 999;
+    width: .67rem;
+    height: 1.33rem;
+    background: url("../../../image/activity/farAway/activeDetialBtn.png") no-repeat;
+    background-size: 100% 100%;
+}
+/*弹框样式*/
+.overlay {
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+.ruleBox{
+    z-index: 3000;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    width: 94%;
+    margin-left: -47%;
+    border-radius: .18rem;
+    background: #4b1bc6;
+    padding-bottom: .15rem;
+
+}
+.close-btn{
+    width: .51rem;
+    height: .51rem;
+    background: url(../../../image/activity/farAway/close-btn.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -.2rem;
+    right: -.1rem;
+}
+.ruleBox h3{
+    width: 1.17rem;
+    height: .29rem;
+    background: url("../../../image/activity/farAway/ruleTile.png") no-repeat;
+    background-size: 100% 100%;
+    margin: .37rem auto .34rem;
+}
+.contentDiv{
+    width: 89%;
+    padding:.32rem 3% .1rem;
+    margin-left: 2.5%;
+    background: #ffffff;
+    border-radius: .1rem;
+}
+.contentDiv p{
+    font-size: .24rem;
+    color: #4b1bc6;
+    margin-bottom: .15rem;
+    overflow: hidden;
+}
+/*投资排行榜页面样式*/
+.rankingTitle{
+    width: 100%;
+    height: 1rem;
+    background: #4968ec;
+    /*头部固定定位*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.rankingTitle .ListTitle li{
+    height: 1rem;
+    line-height: 1rem;
+    width: 94%;
+    overflow: hidden;
+    padding: 0 3%;
+}
+.rankingTitle .ListTitle li span{
+    float: left;
+    height: 1rem;
+    line-height: 1rem;
+}
+.rankingTitle .ListTitle li span:nth-child(1){
+    width: 14%;
+    background: url("../../../image/activity/farAway/listNameOne.png") no-repeat center;
+    background-size: .61rem;
+
+}
+.rankingTitle .ListTitle li span:nth-child(2){
+    width: 30%;
+    background: url("../../../image/activity/farAway/listNameTwo.png") no-repeat center;
+    background-size: .6rem;
+}
+.rankingTitle .ListTitle li span:nth-child(3),
+.rankingTitle .ListTitle li span:nth-child(4) {
+    width: 28%;
+}
+.rankingTitle .ListTitle li span:nth-child(3){
+    background: url("../../../image/activity/farAway/listNameThree.png") no-repeat center;
+    background-size: 1.5rem;
+}
+.rankingTitle .ListTitle li span:nth-child(4){
+    background: url("../../../image/activity/farAway/listNameFour.png") no-repeat center;
+    background-size: 1.19rem;
+}
+
+.listContent{
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+}
+.listContent>li{
+    overflow: hidden;
+    padding: 0 3%;
+    width: 94%;
+
+}
+.listContent>li>span{
+    font-size: .26rem;
+    color: #4b1bc6;
+    height: .85rem;
+    line-height: .85rem;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #a4b3f5;
+}
+.listContent>li.cur>span{
+    font-weight: bold;
+}
+.listContent>li>span:nth-child(1){
+    width: 14%;
+}
+.listContent>li>span:nth-child(2){
+    width: 30%;
+}
+.listContent>li>span:nth-child(3),
+.listContent>li>span:nth-child(4) {
+    width: 28%;
+}
+/*广告排样式*/
+.billBoard{
+    display: block;
+    width: 2.48rem;
+    margin: 2.3rem auto 1.05rem;
+}
+.warmTip{
+    text-align: center;
+}
+.warmTip>p{
+    font-size: .3rem;
+    color: #4b1bc6;
+    line-height: .45rem;
+}
+.warmTip>span{
+    display: block;
+    font-size: .28rem;
+    color: #e44a4e;
+    text-decoration: underline;
+    margin-top: .4rem;
+}
+/*红包弹出层样式*/
+.activation{
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: -3.045rem;
+    z-index: 3000;
+    width: 6.09rem;
+    height:6.85rem;
+    background: url("../../../image/activity/farAway/activation.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+.close_red_btn{
+    position: absolute;
+    right: .55rem;
+    top: 1.4rem;
+    width: .73rem;
+    height: .73rem;
+    background: url("../../../image/activity/farAway/close_red_btn.png") no-repeat;
+    background-size: 100% 100%;
+}
+.monery{
+    font-size: .44rem;
+    color: #e44a4e;
+    text-align: center;
+    margin: .72rem auto 0;
+}
+.monery span{
+    display: inline-block;
+    font-size: .86rem;
+    margin-left: -.5rem;
+}
+.success{
+    margin-top: .4rem;
+    font-size: .22rem;
+    color: #e44a4e;
+    text-align: center;
+    margin-left: -.5rem;
+}
+.success p{
+    line-height: .3rem;
+}
+.success p.successP{
+    font-size: .26rem;
+    margin-bottom: .12rem;
+}
+.success p.successP span{
+    font-weight: bold;
+}
+.success p>span{
+    font-weight: bold;
+}
+.activatePackets{
+    width: 2.27rem;
+    height: .71rem;
+    background: url("../../../image/activity/farAway/activatePackets.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 1.45rem 0 0 1.7rem;
+}
+/*没有机会弹框样式*/
+.noChance{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3000;
+    width: 80%;
+    height: 3.08rem;
+    background: #ffffff;
+    margin:-1.54rem 0 0 -41.5%;
+    border: .1rem solid #4b1bc6;
+    border-radius: .18rem;
+}
+.btn_position{
+    top: -.28rem;
+    right: -.2rem;
+}
+.noChance img{
+    display: block;
+    width: 1rem;
+    margin: .68rem auto .26rem;
+
+}
+.noChance p{
+    font-size: .28rem;
+    color: #9fa0a0;
+    text-align: center;
+}
+/*错误信息提示框*/
+.err01,.err02,.err03{
+    display: none;
+    width: 4.2rem;
+    padding:0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .18rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    margin-left: -2.1rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+.err02{
+    width: 4.6rem;
+    margin-left: -2.5rem;
+}
+/*新增飞机样式*/
+.flyer{
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top:0;
+    display: none;
+}
+
+/*新增排行榜样式*/
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.ListContent>p{
+    overflow: hidden;
+    padding: 0 3%;
+    width: 94%;
+    background-color: #fff;
+}
+.ListContent p span{
+    font-size: .26rem;
+    color: #4b1bc6;
+    height: 1rem;
+    line-height: 1rem;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #a4b3f5;
+}
+.ListContent .curUser span{
+    font-weight: bold;
+}
+.ListContent .curUser span:nth-child(1){
+    width: 14%;
+}
+.ListContent .curUser span:nth-child(2){
+    width: 30%;
+}
+.ListContent .curUser span:nth-child(3),
+.ListContent .curUser span:nth-child(4) {
+    width: 28%;
+}
+/*9.22新增*/
+.bottomBox{
+    width: 100%;
+    height: 2.97rem;
+    background: url("../../../image/activity/farAway/footerBg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.moreBtn{
+    width: 3.1rem;
+}
+/*新增鼠标光标*/
+.cursor.blink{
+    position: absolute;
+    border-left: 1px solid #333;
+    left: 50%;
+    top: 0.8rem;
+    z-index: 10000;
+    height: .3rem;
+    display: none;
+}
+.cursor.blink {
+    animation: blink 1s infinite steps(1, start);
+}
+/*这里设置动画blink*/
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1
+    }
+}
+/*点击激活红包样式*/
+.actRedPack{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 4rem;
+    top: 0;
+}
+.listUl span.act {
+    animation:Scale 0.1s ;
+    -ms-animation:Scale 0.1s ;
+    -moz-animation:Scale 0.1s ;
+    -webkit-animation:Scale 0.1s ;
+    -o-animation:Scale 0.1s ;
+}
+
+-ms-@keyframes Scale {
+    0%, 100% {
+        -ms-transform:scale(1); 	/* IE 9 */
+        -moz-transform:scale(1); 	/* Firefox */
+        -webkit-transform:scale(1); /* Safari 和 Chrome */
+        -o-transform:scale(1);
+        opacity: 0;transform:scale(1);
+    }
+    50% {
+        -ms-transform:scale(0.8); 	/* IE 9 */
+        -moz-transform:scale(0.8); 	/* Firefox */
+        -webkit-transform:scale(0.8); /* Safari 和 Chrome */
+        -o-transform:scale(0.8);
+        opacity: 0;transform:scale(0.8);
+    }
+}
+-moz-@keyframes Scale {
+        0%, 100% {
+            -ms-transform:scale(1); 	/* IE 9 */
+            -moz-transform:scale(1); 	/* Firefox */
+            -webkit-transform:scale(1); /* Safari 和 Chrome */
+            -o-transform:scale(1);
+            opacity: 0;transform:scale(1);
+        }
+        50% {
+            -ms-transform:scale(0.8); 	/* IE 9 */
+            -moz-transform:scale(0.8); 	/* Firefox */
+            -webkit-transform:scale(0.8); /* Safari 和 Chrome */
+            -o-transform:scale(0.8);
+            opacity: 0;transform:scale(0.8);
+        }
+    }
+-webkit-@keyframes Scale {
+         0%, 100% {
+             -ms-transform:scale(1); 	/* IE 9 */
+             -moz-transform:scale(1); 	/* Firefox */
+             -webkit-transform:scale(1); /* Safari 和 Chrome */
+             -o-transform:scale(1);
+             opacity: 0;transform:scale(1);
+         }
+         50% {
+             -ms-transform:scale(0.8); 	/* IE 9 */
+             -moz-transform:scale(0.8); 	/* Firefox */
+             -webkit-transform:scale(0.8); /* Safari 和 Chrome */
+             -o-transform:scale(0.8);
+             opacity: 0;transform:scale(0.8);
+         }
+     }
+-o-@keyframes Scale {
+            0%, 100% {
+                -ms-transform:scale(1); 	/* IE 9 */
+                -moz-transform:scale(1); 	/* Firefox */
+                -webkit-transform:scale(1); /* Safari 和 Chrome */
+                -o-transform:scale(1);
+                opacity: 0;transform:scale(1);
+            }
+            50% {
+                -ms-transform:scale(0.8); 	/* IE 9 */
+                -moz-transform:scale(0.8); 	/* Firefox */
+                -webkit-transform:scale(0.8); /* Safari 和 Chrome */
+                -o-transform:scale(0.8);
+                opacity: 0;transform:scale(0.8);
+            }
+        }
+@keyframes Scale {
+    0%, 100% {
+        -ms-transform:scale(1); 	/* IE 9 */
+        -moz-transform:scale(1); 	/* Firefox */
+        -webkit-transform:scale(1); /* Safari 和 Chrome */
+        -o-transform:scale(1);
+        opacity: 0;transform:scale(1);
+    }
+    50% {
+        -ms-transform:scale(0.8); 	/* IE 9 */
+        -moz-transform:scale(0.8); 	/* Firefox */
+        -webkit-transform:scale(0.8); /* Safari 和 Chrome */
+        -o-transform:scale(0.8);
+        opacity: 0;transform:scale(0.8);
+    }
+}
+/*新增活动规则样式*/
+.numBox,.wordBox{
+    float: left;
+}
+.numBox{
+    width: 3%;
+    text-align: left;
+    margin-right: 3%;
+}
+.wordBox{
+    width: 94%;
+}

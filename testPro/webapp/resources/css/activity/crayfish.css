@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+html, body { min-height: 100%; }
+
+html { font-size: 625%; font-family: 'Microsoft YaHei'; }
+
+@media only screen and (max-width: 374px) { html { font-size: 312.5% !important; } }
+@media only screen and (min-width: 375px) { html { font-size: 366% !important; } }
+@media only screen and (min-width: 401px) { html { font-size: 390.625% !important; } }
+@media only screen and (min-width: 428px) { html { font-size: 417.9% !important; } }
+@media only screen and (min-width: 481px) { html { font-size: 468.75% !important; } }
+@media only screen and (min-width: 569px) { html { font-size: 546.875% !important; } }
+@media only screen and (min-width: 640px) { html { font-size: 625% !important; } }
+html, body { position: relative; height: 100%; background-color: #fff!important; }
+
+.swiper-container { width: 100%; height: 100%; }
+
+.firstBox, .secendBox, .thirdBox { position: relative; height: 100%; background-color: #a00704; }
+
+.celarfix { zoom: 1; }
+
+.clearfix:after { clear: both; content: ''; display: block; }
+
+.fl { display: inline; float: left; }
+
+.fr { display: inline; float: right; }
+
+input { border: 0; outline: none; }
+
+.text-box, .firstBox .inp-box { margin: 0 auto; width: 3.8rem; height: 0.8rem; line-height: 0.8rem; border-radius: 0.05rem; color: #9f0300; font-size: 0.28rem; background-color: #fac421; text-align: center; }
+
+.back-cf, .up-icon, .firstBox .msg-box .agree-box .chk_1:checked + label:after, .firstBox .msg-box .close, .secendBox .example, .thirdBox ul li i { background-image: url("../../image/activity/crayfish/back_cf.png"); background-repeat: no-repeat; background-size: 9.22rem 7rem; }
+
+@keyframes moveDown { 0%,30% { opacity: 0; -webkit-transform: translate(0, -8px); }
+  60% { opacity: 1; -webkit-transform: translate(0, 0); }
+  100% { opacity: 0; -webkit-transform: translate(0, 10px); } }
+.up-icon { position: absolute; z-index: 9999; left: 50%; bottom: 0.4rem; margin-left: -0.2rem; width: 0.4rem; height: 0.2rem; background-position: -5.42rem -0.08rem; animation: moveDown 1.5s infinite ease-in-out; }
+
+.firstBox { background-color: #a00704; }
+.firstBox .backBox-top, .firstBox .backBox-middle, .firstBox .backBox-bottom { width: 100%; height: 3rem; background: url("../../image/activity/crayfish/cray_top.png") no-repeat; background-size: 100% 3rem; }
+.firstBox .backBox-middle { background-image: url("../../image/activity/crayfish/cray_m.png"); }
+.firstBox .backBox-bottom { padding-top: 1.48rem; height: 2.95rem; background-image: url("../../image/activity/crayfish/cray_bottom.jpg"); background-size: 100% 3.45rem; }
+.firstBox .inp-box { margin-bottom: 0.3rem; background-color: #b5b5b5; color: #fff; font-size: 0.26rem; }
+.firstBox .inp-box input { border: 0; outline: none; background-color: #b5b5b5; text-align:center; }
+.firstBox .inp-box input[type=text]::-webkit-input-placeholder { color: #fff; }
+.firstBox .logined { background-color: #9fa0a0; color: #313131; }
+.firstBox .mask-floor { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); }
+.firstBox .msg-box { position: absolute; top: 2.5rem; left: 50%; margin-left: -2.57rem; padding-top: 0.36rem; width: 5.14rem; height: 3.68rem; background-color: #fff; }
+.firstBox .msg-box .logined { width: 4.5rem; }
+.firstBox .msg-box .msg-line { padding-top: 0.1rem; width: 4.5rem; height: 0.8rem; margin: 0 auto; border-bottom: 1px solid #000; }
+.firstBox .msg-box .msg-line input { max-width: 60%; font-size: 0.26rem; padding: 0.22rem 0 0.12rem 0.22rem; }
+.firstBox .msg-box .msg-line input[type=text]::-webkit-input-placeholder { color: #c2c1c1; }
+.firstBox .msg-box .send-btn {height: 0.6rem; line-height: 0.6rem; padding: 0 0.14rem; margin-top: 0.1rem; background-color: #fccab4; font-size: 0.24rem; color: #b62200; border-radius: 0.05rem; }
+.firstBox .msg-box .agree-box { height: 0.8rem; line-height: 0.8rem; text-align: center; font-size: 0.2rem; color: #9f0300; }
+.firstBox .msg-box .agree-box a { text-decoration: none; color: #9f0300; }
+.firstBox .msg-box .agree-box label { position: relative; }
+.firstBox .msg-box .agree-box .chk_1 + label { width: 0.12rem; height: 0.12rem; background-color: transparent; border: 1px solid #9f0300; display: inline-block; margin-right: 0.1rem; }
+.firstBox .msg-box .agree-box .chk_1:checked + label:after { content: '\2714'; color: #9f0300; position: absolute; top: 50%; left: 50%; margin-top: -0.06rem; margin-left: -0.06rem; width: 0.12rem; height: 0.12rem; font-size: 0rem; line-height: 0.12rem; background-position: -6.05rem -0.1rem; }
+.firstBox .msg-box .agree-box input[type=checkbox] { display: none; }
+.firstBox .msg-box .close { position: absolute; right: -0.14rem; top: -0.14rem; width: 0.42rem; height: 0.42rem; background-position: -4.74rem -0.08rem; }
+.input-box {position:absolute;z-inde:9999;width:100%;left:0;bottom:1rem;}
+.secendBox { font-size: 0.24rem; color: #fff; }
+.secendBox .text-title {width: 1.2rem; height: .32rem;color: #ffa3a3;float: left; }
+.secendBox em{float: left;color: #fff;font-size:.22rem;}
+.secendBox em.calculate{font-size: .2rem;color: #ffa3a3;}
+.secendBox ul { width: 85%; padding-top: 0.5rem; margin: 0 auto;  }
+.secendBox ul li {height:.36rem;line-height:.36rem;}
+.secendBox .example_cont { width: 6rem; height:3.66rem; background: url("../../image/activity/crayfish/back_xlx.png") no-repeat #a00704;; background-size:6rem;margin: 0.3rem auto 0.26rem; }
+.secendBox .bor, .secendBox table, .secendBox table th, .secendBox table td { border: 1px solid #c74847; text-align: center; }
+.secendBox table { width: 4.22rem; margin: 0 auto; line-height: 0.38rem; }
+.secendBox p { padding-top: .84rem; font-size: 0.18rem; color: #500200; text-align: center; }
+
+.thirdBox { font-size: 0.26rem; color: #fff; }
+.thirdBox h4 { padding: 0.4rem 0 0.18rem 0; font-size: 0.32rem; text-align: center; }
+.thirdBox p { width: 85%; margin: 0 auto; text-indent: 2em; line-height: 0.42rem; }
+.thirdBox ul { width: 85%; margin: 0 auto; padding: 0.12rem 0 0.1rem 0; }
+.thirdBox ul li { position: relative; width: 50%; height: 2.36rem; }
+.thirdBox ul li i { position: absolute; left: 50%; top: 50%; width: 2.28rem; height: 2.36rem; margin-left: -1.14rem; margin-top: -1.18rem; }
+.thirdBox ul li .backer { background-position: 0 0; }
+.thirdBox ul li .rate { background-position: 0 -2.3rem; }
+.thirdBox ul li .duration { background-position: 0 -4.6rem; }
+.thirdBox ul li .withdrawal { background-position: -2.3rem 0; }
+
+.cray-suc { background-color: #a00704!important; color: #fff; font-size: 0.2rem; text-align: center; }
+.cray-suc .text-box, .cray-suc .firstBox .inp-box, .firstBox .cray-suc .inp-box { margin: 1.4rem auto 0.16rem; letter-spacing: 0.04rem; }
+.cray-suc p { line-height: 0.4rem; color: #ffe1e1; }
+.cray-suc .expiration { padding: 0.5rem 0 0.05rem 0; color: #fff; font-size: 0.26rem;letter-spacing:.03rem; }
+.cray-suc .date{padding-bottom:.44rem;color:#fff;}
+.cray-suc h3 { padding-top: 0.74rem; font-size: 0.5rem; }
+.cray-suc .text-box a {color: #9f0300}
+.cray-suc .head-back { width: 100%; height: 2.93rem; background-image: url("../../image/activity/crayfish/back_head.png"); background-repeat: no-repeat; background-size: 100% 2.93rem; }
+.cray-suc .to-invest { text-decoration: none; color: #ffe1e1; padding-bottom: 0.06rem; border-bottom: 1px solid #ffe1e1; }
+
+.reg-tip{display:none;position:absolute;left:50%;top:20%;width: 80%;margin-left:-40%;padding:3% 1%;line-height:0.3rem;background-color:rgba(0,0,0,.8);color:#fff;text-indent:2em;font-size: 0.24rem;}
+.wrongTip {display:none;position:fixed;z-index:99999999;left:50%;top:30%;margin:1rem 0 0 -1.83rem;padding:.4rem .18rem;width:3.3rem;line-height:0.3rem;background-color:rgba(0,0,0,.8);font-size: 0.2rem;color:#fff;text-indent:2em;text-align:left}

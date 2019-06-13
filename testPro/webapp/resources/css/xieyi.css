@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+.fb_title {text-align: center;font-size:16px; line-height:25px;}
+.body-content{background:#fff;position:relative;}
+.content{ 
+	overflow: hidden;
+    margin:0 10px;
+}
+.tkCMain {
+    color: #333333;
+}
+.tkCMain p { 
+	font-size:14px;
+    line-height: 20px;
+	margin:5px auto;
+}
+.tkCMain div {
+	font-size:12px;
+    line-height: 20px;
+	margin:3px auto;
+}
+
+.tkCMain .title{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px; 
+}
+.tkCMain .chapter{
+	color:#000;
+	font-size:14px;
+	margin:15px 0px 10px;
+	display:block;
+}
+.tkCMain .section{
+	text-indent: 3.5em;
+}
+.tkCMain .sign{
+	text-align:right;
+}
+.tkCMain .small{
+	font-size:12px;
+	line-height:normal;
+}
+
+
+table{
+	border-collapse: collapse;
+	border: none;
+	width: 100%;
+	margin:27px auto;
+}
+td,th{
+	border: solid 1px #d8d8d8;
+	padding:10px 0px;
+	line-height:27px;
+	text-align:center;
+}
+th{
+	font-size:14px;
+	font-weight:normal;
+	background:#f2f2f2;
+}
+td{
+	font-size:12px;
+}
+
+.tableSection {
+background: #f6f6f6;
+}
+
+.blankStyle span{display:inline-block;float:left}
+.blankStyle .span1{padding:16px 20px 20px 0;border-right:1px solid #d8d8d8}
+.blankStyle .span2{margin-top:30px}.blankStyle .span3{margin-top:16px}
+td.noPadding{padding:0}td.noPadding p{margin:0}p.one{border-bottom:1px solid #d8d8d8}
+.tkCMain p.left{text-align:left;padding-left:131px}

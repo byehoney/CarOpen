@@ -1,0 +1,217 @@
+.alipayPage{
+	background:#eee;
+}
+.alipayPage .banner_t{
+	height:2.14rem;
+	background:url(../../../image/activity/kitchen/banner_t.png) no-repeat;
+	background-size:100% 100%;
+}
+.alipayPage .banner_b{
+	height:1.46rem;
+	background:url(../../../image/activity/kitchen/banner_b.png) no-repeat;
+	background-size:100% 100%;
+}
+.banner_t .logo{
+	width:1.26rem;
+	height:.41rem;
+	background:url(../../../image/activity/kitchen/logo.png) no-repeat;
+	background-size:100% 100%;
+	display:block;
+	margin:.17rem 0 0 .42rem;
+	cursor:pointer;
+}
+.picList .units_ioc{
+	background: url(../../../image/activity/kitchen/units_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .eyes_ioc{
+	background: url(../../../image/activity/kitchen/eyes_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .flowers_ioc{
+	background: url(../../../image/activity/kitchen/flowers_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.verify li i{
+	background:url(../../../image/activity/kitchen/small.png) no-repeat;
+	background-size:.5rem;
+}
+.pop_agr .agree{
+	background: url(../../../image/activity/kitchen/circle_off.png) center top no-repeat;
+	background-size:100% 100%;
+}
+.pop_agr .pop_agron {
+    background: url(../../../image/activity/kitchen/circle_on.png) center top no-repeat;
+	background-size:100% 100%;
+}
+.alipayBg h3 span{
+	border-left:.04rem solid #ffc000;
+}
+.ex_popup a{
+	 background-color:#ffc000;
+}
+.treasure{
+	color:#333;
+}
+.timelimit div, .earnings_cont div {
+	color:#333;
+}
+.goReg a{
+	 background-color:#ffc000;
+}
+.verify .pop_msg_count{
+	background:#ffc000;
+}
+
+/*活动说明*/
+.alipayBg .instructions{
+	padding:.3rem .16rem .5rem .22rem;	
+}
+.instructions .rulesCont{
+	width:5.35rem;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:.16rem;
+}
+.rulesCont div{
+	width:4.8rem;
+	float:right;
+}
+.rulesCont div p{
+	line-height:.38rem;
+	font-size:.22rem;
+	color:#39383d;
+	text-align: justify;
+}
+.instructions span{
+	width:.38rem;
+	height:.38rem;
+	line-height:.38rem;
+	text-align:center;
+	border-radius:50%;
+	float:left;
+	background:#ffc000;
+	font-size:.26rem;
+	color:#fff;
+}
+/* 热门活动 */
+.prizeImg{
+	width:5.31rem;
+    height:1.49rem;
+    background: url(../../../image/activity/kitchen/prizeImg.png) center top no-repeat;
+	margin:.25rem auto 0;
+}
+.prizeImg p{
+	text-align:center;
+	line-height:1.49rem;;
+	font-size:.3rem;
+	color:#fff;
+}
+.prizeImg span{
+	color:#ffc000;
+	cursor:pointer;
+}
+/*实物奖励   */
+.rewardPopup{
+	display:none;
+	width: 5.4rem;
+    background-color: #fff;
+    position: fixed;
+    margin-left: -2.85rem;
+    top:20%;
+    left: 50%;
+    text-align: center;
+    padding:.8rem .13rem .5rem .18rem;
+    z-index: 999;
+    border-radius: .1rem;
+}
+.rewardPopup .closebtn{
+	width:.38rem;
+	height:.38rem;
+	background: url(../../../image/activity/alipay/closebtn.png) center top no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	top:.2rem;
+	right:.3rem;
+}
+.InviteCont li {
+    width: 100%;
+    height:1.14rem;
+	overflow:hidden;
+}
+
+.rewardList{
+    overflow: hidden;
+	height:.74rem;
+    line-height:.74rem;
+}
+
+.rewardList span,.trophyList li div,.trophyList li span{
+    border-right: .05rem solid #fff;
+}
+.rewardList,.InviteCont li{
+	border-bottom: .05rem solid #fff;
+}
+.trophyList li div,.trophyList li span{
+	float:left;
+	background: #f3f3ed;
+}
+.InviteCont .rewardList span,.trophyList div {
+    text-align: center;
+    float: left;
+}
+.trophyList div{
+	padding:.27rem 0;
+}
+.trophyList div p{
+	line-height: .3rem;
+	font-size:.22rem;
+    color: #333;
+}
+.trophyList p.moreover{
+	font-size:.18rem;	
+}
+.rewardList span{
+    font-size:.22rem;
+    color: #333;
+	background:#ffc000;	
+}
+
+.physical{
+	width:1.92rem;
+}
+.currency{
+	width:1.26rem;
+}
+.requirements{
+	width:2.07rem;
+}
+.trophyList span{
+	display:inline-block;
+	line-height:1.14rem;
+	font-size:.22rem;
+    color: #333;
+}
+.trophyList em{
+	color:#ffae00;
+	margin-right:.1rem;
+}
+
+.container{
+	background:none;
+	position:relative;
+	z-index:1;
+	margin-top:-.52rem;
+}
+.alipayPage .alipayBg{
+	background:#fff;
+	padding:.18rem .45rem 0 .2rem;
+	margin-top:.2rem;
+}
+.alipayPage .hotEvents{
+	padding:0 .2rem;
+}
+.alipayPage .hotEvents .alipayBg{
+	padding:0 .3rem .28rem;
+	border-radius:.08rem;
+} 

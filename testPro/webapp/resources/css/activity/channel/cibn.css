@@ -1,0 +1,484 @@
+html, body {
+    background: transparent !important;
+}
+.docWrapper {
+    background-color: #ff5400;
+}
+.bannerImg {
+    width: 100%;
+    font-size: 0;
+}
+.bannerImg img {
+    width: 100%;
+}
+.contents {
+    padding: 0 .15rem;
+}
+.title {
+    width: 2.54rem;
+    height: .62rem;
+    background: url("../../../image/activity/cibn/titleIcon.png") no-repeat;
+    margin: 0 auto;
+}
+.title.titleOne {
+    background-position: 0 0;
+    background-size: 2.54rem;
+    margin: .2rem auto .3rem;
+}
+.title.titleTwo {
+    background-position: 0 -.8rem;
+    background-size: 2.54rem;
+    margin: .1rem auto .38rem;
+}
+
+.title.titleThree {
+    background-position: 0 -1.6rem;
+    background-size: 2.54rem;
+    margin: .44rem auto .38rem;
+}
+.investList li {
+    width: 100%;
+    height: 1.86rem;
+    background: url("../../../image/activity/cibn/contBg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: .14rem;
+    text-align: center;
+    overflow: hidden;
+}
+.investList li h3 {
+    font-size: .36rem;
+    color: #a8511b;
+    font-weight: bold;
+    line-height: 1;
+    margin: .5rem 0 .33rem 0;
+}
+.investList li p {
+    font-size: .24rem;
+    color: #cc975a;
+    line-height: 1;
+}
+.investCont .prop {
+    font-size: .22rem;
+    color: #ffb395;
+    text-align: center;
+    line-height: 1;
+    margin-top: .3rem;
+}
+.alipayBg {
+    padding: 0 .49rem 0 .5rem;
+    margin-top: .18rem;
+}
+
+.phnum {
+    width: 5.12rem;
+    height: .6rem;
+    display: block;
+    margin: .45rem auto .34rem;
+    font-size: .26rem;
+    color: #000;
+    background: #eee;
+    text-indent: .22rem;
+    border-radius: .06rem;
+}
+.pop_agr {
+    margin-left: .68rem;
+}
+
+.pop_agr .agree {
+    width: .29rem;
+    height: .29rem;
+    margin-right: .12rem;
+    margin-top: .02rem;
+    float: left;
+}
+
+.pop_agr .agree {
+    background: url(../../../image/activity/cibn/circle_off.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.pop_agr .pop_agron {
+    background: url(../../../image/activity/cibn/circle_on.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.pop_agr span {
+    font-size: .22rem;
+    color: #ffffff;
+    float: left;
+}
+.ex_popup {
+    width: 5.12rem;
+    margin: 0 auto;
+}
+.ex_popup a {
+    display: block;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #ff3e00;
+    border-radius: .06rem;
+    margin-top: .24rem;
+    background-color: #fcd900;
+    font-weight: bold;
+}
+.alipayBg .information {
+    line-height: .92rem;
+    text-align: center;
+    font-size: .22rem;
+    color: #ffb395;
+}
+.aboutUs {
+    padding: .3rem 0;
+    background-color: #fddaa3;
+    border-radius: .04rem;
+}
+.aboutUsList li {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    line-height: 1;
+}
+.aboutUsList li .imgHeigh {
+    height: 1.04rem;
+}
+.aboutUsList li img {
+    width: 1.07rem;
+    vertical-align: bottom;
+}
+.aboutUsList h3 {
+    font-size: .24rem;
+    line-height: 1;
+    color: #a8511b;
+    margin: .23rem auto .2rem;
+    font-weight: bold;
+}
+.aboutUsList p {
+    font-size: .2rem;
+    color: #cc975a;
+    line-height: .3rem;
+}
+.contOne {
+    width: 43.77%;
+    height: 2.4rem;
+    background: url("../../../image/activity/cibn/cont_1.png") no-repeat;
+    background-size: 100% 100%;
+    margin-right: 2%;
+}
+.contOne h3,.contTwo h3{
+    font-size: .24rem;
+    color: #a8511b;
+    text-align: center;
+    line-height: .7rem;
+}
+.contOne p,.contTwo p{
+    font-size: .24rem;
+    color: #a8511b;
+    text-align: center;
+    line-height: 1;
+}
+.contTwo p.marginP{
+    font-weight: bold;
+}
+.giftDiv{
+    overflow: hidden;
+}
+.contOne p span,.contTwo p span{
+    display: inline-block;
+    font-size: .48rem;
+    font-weight: bold;
+}
+.contOne p span{
+    margin-right:.04rem;
+}
+.contTwo p span{
+    margin-right:.09rem;
+}
+.contOne .marginP,.contTwo .marginP{
+    margin: .44rem 0 .14rem 0;
+}
+.contTwo{
+    width: 54.23%;
+    height: 2.4rem;
+    background: url("../../../image/activity/cibn/cont_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.contTwo .giftRight{
+    width: 50%;
+    text-align: center;
+}
+/*活动规则*/
+.activeRule h3{
+    color: #fcd800;
+    font-size: .24rem;
+    line-height: 1;
+    margin: .35rem 0 .15rem 0;
+    font-weight: bold;
+}
+.activeRule p{
+    font-size: .22rem;
+    color: #fcd800;
+    line-height: .3rem;
+    overflow: hidden;
+}
+.numBox {
+    width: 3%;
+    text-align: left;
+    margin-right: 1%;
+}
+.wordBox {
+    width: 94%;
+    text-align: justify;
+}
+.numBox, .wordBox {
+    float: left;
+}
+.activeRule{
+    padding-bottom: .3rem;
+}
+.activeRule > p.indent {
+    margin-left: 4%;
+    width: 94%;
+    text-align: justify;
+}
+.activeRule p a{
+    color: #fff000;
+    font-size: .18rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.numWidth{
+    width: 4%;
+    margin-right: 0.5%;
+}
+.wordWidth{
+    width: 95%;
+}
+/*遮罩层*/
+.overlay {
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+/*注册*/
+.verify {
+    display: none;
+    width: 5.24rem;
+    background-color: #fff;
+    position: fixed;
+    margin: -2.6rem 0 0 -2.9rem;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: .8rem .3rem .5rem .26rem;
+    z-index: 3;
+    border-radius: .1rem;
+}
+.xyjsp .closebtn, .verify .closebtn {
+    width: .38rem;
+    height: .38rem;
+    background: url(../../../image/activity/cibn/closebtn.png) center top no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .2rem;
+    right: .3rem;
+}
+.verify ul {
+    width: 4.94rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.verify li {
+    overflow: hidden;
+    margin-bottom: .17rem;
+}
+.verify li i {
+    background: url(../../../image/activity/cibn/small.png) no-repeat;
+    background-size: .5rem;
+    float: left;
+}
+.verify li .insideIcon {
+    width: .28rem;
+    height: .42rem;
+    background-position: 0 0;
+    margin: .1rem .15rem 0 .04rem;
+}
+.verify li .refreshIcon {
+    width: .36rem;
+    height: .39rem;
+    background-position: 0 -.46rem;
+    margin: .12rem .12rem 0 0;
+}
+.verify li .phoneCode {
+    width: .36rem;
+    height: .32rem;
+    background-position: 0 -.9rem;
+    margin: .14rem .12rem 0 0;
+}
+.verify li .passwordIcon {
+    width: .34rem;
+    height: .4rem;
+    background-position: 0 -1.31rem;
+    margin: .1rem .15rem 0 0;
+}
+.verify input {
+    height: .6rem;
+    font-size: .22rem;
+    color: #000;
+    background: #eee;
+    float: left;
+    text-indent: .22rem;
+    border-radius: .1rem;
+}
+.verify .txt {
+    width: 4.38rem;
+}
+.verify .verificationCode {
+    width: 2.6rem;
+    margin-right: .16rem;
+}
+.verify img {
+    width: 1.6rem;
+    height: .6rem;
+    float: left;
+}
+.verify .pop_msg_count {
+    width: 1.6rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    border-radius: .1rem;
+    cursor: pointer;
+    float: left;
+    color: #fff;
+    font-size: .22rem;
+}
+.verify .pop_msg_count {
+    background: #ff5400;
+}
+.goReg {
+    width: 5rem;
+    margin: .18rem auto 0;
+}
+.goReg a {
+    height: .66rem;
+    line-height: .66rem;
+    font-size: .28rem;
+    text-align: center;
+    border-radius: .1rem;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+}
+.goReg a {
+    background-color: #ff5400;
+}
+.verify .reSendCode{
+    background-color: #b8b8b8;
+}
+/*协议*/
+.xyjsp{
+    display:none;
+    width:5.02rem;
+    background-color:#fff;
+    border-radius:.08rem;
+    padding:.28rem .2rem .6rem .3rem;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    margin-left:-2.76rem;
+    z-index:3;
+}
+.xyjsp .xycont{
+    padding-right:.1rem;
+    height:6.6rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.xyjsp .xycont::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+.xyjsp .xycont::-webkit-scrollbar {
+    width: .06rem;
+    background-color: #F5F5F5;
+}
+.xyjsp .xycont::-webkit-scrollbar-thumb {
+    background-color: #555;
+}
+.xyjsp .closebtn,.verify .closebtn{
+    width:.38rem;
+    height:.38rem;
+    background: url(../../../image/activity/cibn/closebtn.png) center top no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    top:.2rem;
+    right:.3rem;
+}
+.xyjsp h3{
+    font-size:.28rem;
+    font-weight:bold;
+    text-align:center;
+    margin:.5rem auto .42rem;
+}
+.xyjsp h5{
+    font-size:.22rem;
+    font-weight:bold;
+    line-height:.34rem;
+}
+.xyjsp p{
+    font-size:.22rem;
+    text-align:justify;
+    text-indent:2em;
+    line-height:.34rem;
+    word-break: break-all;
+}
+.xyjsp .p_second{
+    text-indent:3em;
+}
+.errormsg{
+    display:none;
+    width: 3.8rem;
+    padding: .38rem 0;
+    font-size: .18rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -1.9rem;
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+    word-break: break-all;
+}
+.footer{
+    background-color: #2b2a29;
+    padding: .26rem 0 .3rem 0;
+    text-align: center;
+}
+.footer p{
+    font-size: .22rem;
+    color: #a1a0a0;
+    line-height: 1;
+}
+.footer p.phones{
+    font-size: .24rem;
+    margin-bottom: .2rem;
+}
+.footer p.phones span{
+    display: inline-block;
+    margin-right: .12rem;
+}
+.footer p.companyName{
+    margin-bottom: .1rem;
+}
+.footer p.copyRight{
+    margin-bottom: .2rem;
+}

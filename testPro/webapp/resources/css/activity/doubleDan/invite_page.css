@@ -1,0 +1,313 @@
+body{
+    background:#301464;
+}
+.invite_page{
+    max-width:750px;
+    margin:0 auto;
+}
+.banner img{
+    display:block;
+    width:100%;
+}
+.record_one,.record_two,.record_three{
+    width:100%;
+}
+.record_one{
+    height:5.67rem;
+    background:url(../../../image/activity/doubleDan/invite_page_three.png) no-repeat;
+    background-size:100% 100%;
+}
+.record_two{
+    height:.84rem;
+    background:url(../../../image/activity/doubleDan/invite_page_four.png) no-repeat;
+    background-size:100% 100%;
+    padding-top: 5%;
+}
+.record_three{
+    height:1.95rem;
+    background:url(../../../image/activity/doubleDan/invite_page_five.png) no-repeat;
+    background-size:100% 100%;
+}
+.invite_count,.invite_list div p:first-child{
+    color:#fff300;
+}
+.invite_count{
+    position:relative;
+    height:100%;
+}
+.plumage{
+    position:absolute;
+    top:-10%;
+    left:21%;
+    width: 1.1em;
+}
+.invite_count>p{
+    font-size: .36rem;
+    padding-left: 40%;
+}
+.particulars{
+    padding-top:1.6%;
+    margin:0 .48rem;
+}
+.particulars .invite_left, .particulars .invite_right{
+    width:50%;
+    font-size:.28rem;
+}
+.particulars .particularsDiv{
+    width:87.2%;
+    height:13.4%;
+    position:absolute;
+    left:50%;
+    margin-left:-43.6%;
+    top:12%;
+}
+
+.particulars .invite_left p, .particulars .invite_right p{
+    line-height:.36rem;
+}
+
+.invite_left img{
+    float:left;
+    width:.64rem;
+    margin-left:10%;
+    margin-top:2%;
+}
+.invite_right img{
+    float:left;
+    width:.51rem;
+    margin-left:7%;
+    margin-top:3%;
+}
+.invite_left>div{
+    width: 62%;
+    float: right;
+}
+.invite_right>div{
+    width: 70%;
+    margin-left: 30%;
+}
+.invite_left p:last-child,.invite_right p:last-child{
+    color:#fff;
+    text-align: left;
+    font-size: .24rem;
+}
+.remind{
+    color:#999;
+}
+.invite_list li div:nth-of-type(1){
+    float: left;
+    width: 50%;
+    padding-left:7%;
+    margin-top: 4%;
+    color: #fff;
+    font-size: .24rem;
+}
+.invite_list li div:nth-of-type(2){
+    float: left;
+    width: 20%;
+    color: #fff;
+    font-size: .24rem;
+    text-align: center;
+    margin-top:4%;
+}
+.invite_list li div:nth-of-type(2) img{
+    display:inline-block;
+    width:.38rem;
+}
+.invite_list{
+    margin-top:1.1rem;
+}
+.invite_list li{
+    height:1.3rem;
+    overflow: hidden;
+}
+.invite_list div p:first-child{
+    margin-bottom:.14rem;
+}
+.invite_list li i{
+    float:left;
+    display:inline-block;
+    width:.47rem;
+    height:.47rem;
+    line-height:.47rem;
+    text-align:center;
+    background:#fff300;
+    border-radius:50%;
+    font-size:.3rem;
+    color:#333;
+    margin-top:.36rem;
+    margin-left:.25rem;
+    font-weight:bold;
+}
+.paging{
+    width:30%;
+    margin:0 auto;
+}
+.paging span{
+    width:.35rem;
+    height:.35rem;
+}
+.paging span.left_arrow{
+    background:url(../../../image/activity/doubleDan/left_arrow.png) no-repeat;
+    background-size:100% 100%;
+}
+.paging span.right_arrow{
+    background:url(../../../image/activity/doubleDan/right_arrow.png) no-repeat;
+    background-size:100% 100%;
+}
+.paging em{
+    margin-top:.02rem;
+    float:left;
+    width:63%;
+    text-align: center;
+    font-size:.24rem;
+    color:#fff;
+}
+.invite_friends{
+    width:77.6%;
+    margin:0 auto;
+    height:.68rem;
+    line-height:.68rem;
+    text-align: center;
+    font-size:.32rem;
+    color:#fff;
+    border-radius:.1rem;
+    background:#fdad3c;
+    background: -moz-linear-gradient(#fdad3c,#fd6350,#fd2860);
+    background: -webkit-linear-gradient(#fdad3c,#fd6350,#fd2860);
+    background: -o-linear-gradient(#fdad3c,#fd6350,#fd2860);
+}
+.record_three p{
+    font-size:.22rem;
+    color:#fff;
+    padding:.15rem .82rem 0 .96rem;
+    line-height:.36rem;
+}
+.invite_list b{
+    margin: 0 15%;
+    display:block;
+    border-bottom:.01rem solid #c4554e;
+}
+.friends_pic{
+    padding-top:1.6rem;
+}
+.friends_pic>div{
+    width:2.14rem;
+    height:1.13rem;
+    background:url(../../../image/activity/doubleDan/friends_pic.png) no-repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+}
+.friends_pic>p{
+    font-size:.3rem;
+    color:#fbe308;
+    text-align: center;
+    line-height:1;
+    padding:.36rem 0 .76rem 0;
+}
+
+
+    /*弹窗背景*/
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+.invite_pup{
+    width:76.8%;
+    padding-bottom:.44rem;
+    text-align: center;
+    background:#fff;
+    position: fixed;
+    top:35%;
+    left:50%;
+    margin-left:-38.4%;
+    z-index: 4;
+    border-radius:.08rem;
+}
+.close_btn{
+    width:.44rem;
+    height:.44rem;
+    background:url(../../../image/activity/doubleDan/close.png) no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    top:-.7rem;
+    right:.06rem;
+}
+.invite_pup>h3{
+    line-height:.78rem;
+    font-size:.26rem;
+    color:#333;
+}
+.invite_pup div:nth-of-type(2){
+    margin:0 .38rem;
+    border:.01rem solid #bfbfbf;
+    border-radius:.06rem;
+    background:#eee;
+    padding:.4rem .22rem .7rem .38rem;
+    text-align: left;
+}
+.invite_pup div:nth-of-type(2) p{
+    word-break:break-all;
+    text-align: justify;
+    font-size:.24rem;
+    color:#333;
+
+}
+
+/*错误提示信息样式开始*/
+.err{
+    display: none;
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+/*错误提示信息样式结束*/
+
+.invite_pup .popText{
+    -webkit-touch-callout:none;
+    -webkit-user-select:text;
+    -khtml-user-select:text;
+    -moz-user-select:text;
+    -ms-user-select:text;
+    user-select:text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

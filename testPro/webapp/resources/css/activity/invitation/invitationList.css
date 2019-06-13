@@ -1,0 +1,181 @@
+body, html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #ffefd2;
+    position: relative;
+}
+.title{
+    width: 100%;
+    height: .82rem;
+    line-height: .82rem;
+    border-bottom: 1px solid #b5827b;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: #ffefd2;
+}
+.title li{
+    float: left;
+    font-size: .24rem;
+    color:#8c3d32;
+}
+.title li:nth-child(1),.title li:nth-child(3){
+    width: 37.5%;
+}
+.title li:nth-child(2){
+    width: 25%;
+}
+
+.list li span:nth-child(1),.list li span:nth-child(3){
+    width: 32%;
+}
+.list li span:nth-child(2){
+    width: 36%;
+}
+.list{
+    padding-top: .83rem;
+    overflow: auto;
+    width: 93%;
+    margin:0 auto;
+}
+.list li{
+    overflow: hidden;
+    font-size: .28rem;
+    color:#8c3d32;
+    height: .86rem;
+    line-height:.86rem;
+    border-bottom: .01rem solid #b5827b;
+}
+.list li span{
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: .92rem;
+    line-height:.92rem;
+    text-align: center;
+    background-color: #fe743d;
+    color:#fff;
+    font-size: .3rem;
+}
+.btn.grey{
+    background-color:#d4d4d4;
+}
+.end{
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: .24rem;
+    color:#999;
+    line-height: .8rem;
+    display: none;
+}
+/*分享弹窗*/
+.overlay{
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: none;
+}
+.FTF_POP{
+    width:4.63rem;
+    height:4.79rem;
+    background-color: #ffefd2;
+    border-radius: .05rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-2.315rem) translateY(-2.975rem);
+    z-index:100;
+    display: none;
+}
+.FTF_POP .FTF_HEAD{
+    width:100%;
+    height:.35rem;
+    background: url('../../../image/activity/invitation/FTF.png') no-repeat center center;
+    background-size:3.05rem .35rem;
+    margin-top: .32rem;
+}
+.FTF_POP .get_tip{
+    font-size: .26rem;
+    color:#666;
+    line-height: .76rem;
+    text-align: center;
+}
+.FTF_POP .qrCode{
+    width:2.19rem;
+    height:2.17rem;
+    background-color:#f56e40 ;
+    border-radius: .05rem;
+    margin:.08rem auto 0;
+}
+.FTF_POP .qrCode img{
+    width:2.17rem;
+    height:2.15rem;
+    margin:.02rem;
+}
+.FTF_POP .scan_tip{
+    line-height: .88rem;
+    font-size: .26rem;
+    color:#666;
+    text-align: center;
+}
+.FTF_POP .POP_CLOSE,.CODE_POP .POP_CLOSE{
+    width:.44rem;
+    height:.44rem;
+    position: absolute;
+    bottom:-.72rem;
+    left:50%;
+    transform: translate(-.22rem);
+    background: url('../../../image/activity/invitation/POP_X.png') no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.CODE_POP{
+    position: absolute;
+    width:3.95rem;
+    height:1.75rem;
+    background-color: #fff;
+    border-radius: .05rem;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translateX(-1.975rem) translateY(-1.62rem);
+    z-index: 100;
+    display: none;
+}
+.CODE_POP .code_title{
+    font-size: .3rem;
+    color:#666;
+    margin-top: .4rem;
+}
+.CODE_POP .code_title .code_tip{
+    font-size: .24rem;
+    color:#999;
+}
+.CODE_POP .POP_CLOSE{
+    bottom:-.85rem;
+}
+.noData{
+    text-align: center;
+    color:#8c3d32;
+    font-size: .26rem;
+    padding-top: 3.2rem;
+}
+.noData img{
+    width:.9rem;
+    height:.92rem;
+}
+.noData p{
+    line-height: 1rem;
+}

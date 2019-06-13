@@ -1,0 +1,54 @@
+.head_box{
+    background:#fff;
+    height:66px;
+    padding-right:100px;
+    .logo{
+        width:200px;
+        height:64px;
+    }
+    .Menu_box{
+        width:205px;
+        padding:0;
+        margin:0;
+        li{
+            list-style: none;
+            height:64px;
+            width:100px;
+            text-align: center;
+            line-height: 64px;
+            border-bottom:2px solid #eee;
+            cursor: pointer;
+            font-size:16px;
+        }
+        :nth-child(1){
+            margin-right:5px;
+        }
+        .active{
+            color:rgb(87, 10, 175);
+            border-bottom:2px solid rgb(87, 10, 175);
+        }
+        li:hover{
+            @extend .active 
+        }
+    }
+    .head_img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        border:1px solid #555;
+        margin-top:3px;
+        margin-right:20px;
+    }
+    .login_out{
+        width:60px;
+        height: 20px;
+        background:#F56C6C;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 20px;
+        color:#fff;
+        cursor: pointer;
+        margin-top:22px;
+    }
+}

@@ -1,0 +1,55 @@
+.page{
+	max-width: 640px;
+	margin: 0 auto;
+}
+.con01{
+	background-color: #efac4b;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+.con01 .yesicon{
+	width: 1.13rem;
+	height: 1.13rem;
+	background:url("../../image/activity/alipaydone/yes_icon.png") no-repeat;
+	background-size: 100% 100%;
+	margin: .52rem auto 0;
+}
+.con01 h1{
+	font-size: .68rem;
+	margin: .42rem auto 0;
+}
+.con01 h4{
+	font-size: .32rem;
+	margin: .2rem auto .5rem;
+}
+.con02{
+	background-color: #fff;
+	padding: .46rem 0 3.34rem 0;
+}
+.con02 .logo{
+	width: 1.81rem;
+	height: 1.81rem;
+	background:url("../../image/activity/alipaydone/logo.png") no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+.con02 .loadbtn{
+	display: block;
+	width: 5.52rem;
+	height: .7rem;
+	line-height: .7rem;
+	text-align: center;
+	background-color: #efac4b;
+	border-radius: .06rem;
+	font-size: .3rem;
+	color: #fff;
+	margin: .46rem auto 0;
+}
+.con02 .enter{
+	display: block;
+	font-size: .28rem;
+	color: #b3b3b3;
+	margin: .46rem auto 0;
+	text-align: center;
+}

@@ -1,0 +1,90 @@
+body,figure,h3,h4,p,ul{margin:0;padding:0}
+li{list-style:none}
+input{border:0;outline:0}
+a{text-decoration:none}
+.celarfix{zoom:1}
+.clearfix:after{clear:both;content:'';display:block}
+.fl{display:inline;float:left}
+.fr{display:inline;float:right}
+.borRadian{border-radius:5px}
+body,html{min-height:100%}
+html{font-size:625%;letter-spacing:1px;}
+@media only screen and (max-width:374px){html{font-size:312.5%!important}
+}
+@media only screen and (min-width:375px){html{font-size:366%!important}
+}
+@media only screen and (min-width:401px){html{font-size:390.625%!important}
+}
+@media only screen and (min-width:428px){html{font-size:417.9%!important}
+}
+@media only screen and (min-width:481px){html{font-size:468.75%!important}
+}
+@media only screen and (min-width:569px){html{font-size:546.875%!important}
+}
+@media only screen and (min-width:640px){html{font-size:625%!important}
+}
+.back{background:url(../../image/activity/exclu.png) no-repeat;background-size:3.44rem 1.4rem}
+body{background-color:#edece7}
+header{height:.88rem;line-height:.88rem;background-color:#333;color:#fff;text-align:center;font-size:.32rem}
+.banner{height:3.3rem;background:url(../../image/activity/ban.png) no-repeat;background-size:100% 100%}
+.logo{display:inline-block;width:1.3rem;height:.46rem;margin:.18rem 0 0 .22rem;text-indent:-9999em;background-position:-.7rem 0}
+.info{height:1.02rem;line-height:1.02rem;color:#b1985e;font-size:.2rem}
+.info li{width:33.3333%;text-align:center}
+.gainsIcon,.platformIcon,.termIcon{display:inline-block;vertical-align:middle;width:.56rem;height:.5rem}
+.gainsIcon{height:.4rem;background-position:0 -.02rem}
+.termIcon{background-position:0 -.4rem}
+.platformIcon{background-position:0 -.9rem}
+.mobileBox{height:4.32rem;padding-top:.7rem;background-color:#373737;color:#e2ca8e;font-size:.24rem;border-radius:50% 50% 0 0/.4rem .4rem 0 0;text-align:center}
+.backP{margin:.2rem auto .48rem;width:2.64rem;height:.44rem;background-position:-.76rem -.7rem}
+input[type=text]{color:#b1985e;font-size:.24rem;border-radius:5em;background-color:transparent}
+input[type=text]::-webkit-input-placeholder{color:#b1985e}
+input[type=checkbox]{display:none}
+.btn{display:inline-block;width:3.48rem;padding:.18rem .38rem .18rem;border:2px solid #e2ca8e;border-radius:0.5rem;;}
+.btnReg{padding:0 .38rem;height:.54rem;line-height:.54rem;background-color:#c5af75;color:#5b4708;font-size:.28rem;cursor:pointer}
+.eventBtn{margin:.35rem 0 .4rem 0}
+.agree{font-size:.2rem;height:.3rem;line-height:.3rem}
+.agree>label{display:inline-block;padding-top:.01rem;color:#b8b8b8}
+.agree a{color:#b1985e}
+.chk_1+label{width:.18rem;height:.18rem;background-color:transparent;border:1px solid #b1985e;border-radius:.05rem;display:inline-block;position:relative;margin-right:.1rem;vertical-align:-10%}
+.chk_1:checked + label:after {content:'\2713';position:absolute;top:0;left:0;color: transparent;width:100%;height: 100%;line-height: 0.18rem;text-align:center;font-size:0;background: url(../../image/activity/exclu.png) no-repeat -3.21rem -0.02rem;background-size: 3.44rem 1.4rem; }
+section{padding-top:.26rem;color:#b1985e}
+section h3{margin:0 auto;width:3.1rem;height:.46rem;line-height:.46rem;border-radius:5em;background-color:#b1985f;font-size:.3rem;font-weight:400;color:#fff;text-align:center}
+section figure{padding:0 7.8125%}
+section p{font-size:.26rem;padding:.08rem 0}
+section h4{font-size:.45rem;margin:1rem 0 .14rem 0}
+.choseBox{height:4.3rem;padding-top:.26rem}
+.choseBox h4{font-size:.36rem}
+.choseBox{background:url(../../image/activity/gains.png) no-repeat;background-size:2.52rem 4.18rem;background-position:92.1875% center}
+.itemBox{background:url(../../image/activity/item.png) no-repeat;background-size:2.7rem 4.01rem;background-position:7.8125% center}
+.safeBox{background:url(../../image/activity/safe.png) no-repeat;background-size:3.27rem 3.67rem;background-position:92.1875% 1.1rem}
+.choseBox,.itemBox{text-align:right}
+.itemBox{height:4.16rem;padding-top:.32rem;background-color:#fff}
+.safeBox{height:4.34rem;padding-top:.74rem}
+.safeBox h4{margin-top:0}
+footer{height:2.1rem;padding-top:.76rem;background-color:#373737;border-radius:50% 50% 0 0/.4rem .4rem 0 0;font-size:.18rem;color:#000;text-align:center;text-shadow:0 2px 2px rgba(150,150,150,.5)}
+footer>p:first-child{margin-bottom:.35rem}
+footer>p:nth-child(2){margin-bottom:.18rem}
+.shadowFloor{display:none;position:fixed;left:0;top:0;right:0;bottom:0;background-color:rgba(0,0,0,.6)}
+.regBox{position:fixed;left:50%;top:50%;width:84.375%;height:3.72rem;margin:-1.86rem 0 0 -42.1875%;background-color:#fff;text-align:center;font-size:0;border-radius:0.05rem;}
+.regBox li{margin-top:.26rem}
+.regBox .close,.regBox .tip{position:absolute;z-index:9999;top:0;font-size:.2rem}
+.regBox .close{top:-0.1rem;right:0;margin:10px 10px 0 0;padding:.04rem;cursor:pointer;font-size:.4rem}
+.regBox .close:active{color:#c5af75}
+.regBox .tip{display:none;left:50%;margin:1rem 0 0 -1.83rem;padding:.4rem .18rem;width:3.3rem;background-color:rgba(0,0,0,.8);color:#fff;text-indent:2em;text-align:left}
+
+.regBox input[name=mobile]{font-size:.3rem;text-align:center;color:#333;border:none;background-color:#e6e6e6}
+.msg{position:relative}
+.msg .btn {padding: 0.1rem .38rem;}
+.btn input[name=msg]{width:2rem;margin-top:0.08rem;padding-left:.04rem;font-size:0.22rem;}
+.regBox .btnReg {border-color: #fff6c0;background: url(../../image/activity/re.png) repeat-x left center;}
+.sendMsg{margin-right:-0.18rem;width:1.36rem;height:.48rem;line-height:.48rem;text-align:center;border-radius:.5rem;font-size:.18rem;color:#5b4708;background-color:#c6b179;cursor:pointer}
+.regBox .agree>label{color:#666}
+.reSend{color:#666;background-color:#e6e6e6}
+.wrongTip {display:none;position:fixed;left:50%;top:30%;margin:1rem 0 0 -1.83rem;padding:.4rem .18rem;width:3.3rem;background-color:rgba(0,0,0,.8);font-size: 0.2rem;color:#fff;text-indent:2em;text-align:left}
+
+.main{text-align:center;font-family:SimHei}
+.regSucText{padding:.3rem 0 .8rem;color:#c6b179;font-size:.48rem}
+.regIcon{margin-top:1rem;height:1.34rem;background:url(../../image/activity/reg_icon.png) no-repeat center;background-size:1.33rem 1.34rem;text-indent:-99999em;font-size:0}
+.envelopes{margin:0 auto 1.72rem;width:4.16rem;height:.7rem;border-radius:5em;background:#c6b179;color:#5b4708;font-size:.24rem;line-height:.7rem}
+.toIndex{color:#666;font-size:.24rem}
+.toIndex a{color:#c6b179}

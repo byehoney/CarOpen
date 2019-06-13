@@ -1,0 +1,209 @@
+
+html,body{
+    height: 100%;
+}
+.annalPage{
+    display: none;
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 0;
+    height: 100%;
+    background-image: url(../../../image/activity/annals/repeat.png);
+    background-size: 8%;
+    position: relative;
+}
+.annalHeader{
+    height: 22%;
+    position: relative;
+}
+
+.annalHeader .topImg{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    z-index: 1;
+}
+
+.annalHeader .title{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: 5%;
+}
+.annalHeader .title i{
+    margin:0 .26rem;
+}
+.annalHeader .title i:first-child{
+    margin-left: 0;
+}
+.annalHeader .title p:nth-of-type(3){
+    font-size:.38rem;
+}
+.annalCont{
+    height: 55%;
+    position: relative;
+}
+.annalCont .singPic{
+    height: 83%;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.annalCont .footTips{
+    display:block;
+    width: 88.66%;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.annalFooter{
+    height: 18%;
+    position: relative;
+}
+.register_btn,.circusee_btn{
+    width:88.66%;
+    height: .8rem;
+    line-height:.8rem;
+    text-align: center;
+    margin:.22rem auto 0;
+    background: #d6c080;
+    background: linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -moz-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -webkit-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -o-linear-gradient(#d6c080,#cfb779,#a28651);
+}
+.register_btn a,.circusee_btn a{
+    display:block;
+    font-size:.42rem;
+    color:#1a1a1a;
+}
+.annalFooter .check_btn{
+    width:100%;
+    height:.88rem;
+    line-height:.88rem;
+    text-align: center;
+    font-size: .4rem;
+    color: #1a1a1a;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: #d6c080;
+    background: linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -moz-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -webkit-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -o-linear-gradient(#d6c080,#cfb779,#a28651);
+}
+.overlay {
+    display: none;
+    background: #000;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.redpacketPup{
+    display:none;
+    width:5.58rem;
+    text-align: center;
+    position:fixed;
+    top: 32%;
+    left:50%;
+    margin-left: -2.79rem;
+    z-index:3;
+}
+
+.redpacketDiv{
+    width: 5.58rem;
+    overflow: hidden;
+}
+.code{
+    width:100%;
+    height:.8rem;
+    background:#eee;
+    margin-bottom: .38rem;
+}
+.code input{
+    height:.8rem;
+    text-indent:.18rem;
+    font-size:.3rem;
+    color:#1a1a1a;
+    cursor: pointer;
+}
+.code .picture_code{
+    width: 3.58rem;
+}
+.code img{
+    float:right;
+    width:2rem;
+    height:.8rem;
+    line-height:.8rem;
+    font-size:.3rem;
+}
+.code .send{
+    width: 2rem;
+    text-align: center;
+    height:.8rem;
+    line-height:.8rem;
+    font-size:.26rem;
+    color:#fff;
+    background: #d7c180;
+    background: -moz-linear-gradient(#d7c180,#bca469,#a78c55);
+    background: -webkit-linear-gradient(#d7c180,#bca469,#a78c55);
+    background: -o-linear-gradient(#d7c180,#bca469,#a78c55);
+    letter-spacing: .01rem;
+}
+.code .reSendCode{
+    background:#999;
+}
+.next_step,.go_step {
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    background: #d6c080;
+    background: -moz-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -webkit-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -o-linear-gradient(#d6c080,#cfb779,#a28651);
+    font-weight:bold;
+    cursor:pointer;
+}
+.next_step a,.go_step a{
+    display:block;
+    font-size:.42rem;
+    color:#1a1a1a;
+}
+.code .txt{
+    width:100%;
+    height:100%;
+}
+.errormsg{
+    display:none;
+    width: 100%;
+    font-size: .18rem;
+    position: fixed;
+    top: 26%;
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+    word-break: break-all;
+}
+.noWeixin{
+    display: none;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    top:7%;
+    font-size: .4rem;
+}

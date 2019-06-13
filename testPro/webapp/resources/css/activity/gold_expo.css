@@ -1,0 +1,278 @@
+body{
+	background-color: #f5f5f5;
+}
+.gold_expo_page{
+	max-width:750px;
+	margin:0 auto;
+}
+.gold_expo_page .banner{
+	width:100%;
+}
+.banner img{
+	width:100%;
+	display:block;
+}
+.gold_expo_page .financial{
+	width: 20%;
+	height:1.58rem;
+	background: #098869;
+}
+.financial div{
+	padding: .18rem;
+	font-size:.46rem;
+	color:#fff;
+	text-align: center;
+}
+.gold_expo_page .hint_title{
+	width: 76%;
+	height: 1.58rem;
+	background-color: #fff;
+	font-size: .2rem;
+	color:#333;
+	padding: 0rem 2% 0 2%;
+	position: relative;
+	z-index: 2;
+}
+.hint_title p{
+	position:relative;
+	top: 50%;
+	line-height: .36rem;
+	text-align: justify;
+}
+.swiperOne {
+	width: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	-ms-perspective: 1200px;
+	perspective: 1200px;
+	padding: .42rem 0;
+	overflow: hidden;
+}
+.swiperOne  .swiper-slide {
+	width: 70%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	position: relative;
+	overflow:  hidden;
+	margin: 0 auto;
+}
+.swiperOne  .swiper-slide .main-img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.swiper-slide .slide_box{
+	position: relative;
+}
+.popBox{
+	width: 100%;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left:0;
+	background-color: #000;
+	z-index: 3000;
+	display: none;
+}
+.swiperTwo .swiper-slide{
+	width: 100%;
+	height:auto;
+}
+.popBox .swiperTwo{
+	width: 100%;
+	top: 26%;
+	position: absolute;
+	height: auto;
+}
+.swiperTwo .swiper-slide .main-img{
+	width: 100%;
+	vertical-align: middle;
+}
+.swiperTwo .swiper-pagination-bullet{
+	background-color: #fff;
+}
+.gold_expo_page .opabox {
+	width: 100%;
+	text-align: center;
+	background: rgba(14,12,12,0.8);
+	z-index: 8;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.gold_expo_page .opabox p {
+	padding: .12rem 0;
+	line-height: .32rem;
+	font-size: .2rem;
+	color: #fff;
+}
+.gold_expo_page .blue_bg{
+	background:#2663b8;
+}
+.blue_bg_distance{
+	padding:.28rem 0 .24rem;
+}
+.blue_bg_distance ul li {
+	width: 46%;
+	float: left;
+	margin: 0px 2%;
+	text-align: center;
+	margin-bottom:.26rem;
+}
+.blue_bg_distance ul li p{
+	height:.44rem;
+	line-height:.44rem;
+	font-size: .18rem;
+	color:#fff;
+}
+.blue_bg_distance ul li img{
+	width: 100%;
+	display:block;
+}
+.blue_bg_distance .delivery_pic {
+	width: 5.62rem;
+	height: .6rem;
+	background: url(../../image/activity/gold_expo/delivery_pic.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto .24rem;
+}
+.gold_expo_page .together_bg {
+	width: 100%;
+	height: .06rem;
+	line-height: .02rem;
+	text-align: center;
+	font-size: .32rem;
+	color:#333;
+	font-weight: bold;
+	background: url(../../image/activity/gold_expo/together_bg.png) no-repeat;
+	background-size: 100% 100%;
+	margin: .62rem auto .4rem;
+}
+.gold_expo_page .crowd_content {
+	margin:0 .35rem;
+}
+.crowd_content .crowd_pic_list {
+	width: 100%;
+	margin: 0 auto;
+}
+.crowd_content .mb20 {
+	margin-bottom:.2rem;
+}
+.crowd_content .meeting_pic {
+	width: 60.58%;
+	height: 100%;
+	margin-right: 3%;
+}
+.crowd_pic_top{
+	width: 100%;
+	display:block;
+}
+.crowd_pic_center>div{
+	width:35.88%;
+}
+.crowd_pic_center>div img:nth-of-type(1){
+	margin-bottom: 6%;
+}
+.crowd_pic_center img,.crowd_pic_right img{
+	width:100%;
+	display: block;
+}
+.crowd_pic_right>div{
+	width:30%;
+	margin-right:4%;
+}
+.crowd_pic_right>div img:nth-of-type(1){
+	margin-bottom: 13%;
+}
+.crowd_pic_right .Canvas_bag{
+	width:65.58%;
+}
+.gold_expo_page .report_bg {
+	padding:.16rem 0 .2rem;
+	color: #fff;
+}
+.report_bg .border_line {
+	border-bottom: .01rem solid #3c73bf;
+	padding:0 .24rem .1rem;
+	height: .4rem;
+	line-height:  .4rem;
+}
+.report_silder h3 {
+	float: left;
+	font-size: .32rem;
+}
+.report_silder h3 span {
+	padding-bottom: .02rem;
+	border-bottom: .06rem solid #fff;
+}
+.report_silder h3 i {
+	display: inline-block;
+	width: .1rem;
+	height:.1rem;
+	background: #fff;
+	border-radius: 50%;
+	margin-left: .12rem;
+	vertical-align: middle;
+}
+.report_bg .more {
+	display: block;
+	font-size: .2rem;
+	color: #fff;
+	cursor: pointer;
+	vertical-align: middle;
+	text-decoration:  underline;
+}
+.blue_bg .introduce{
+	margin:0 .18rem;
+}
+.blue_bg .introduce img{
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+}
+.blue_bg .report_list{
+	padding: .1rem 0 .6rem 0;
+}
+.blue_bg .report_list li {
+	font-size: .22rem;
+	line-height: .36rem;
+	color: #fff;
+	padding:.28rem 0;
+}
+.report_list li span {
+	width: 23%;
+	text-align: center;
+}
+.report_list li a{
+	width: 76.5%;
+	color: #fff;
+	text-decoration: underline;
+}
+.report_list li span.website {
+	letter-spacing: .05rem;
+}
+.gold_expo_page .sliderBorder {
+	width: 73%;
+	height: 74%;
+	border: .08rem solid #098869;
+	position: absolute;
+	left: 12.3%;
+	top: 15%;
+}
+.popBox .swiperTwo{
+	overflow: inherit;
+}
+.swiper-container-horizontal> .swiper-pagination_cont{
+	bottom: -36px;
+}
+
+.swiperTwo .swiper-slide img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+

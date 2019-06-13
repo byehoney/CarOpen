@@ -1,0 +1,61 @@
+body{
+	background:#f9f9f9;
+}
+.successfulPage{
+	max-width:640px;
+	margin:0 auto;
+}
+.successfulPage .bannerT{
+	width:100%;
+	height:2.62rem;
+	background:url(../../../image/activity/inviteFridone/bannerT.png) no-repeat;
+	background-size:100% 100%;
+}
+.successfulPage .bannerB{
+	width:100%;
+	height:2.24rem;
+	background:url(../../../image/activity/inviteFridone/bannerB.png) no-repeat;
+	background-size:100% 100%;
+}
+.successfulPage .successfully,.successfulPage p{
+	text-align:center;
+}
+.successfulPage .successfully{
+	line-height:.76rem;
+	padding-top:1rem;
+	font-size:.44rem;
+	color:#ee2c05;
+}
+.successfully i{
+	width:.47rem;
+	height:.47rem;
+	background:url(../../../image/activity/inviteFridone/successfulIcon.png) no-repeat;
+	background-size:100% 100%;
+	display:inline-block;
+	vertical-align:sub;
+	margin-right:.12rem;
+}
+.successfulPage p{
+	line-height:.6rem;
+	font-size:.28rem;
+	color:#333;
+}
+.successfulPage p span{
+	font-weight:bold;
+	color:#ee2c05;
+}
+.successfulPage .useBtn{
+	width:5.52rem;
+	margin:.96rem auto 0;
+}
+.successfulPage .useBtn a{
+	height:.7rem;
+	line-height:.7rem;
+	text-align:center;
+	font-size:.3rem;
+	color:#fff;
+	background:#ee2c05;
+	border-radius:.06rem;
+	cursor:pointer;
+	display:block;
+}

@@ -1,0 +1,722 @@
+body{
+    background-color: #dc3039;
+}
+.main{
+    max-width: 640px;
+    margin:0 auto;
+    font-size: .24rem;
+}
+.banner{
+    width:100%;
+    position: relative;
+}
+.banner img{
+    width:100%;
+    display: block;
+}
+.actTitle{
+    width:3.04rem;
+    height:.46rem;
+    line-height: .46rem;
+    text-align: center;
+    margin:0 auto;
+    background-color: #f5d348;
+    border:.02rem solid #511d10;
+    border-radius: .2rem;
+    color:#dd363c;
+}
+.actTitle.title1{
+    position: absolute;
+    bottom:.06rem;
+    left:50%;
+    margin-left: -1.52rem;
+}
+.tOrder{
+    font-weight: bold;
+    margin-right: .13rem;
+}
+.catHouse{
+    width: 100%;
+    position: relative;
+}
+.catHouse .houseBg{
+    display: block;
+    width: 100%;
+}
+.dialog{
+    position: absolute;
+    /*height:0.65rem;*/
+    background:url("../../../image/activity/newYear/dialogBg.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    bottom:1.6rem;
+    right: 6%;
+    font-size: .22rem;
+    color:#bc8011;
+    width:1.79rem;
+    height:1.72rem;
+    text-align: center;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5, 0.5);
+        transform-origin: 50% 50%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+.dialog1,.dialog2{
+    display: none;
+    color:#dd363c;
+}
+.dialog.dialog1 p{
+    line-height: .35rem;
+    margin-top: .25rem;
+    /*width:1.5rem;*/
+    /*padding:.14rem .38rem .28rem .45rem;*/
+}
+.dialog.dialog2 p{
+    line-height: .35rem;
+    margin-top: .3rem;
+    margin-left: .05rem;
+    /*width: 2rem;*/
+    /*padding: .18rem .1rem .28rem .25rem;*/
+}
+.catHouse .cat{
+    position: absolute;
+    bottom:.15rem;
+    left:50%;
+    width:4.4rem;
+    margin-left: -2.2rem;
+}
+.feedCat{
+    margin: .55rem auto 0 auto;
+    width:2.71rem;
+    height:.72rem;
+    line-height: .72rem;
+    text-align: center;
+    font-size: .3rem;
+    color:#dc3039;
+    padding-bottom: .94rem;
+    display: none;
+}
+.feedCat.noFeed{
+    background: url("../../../image/activity/newYear/feedBg.png") no-repeat 0 0;
+    background-size: 100% ;
+    display: block;
+}
+.feedCat.haveFeed{
+    background: url("../../../image/activity/newYear/feededBg.png") no-repeat 0 0;
+    background-size: 100% ;
+    color:#5e5e5e;
+}
+.actTip{
+    text-align: center;
+    font-size: .22rem;
+    color:#fff;
+    line-height: .37rem;
+    margin-top: .15rem;
+}
+.notice{
+    width:5.05rem;
+    height:1rem;
+    background: url("../../../image/activity/newYear/playBg.png") no-repeat 0 0;
+    background-size: 100%;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.notice_title{
+    height: .56rem;
+    line-height: .56rem;
+    position: absolute;
+    bottom:.06rem;
+    left: 20%;
+    text-align: center;
+    overflow: hidden;
+    color:#f4d747;
+}
+.data{
+    width:100%;
+    position: relative;
+    padding-top: .6rem;
+}
+.data .houseTop{
+    position: absolute;
+    width: 97.5%;
+    left: 50%;
+    margin-left: -48.75%;
+    top: -.4rem;
+}
+.dataBox{
+    width:90.6%;
+    margin:0 auto;
+    /*background-color: #cd242d;*/
+    padding-top: .15rem;
+    padding-bottom: .72rem;
+    background: url("../../../image/activity/newYear/clound.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.dataBox .table{
+    width:95%;
+    margin:0 auto;
+    background-color: #fd9659;
+    font-size: .22rem;
+}
+.dataBox .table ul{
+    border-bottom:.01rem solid #f3774f ;
+    overflow: hidden;
+}
+.dataBox .table ul.lastUl{
+    border:none;
+}
+.dataBox .table ul.firstUl{
+    padding-top: .15rem;
+}
+.dataBox .table ul.firstUl p{
+    line-height: .28rem;
+    margin-top: .11rem;
+}
+.dataBox .table ul.firstUl li{
+    height:.75rem;
+    line-height: .75rem;
+    font-weight: bold;
+}
+.dataBox .table ul li{
+    float: left;
+    width:30%;
+    text-align: center;
+    height:.53rem;
+    line-height: .53rem;
+    color:#dc3039;
+}
+.dataBox .table ul li.middle{
+    width:39%;
+    border-left: .01rem solid #f3774f;
+    border-right: .01rem solid #f3774f;
+}
+.dataBox .table ul li.middle e{
+    font-weight: bold;
+}
+.example{
+    font-size: .3rem;
+    color:#f5d348;
+    text-align: center;
+    margin-top: .12rem;
+    height:.52rem;
+    line-height: .52rem;
+}
+.exaTitle{
+    font-size: .22rem;
+    color:#fd9659;
+    text-align: center;
+    height:.52rem;
+    line-height: .52rem;
+}
+.chart{
+    width:100%;
+    display: block;
+    margin-top: .11rem;
+}
+
+.investBtn{
+    width: 2.71rem;
+    height: .72rem;
+    line-height: .72rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #dc3039;
+    background: url(../../../image/activity/newYear/feedBg.png) no-repeat 0 0;
+    background-size: 100%;
+    margin:.48rem auto 0 auto;
+}
+.rewardTitle{
+    width:2.12rem;
+    height:.46rem;
+    line-height: .46rem;
+    text-align: center;
+    margin:.55rem  auto .51rem auto;
+    background-color: #f5d348;
+    border:.02rem solid #511d10;
+    border-radius: .2rem;
+    color:#dd363c;
+}
+.rewardBox{
+    position: relative;
+}
+.rewardBox span{
+    position: absolute;
+    right:.48rem;
+    top:.06rem;
+    color:#f5d348;
+    font-size: .22rem;
+    text-decoration: underline;
+}
+.actFooter{
+    width:90.6%;
+    margin:0 auto .5rem auto;
+    color:#f5d348;
+    text-align: center;
+    background-color: #cd242d;
+    padding-bottom: .68rem;
+}
+.actFooter h2{
+    height: .75rem;
+    line-height: .75rem;
+}
+.actFooter .getMoney{
+    font-size: .48rem;
+    padding-top: .22rem;
+}
+.actFooter p{
+    line-height: .32rem;
+    padding:0 .32rem;
+    text-align: left;
+}
+.actDetail{
+    position: fixed;
+    top:50%;
+    right:0;
+    margin-top: -1.1rem;
+}
+.actRuleBtn{
+    width: .52rem;
+    height: 1.62rem;
+    background: url(../../../image/activity/newYear/actRule.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-right: .1rem;
+}
+.backTopBtn{
+    width:.52rem;
+    height:.52rem;
+    background: url("../../../image/activity/newYear/backTop.png") no-repeat center;
+    background-size: 100%;
+    margin-top: .08rem;
+    display: none;
+}
+/*活动规则开始*/
+.pops{
+    color:#dc313a;
+    font-size: .24rem;
+    width:86.6%;
+    background-color: #dc313a;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left:-43.3% ;
+    padding:.06rem .07rem;
+    border-radius: .05rem;
+    z-index:200;
+    /*display: none;*/
+}
+.popBox{
+    padding:.05rem;
+    background-color:#ffeecc ;
+    border-radius: .05rem;
+    position: relative;
+}
+.popBox h3{
+    text-align: center;
+    font-size: .26rem;
+    color:#f6d956;
+    width:2.25rem;
+    height:.55rem;
+    line-height: .55rem;
+    background: url("../../../image/activity/newYear/tBg.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin:.3rem auto .15rem  auto;
+}
+.ruleBox .contentDiv{
+    padding:0 .2rem .35rem .35rem;
+}
+.angel{
+    position: absolute;
+    width:.17rem;
+    height:.17rem;
+}
+.angelTL{
+    top:.05rem;
+    left:.05rem;
+    background: url("../../../image/activity/newYear/angelTL.png") no-repeat 0 0;
+    background-size: 100% 100% ;
+}
+.angelTR{
+    top:.05rem;
+    right:.05rem;
+    background: url("../../../image/activity/newYear/angelTR.png") no-repeat 0 0;
+    background-size: 100% 100% ;
+}
+.angelBL{
+    bottom:.05rem;
+    left:.05rem;
+    background: url("../../../image/activity/newYear/angelBL.png") no-repeat 0 0;
+    background-size: 100% 100% ;
+}
+.angelBR{
+    bottom:.05rem;
+    right:.05rem;
+    background: url("../../../image/activity/newYear/angelBR.png") no-repeat 0 0;
+    background-size: 100% 100% ;
+}
+.numBox {
+    width: 3%;
+    text-align: left;
+    margin-right: 3%;
+    float: left;
+}
+.wordBox {
+    width: 94%;
+    float: left;
+}
+.contentDiv p {
+    font-size: .24rem;
+    overflow: hidden;
+    line-height: .35rem;
+}
+.close-btn{
+    width:.45rem;
+    height:.45rem;
+    background: url("../../../image/activity/newYear/closeBtn.png") no-repeat 0 0;
+    background-size: 100% 100% ;
+    position: absolute;
+    top:-.6rem;
+    right: -.02rem;
+}
+.totalMoney{
+    text-align: center;
+    font-size: .3rem;
+    color:#dc313a;
+    line-height: .56rem;
+    margin-bottom: .1rem;
+}
+.totalMoney span{
+    /*margin-right: .15rem;*/
+}
+.rewardDataBox{
+    width:96%;
+    margin:0 auto;
+}
+.rewardDataBox .dataHeader li{
+    border-top:.01rem solid #f3774f;
+}
+.rewardDataBox ul{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.rewardDataBox ul li{
+    float: left;
+    text-align: center;
+    font-size: .22rem;
+    color:#dc313a;
+    border-bottom: .01rem solid #f3774f;
+    border-left:.01rem solid #f3774f;
+    height:.56rem;
+    line-height: .56rem;
+}
+.rewardDataBox ul li.left{
+    width:38%;
+}
+.rewardDataBox ul li.mid{
+    width:31%;
+}
+.rewardDataBox ul li.right{
+    width:29%;
+    border-right:.01rem solid #f3774f;
+}
+.rewardDataBox .dataContent{
+    height:2.74rem;
+    overflow: hidden;
+}
+.closePopBtn{
+    width: 2.71rem;
+    height: .72rem;
+    line-height: .72rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #dc3039;
+    background: url(../../../image/activity/newYear/feedBg.png) no-repeat 0 0;
+    background-size: 100%;
+    margin:.48rem auto .25rem auto;
+}
+.noData{
+    text-align: center;
+    height:2.18rem;
+    line-height: 2.18rem;
+}
+.noData .goInvest{
+    display: inline-block;
+    width:1rem;
+    height:.42rem;
+    line-height: .42rem;
+    text-decoration: underline;
+    border-radius: .2rem;
+    border:.02rem solid #511d10;
+    text-align: center;
+    background-color: #f5d348;
+}
+/*活动规则结束*/
+/*弹窗背景*/
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:3;
+    display: none;
+}
+/*错误提示信息样式开始*/
+.err{
+    display: none;
+    width: 5.2rem;
+    padding:.07rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    font-size: .24rem;
+    background-color: #dc313a;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.6rem;
+    margin-top: -.55rem;
+    text-align: center;
+    z-index: 999;
+    border-radius: .03rem;
+}
+.errInner{
+    width: 100%;
+    height: 100%;
+    border-radius: .03rem;
+}
+.end .errInner{
+    background:#ffeecc url("../../../image/activity/newYear/txtEnd.png") no-repeat center;
+    background-size: 29%;
+}
+.noStart .errInner{
+    background:#ffeecc url("../../../image/activity/newYear/txtUnstart.png") no-repeat center;
+    background-size: 62%;
+}
+.next .errInner{
+    background:#ffeecc url("../../../image/activity/newYear/txtMingt.png") no-repeat center;
+    background-size: 90%;
+}
+.fail .errInner{
+    background:#ffeecc url("../../../image/activity/newYear/textFail.png") no-repeat center;
+    background-size: 34.9%;
+}
+/*错误提示信息样式结束*/
+
+/*红包弹窗*/
+.rewardPop,.limitPop {
+    z-index: 300;
+    width: 4.3rem;
+    border-radius: 0.05rem;
+    background-color: #dc313a;
+    color: #dc313a;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -2.15rem;
+    /*-webkit-transform: translateX(-50%);*/
+    /*-moz-transform: translateX(-50%);*/
+    /*-ms-transform: translateX(-50%);*/
+    /*-o-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+    font-size: 0;
+    display: none;
+}
+.rewardPop .rewardCon ,.limitPop .rewardCon{
+    width: 4.16rem;
+    border-radius: 0.05rem;
+    margin: 0.07rem auto 0.07rem;
+    background-color: #ffeecc;
+    overflow: hidden;
+    position: relative;
+}
+.rewardPop .rewardCon .arrowLt,.limitPop .rewardCon .arrowLt {
+    left: .05rem;
+    top: .05rem;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.rewardPop .rewardCon .arrowLb,.limitPop .rewardCon .arrowLb {
+    left: .05rem;
+    bottom: .05rem;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.rewardPop .rewardCon .arrowRt ,.limitPop .rewardCon .arrowRt{
+    right: .05rem;
+    top: .05rem;
+}
+.rewardPop .rewardCon .arrowRb ,.limitPop .rewardCon .arrowRb{
+    right: .05rem;
+    bottom: .05rem;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.rewardPop .rewardCon > i,.limitPop .rewardCon > i {
+    width: .17rem;
+    height: .17rem;
+    position: absolute;
+    background: url("../../../image/activity/newYear/borderArrow.png") no-repeat;
+    background-size: 100% 100%;
+}
+.rewardPop p {
+    text-align: center;
+    font-size: .24rem;
+    line-height: .32rem;
+    margin-bottom: .34rem;
+}
+.rewardPop img {
+    display: block;
+    width: 3.62rem;
+    margin: .3rem auto .2rem;
+}
+.rewardPop .cashCard:before,
+.rewardPop .cashCard:after ,.limitPop .cashCard:before,
+.limitPop .cashCard:after{
+    content: '';
+    display: block;
+    width: .12rem;
+    height: 1.42rem;
+    position: absolute;
+    top: 0;
+    background: url("../../../image/activity/newYear/cardBorder.png") no-repeat;
+    background-size: 100% 100%;
+}
+.rewardPop .cashCard:before,.limitPop .cashCard:before  {
+    left: -0.07rem;
+}
+.rewardPop .cashCard:after {
+    right: -0.07rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.rewardPop .cashCard {
+    width: 3.14rem;
+    height: 1.42rem;
+    margin: 0 auto .36rem;
+    background-color: #dc313a;
+    position: relative;
+}
+.rewardPop .cashCard .amount {
+    width: 2.34rem;
+    height: 1.26rem;
+    background-color: #ffeecc;
+    margin: 0.07rem 0.14rem 0.07rem 0.07rem;
+    box-sizing: border-box;
+    padding: .33rem;
+    text-align: center;
+}
+.rewardPop .cashCard .amount em {
+    margin-right: .12rem;
+    font-size: .3rem;
+}
+.rewardPop .cashCard .amount span {
+    font-weight: bold;
+    font-size: .5rem;
+}
+.rewardPop .cashCard .cardName:before,
+.rewardPop .cashCard .cardName:after {
+    content: '';
+    display: block;
+    width: .14rem;
+    height: .14rem;
+    border-radius: 50%;
+    background-color: #ffeecc;
+    position: absolute;
+    left: -0.08rem;
+}
+.rewardPop .cashCard .cardName:before {
+    top: -0.07rem;
+}
+.rewardPop .cashCard .cardName:after {
+    bottom: -0.07rem;
+}
+.rewardPop .cashCard .cardName {
+    height: 100%;
+    border-left: 2px dashed #ffeecc;
+    position: relative;
+    padding-left: .16rem;
+}
+.rewardPop .cashCard .cardName i {
+    display: block;
+    text-align: center;
+    color: #f4d747;
+    font-size: .22rem;
+    line-height: .26rem;
+}
+.rewardPop .cashCard .cardName i:first-child {
+    margin-top: .22rem;
+}
+.rewardPop .redPacketCat,.limitPop .redPacketCat {
+    width: 3.77rem;
+    height: 1.42rem;
+    background: url("../../../image/activity/newYear/redPacketCat.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: -1.42rem;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.iknowBtn,.limitBtn {
+    width: 2.86rem;
+    height: .86rem;
+    background: url("../../../image/activity/newYear/iknowBtn.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: .7rem;
+    color: #db2f38;
+    font-size: .3rem;
+    margin: 0 auto .08rem;
+}
+
+/*新增时间限制提示框*/
+.limitPop{
+    text-align: center;
+}
+.limitPop .rewardCon p{
+    font-size: .3rem;
+    line-height: .48rem;
+}
+.limitPop .rewardCon p:first-child{
+    margin-top: .43rem;
+    margin-bottom: .28rem;
+}
+.limitPop .rewardCon p e{
+    font-size: .48rem;
+    color:#dc313a;
+}
+.limitPop .limitBtn{
+    margin-top: .38rem;
+}

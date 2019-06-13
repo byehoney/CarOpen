@@ -1,0 +1,288 @@
+
+@keyframes moveNext{
+    from {transform: translateY(0);}
+    to {transform: translateY(5px);}
+}
+/*.loading{*/
+    /*!*display: none;*!*/
+    /*position: absolute;*/
+    /*color:#fff;*/
+    /*top:50%;*/
+    /*left:0%;*/
+    /*z-index: 1000;*/
+    /*font-size: .24rem;*/
+    /*text-align: center;*/
+/*}*/
+/*进度条样式*/
+.schedule_count{
+    width:60%;
+    height:.28rem;
+    position: fixed;
+    top:35%;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1000;
+    text-align: center;
+}
+.progress_bar{
+    width: 100%;
+    height:.2rem;
+    background: #fff;
+    border-radius:.14rem;
+    position: relative;
+}
+.progress_bar_icon{
+    width: 100%;
+    height:.2rem;
+    background:url('../../../image/activity/annals/proBar.png') top left;
+    background-size:100% 100%;
+
+}
+.progress_bar_right{
+    width:100%;
+    height:.2rem;
+    background: #1c1c1a;
+    position: absolute;
+    right:0;
+    top:0;
+    border-radius:0 .14rem .14rem 0;
+}
+.schedule_count span{
+    font-size:.24rem;
+    color:#c8b381;
+    font-weight:bold;
+}
+
+html,body,.main,.swiper-container,.swiper-wrapper,.swiper-slide{
+    height:100%;
+    font-family:"PingFang SC","Microsoft YaHei",proxima-nova,"PingFang SC","Hiragino Sans GB","Wenquanyi Micro Hei","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei","WenQuanYi Zen Hei","Apple LiGothic Medium",SimHei,"ST Heiti","WenQuanYi Zen Hei Sharp";
+}
+.swiper-wrapper{
+    opacity: 0;
+}
+.maxText{
+    font-size: .5rem!important;
+}
+.mdText{
+    font-size: .4rem!important;
+}
+.minText{
+    font-size: .26rem!important;
+}
+.leftText{
+    text-align: left!important;
+    width: 70%;
+    margin:0 auto;
+}
+.italic{
+    font-style: italic;
+}
+.starM{
+    margin:.2rem auto;
+}
+.main{
+    max-width: 750px;
+    margin:0 auto;
+    font-size: 0;
+    height: 100%;
+    background-image: url('../../../image/activity/annals/repeat.png');
+    background-size: 8%;
+}
+.swiper-slide{
+    position: relative;
+}
+.dataBox{
+    height:100%;
+}
+.annalHeader{
+    height:26%;
+    position: relative;
+}
+.annalHeader .logo{
+    width: 18.4%;
+    position: absolute;
+    left: 5%;
+    top: 9%;
+    z-index: 1;
+}
+.annalHeader .topImg{
+    width: 67%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.annalHeader p{
+    text-align: center;
+    color: #c8b381;
+}
+.annalHeader .title{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+}
+.annalHeader  .title .titleDate,.annalHeader  .title .titleMoney e{
+    font-style: italic;
+}
+/*.annalHeader  .title .titleMoney e{*/
+    /*font-size: .4rem;*/
+/*}*/
+/*.annalHeader  .title .titleDate i,.annalHeader  .title .titleMoney{*/
+    /*font-size: .26rem;*/
+/*}*/
+.annalHeader .title i{
+
+    margin:0 .26rem;
+}
+.annalCont{
+    height: 59%;
+    position: relative;
+}
+.annalCont .singPic{
+    height: 87%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.annalCont .singPic.rankPic{
+    width:74.13%;
+}
+.annalCont .starPic{
+    height: 48%;
+    position: absolute;
+    top: 25.8%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.annalCont .conLeft{
+    height: 89%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.annalCont .conRight{
+    height: 68.7%;
+    position: absolute;
+    top: 14%;
+    right: 5%;
+}
+.annalCont .conRight.conRight1{
+    height: 44.18%;
+}
+.annalCont .conRight.conRight2{
+    height: 87%;
+}
+.annalCont .conRight.conRight3{
+    height: 61.5%;
+}
+.annalCont .conRight.conRight4{
+    height: 24.3%;
+}
+.annalCont .conRight.conRight5{
+    height: 64.3%;
+}
+.annalCont .conRight.conRight6{
+    height: 82.9%;
+}
+.annalCont .conRight.conRight7{
+    height: 89%;
+    top:0;
+}
+#chartBox{
+    width:87%;
+}
+.annalFooter{
+    height: 15%;
+    position: relative;
+    z-index:100;
+}
+.annalFooter .footTips{
+    height: 58.7%;
+    position: absolute;
+    left: 5%;
+    top: 24.5%;
+}
+.annalFooter .nextBtn{
+    height: 7.7%;
+    position: absolute;
+    right: 5%;
+    bottom: 19.4%;
+    /*transform: translateY(0);*/
+    /*animation: moveNext .5s infinite alternate-reverse;*/
+}
+.shineBg{
+    width: 100%;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+/*围观图片样式*/
+.annalLookCont{
+    height: 44.9%;
+    position: absolute;
+    top:27%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.annalLookCont .lookPic{
+    height:100%;
+}
+.annalLookCont .nextBtn{
+    float: right;
+    width: 6%;
+    margin-top: .24rem;
+    margin-right: .15rem;
+}
+/*未投资神秘提醒*/
+.noInvestTip{
+    display: none;
+    height:12.6%;
+    position: absolute;
+    bottom:17.5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.noInvestTip img{
+    height:100%;
+}
+/*生成封面人物按钮*/
+.annalFooter .getCoverBtn{
+    width:100%;
+    height:.85rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: #d6c080;
+    background: linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -moz-linear-gradient(#d6c080,#cfb779,#a28651);
+    background: -webkit-linear-gradient(#d6c080,#cfb779,#a28651);
+    text-align: center;
+    line-height: .9rem;
+    color:#1a1a1a;
+    font-size: .42rem;
+}
+/*!*初始dataBox隐藏*!*/
+/*.one .dataBox{*/
+    /*display:none;*/
+/*}*/
+
+

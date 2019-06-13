@@ -1,0 +1,305 @@
+/*前往个人账户去添加地址弹窗*/
+body{
+	background-color: #000;
+}
+.giftAddedBox{
+	height:5.75rem;
+}
+.gitNoAddedBox{
+	height:5.04rem;
+}
+.sureExchangeBox{
+	height:4.55rem;
+}
+.sureExchangeBox .giftSuccessBox{
+	margin-top: -.68rem;
+}
+.addAddressBox{
+	display: none;
+	width: 280px;
+	height:146px;
+	margin:auto;
+	position: fixed;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0;
+	text-align: center;
+	color:#f3f292;
+}
+.addAddressBox p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.addAddressBox .addBtn{
+	margin-top: 38px;
+	overflow: hidden;
+}
+.addAddressBox .addBtn a,.gitNoAddedBox .addBtn a,.sureExchangeBox .addBtn a{
+	display: inline-block;
+	width: 1.76rem;
+	height:.52rem;
+	line-height: .52rem;
+	text-align: center;
+	border:.02rem solid #f3f292;
+	border-radius: .04rem;
+	font-size: .24rem;
+	color:#f3f292;
+}
+.addAddressBox .addBtn a.cancel,.gitNoAddedBox .addBtn a.cancel,.sureExchangeBox .addBtn a.cancel{
+	margin-left: .36rem;
+}
+.addAddressBox .addBtn a.jumpAdd,.gitNoAddedBox .addBtn a.jumpAdd,.sureExchangeBox .addBtn a.jumpAdd{
+	color:#1d1532;
+	background-color: #f3f292;
+	margin-right: .41rem;
+}
+/*兑换成功已经保存过地址或者是虚拟奖品*/
+.giftBox{
+	display: none;
+	width: 4.86rem;
+/*	height:344px;*/
+	margin:auto;
+	position: fixed;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0;
+	text-align: center;
+	color:#f3f292;
+	font-size: .24rem;
+	z-index:9999999;
+}
+.giftBox .giftSuccessBox{
+	position: relative;
+	width: 4.86rem;
+	height:3.87rem;
+	background:url("../../../image/activity/ruffian/m_shine_plate.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.giftBox.sureExchangeBox .giftSuccessBox{
+	background: url(../../../image/activity/ruffian/m_plate.png) no-repeat 1rem 2.53rem;
+    background-size: 2.85rem .58rem;
+}
+.giftBox .giftSuccessBox .gift{
+	width: 2.87rem;
+	height: 2.1rem;
+	margin:0 auto;
+	position: absolute;
+}
+.giftBox .giftSuccessBox .gift.tv{
+	background:url("../../../image/activity/ruffian/m_tv.png") no-repeat 0 0;
+	left:50%;
+	background-size: 100%;
+	margin-left: -1.44rem;
+	top: 0.9rem;
+}
+.giftBox .giftSuccessBox .gift.gold{
+	background:url("../../../image/activity/ruffian/m_gold.png") no-repeat .9rem 0;
+	left:50%;
+	margin-left: -1.44rem;
+	top: .56rem;
+	background-size: 1.61rem 2.12rem;
+}
+.giftBox .giftSuccessBox .gift.sweeper{
+	background:url("../../../image/activity/ruffian/m_sweeper.png") no-repeat .65rem 0;
+	left:50%;
+	margin-left: -1.44rem;
+	top: .8rem;
+	background-size: 1.65rem 1.8rem;
+}
+.giftBox .giftSuccessBox .gift.microWave{
+	background:url("../../../image/activity/ruffian/m_micro_wave.png") no-repeat .2rem 0;
+	left:50%;
+	margin-left: -1.44rem;
+	top: 1.15rem;
+	background-size: 2.56rem 1.51rem;
+}
+.giftBox .giftSuccessBox .gift.redPackBig{
+	background:url("../../../image/activity/ruffian/m_big_red.png") no-repeat .7rem 0;
+	left:50%;
+	margin-left: -1.44rem;
+	top: .8rem;
+	background-size: 1.43rem 1.8rem;
+}
+.giftBox .giftSuccessBox .gift.redPackLittle{
+	background:url("../../../image/activity/ruffian/m_little_red.png") no-repeat .7rem 0;
+	left:50%;
+	margin-left: -1.44rem;
+	top: .8rem;
+	background-size: 1.43rem 1.8rem;
+}
+.giftBox .giftInfo{
+	margin-top: -.5rem;
+}
+.giftBox .giftInfo p{
+	line-height: 1;
+	margin-bottom:.22rem;
+}
+.giftBox .giftInfo .giftName{
+	margin-bottom: .4rem;
+}
+.giftAddedBox .giftInfo  .jumpLink{
+	font-size: 12px;
+	color:#fff;
+	text-decoration: underline;
+}
+.giftAddedBox .giftInfo .giftCloseBtn{
+	display: block;
+	width: 1.76rem;
+	height:0.52rem;
+	border:.02rem solid #f3f292;
+	text-align: center;
+	line-height: .52rem;
+	margin:0 auto;
+	border-radius: 0.04rem;
+	color:#1d1532;
+	margin-bottom: .5rem;
+	font-size: .24rem;
+	background-color: #f3f292;
+}
+
+
+/*活动规则样式开始*/
+.ruleMain{
+	/*width: 96%;*/
+	height:4rem;
+	overflow-y:scroll; 
+	background-color:#3b2a66;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	color:#988ccf;
+	font-size: .22rem;
+	border-radius: .05rem;
+}
+.ruleMainBox{
+	width: 96%;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	height:4.6rem;
+	display: none;
+	z-index:9999;
+}
+.ruleMainBox .ruleCloseBtn{
+	position: absolute;
+	width:.42rem;
+	height:.42rem;
+    background: url("../../../image/activity/ruffian/close_btn.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -.4rem;
+    right: 0;
+}
+.ruleMain h3{
+	padding-left:.22rem;
+	font-size: .3rem;
+	line-height: 1;
+	margin-top: .25rem;
+	margin-bottom:.21rem; 
+}
+.ruleBox{
+	padding:0 .26rem 0 .22rem;
+}
+.ruleBox p{
+	font-size: .24rem;
+	overflow: hidden;
+	line-height: .4rem;
+}
+.ruleBox .numBox{
+	width: 3%;
+	text-align: left;
+	margin-right: 3%;
+	float: left;
+}
+.ruleBox .wordBox{
+	width: 94%;
+	float: left;
+}
+.ruleGiftBox{
+	margin-bottom: .15rem;
+	margin-top: .08rem;
+	margin-left: 5%;
+}
+.ruleGiftBox ul li{
+	width: 50%;
+	float:left;
+	text-align: center;
+	line-height: .5rem;
+}
+/*.ruleGiftBox ul li.goodsName{*/
+	/*width: 46%;*/
+/*}*/
+.ruleGiftBox .giftTitle li{
+	border-top:0.02rem solid #988ccf;
+	border-bottom:0.02rem solid #988ccf;
+	border-left:0.02rem solid #988ccf;
+	box-sizing: border-box;
+}
+.ruleGiftBox .giftTitle li:last-child{
+	border-right:0.02rem solid #988ccf;
+}
+.ruleGiftBox .giftContent li{
+	border-bottom:0.02rem solid #988ccf;
+	border-left: 0.02rem solid #988ccf;
+	box-sizing: border-box;
+}
+.ruleGiftBox .giftContent li:nth-child(2n){
+	border-right: 0.02rem solid #988ccf;
+}
+.ruleGiftBox .giftTitle,.ruleGiftBox .giftContent{
+	overflow: hidden;
+}
+.angelTl {
+	border-radius: .05rem 0 0 0;
+}
+.angelTr {
+	border-radius: 0 .05rem 0 0;
+}
+
+.angelBl {
+	border-radius: 0 0 0 .05rem;
+}
+
+.angelBr {
+	border-radius: 0 0 .05rem 0;
+}
+/*活动规则样式结束*/
+.overlay {
+	background: #000;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+}
+/*错误提示信息样式开始*/
+.err{
+	display: none;
+	width: 4.2rem;
+	padding: 0 .2rem;
+	height: .6rem;
+	line-height: .6rem;
+	font-size: .24rem;
+	background-color: #000;
+	background: rgba(3, 3, 3, .6);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -2.1rem;
+	margin-top: -.6rem;
+	text-align: center;
+	z-index: 999;
+	color: #fff;
+	word-break: break-all;
+}
+/*错误提示信息样式结束*/

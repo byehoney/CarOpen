@@ -1,0 +1,183 @@
+/*活动规则*/
+body{
+    background: #29b644;
+}
+.main {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.ruleAndAdress{
+    width: 95%;
+    margin: .36rem auto 0;
+}
+.ruleContent .ruleArea {
+    text-align: left;
+    padding-left: .4rem;
+}
+.ruleContent .ruleArea li,.ruleContent p{
+    line-height:.34rem;
+    list-style-type: decimal;
+    margin-bottom: .2rem;
+    font-size: .2em;
+    color: #fff;
+    letter-spacing: .01rem;
+}
+.ruleContent p span{
+    width: 95%;
+    font-size:.2rem;
+}
+.ruleContent p.remind{
+    text-align: center;
+    margin-top: .5rem;
+}
+.table_list{
+   overflow:  auto;
+    margin-bottom: .32rem;
+    margin-left: -.4rem;
+    background: #dfffe5;
+}
+.table_list_new{
+    overflow: inherit;
+}
+.giftTab {
+    width: 100%;
+    background: #dfffe5;
+}
+.giftTab tr, .giftTab tr td {
+    text-align: center;
+    font-size: .18rem;
+    color: #f45037;
+}
+.giftTab tr td{
+    height: .6rem;
+}
+.giftTab thead tr{
+    height: .86rem;
+}
+.giftTab thead tr{
+    width: 100%;
+    background: #e35a09;
+    color: #fff;
+}
+.giftTab thead tr th,.giftTab tbody tr td {
+    width:26%;
+}
+.giftTab tbody tr td {
+    border-right:1px solid #6acc7c;
+}
+.giftTab tr:last-child{
+    border-bottom:1px solid #6acc7c;
+}
+.giftTab thead tr th:nth-of-type(1),.giftTab tbody tr td:nth-of-type(1) {
+    width: 48%;
+}
+.giftTab thead tr th:nth-of-type(4),.giftTab tbody tr td:nth-of-type(4) {
+    border-right:none;
+}
+.giftTab tbody tr {
+    border-top:1px solid #6acc7c;
+}
+.giftTab tbody tr:nth-of-type(1) {
+    border-top:none;
+}
+.ruleContent p.specialL{
+    width: 96%;
+    margin: 0 auto;
+}
+.distance{
+    margin: 0 .15rem;
+    -webkit-overflow-scrolling: touch;
+}
+.distance tbody tr td:nth-of-type(3){
+    border-right:1px solid #6acc7c;
+}
+.distance thead tr th:nth-of-type(1),.distance tbody tr td:nth-of-type(1){
+    width: 8%;
+}
+.distance thead tr th:nth-of-type(2),.distance tbody tr td:nth-of-type(2),.distance thead tr th:nth-of-type(3),.distance tbody tr td:nth-of-type(3) {
+    width: 18%;
+}
+.distance tbody{
+    overflow-y:auto;
+}
+/*2018-06-01 返回底部*/
+.backTop{
+    width:.62rem;
+    height:.6rem;
+    background: url("../../../image/activity/worldCup/backTop.png") no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 6.5%;
+    right:6%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.small_box{
+    width: 96%;
+    height:.1rem;
+    background:#29b644;
+    position: fixed;
+    z-index: 999;
+    left: .15rem;
+    top: 0;
+    -webkit-overflow-scrolling: touch;
+}
+.table_cont{
+    margin-top: .98rem;
+}
+.list_head {
+   width:96%;
+    font-size: .24rem;
+    text-align: center;
+    height: .87rem;
+    line-height: .87rem;
+    position: fixed;
+    top:.1rem;
+    left:.15rem;
+    z-index: 100;
+    background-color: #29b644;
+    -webkit-overflow-scrolling: touch;
+}
+.list_head li {
+   height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #e35a09;
+}
+.list_head li:nth-of-type(1){
+    width: 11%;
+}
+.list_head li:nth-of-type(2),.list_head li:nth-of-type(3){
+    width: 27%;
+}
+.list_head li:nth-of-type(4){
+    width: 35%;
+}
+.prize_was{
+    width:100%;
+    overflow: hidden;
+    border-radius: .1rem;
+    background: #dfffe5;
+    padding-bottom: 1.38rem;
+}
+.table_cont tr.cur{
+    background: #a7f0b5;
+}
+.ruleArea li i{
+    font-size:.2rem;
+}
+/*2018-06-13*/
+.table_list_new  thead tr th{
+    font-size:.24rem;
+}
+.table_list_new tbody tr td{
+    font-size:.22rem;
+}
+
+/*2018-06-13 字体加粗*/
+.ruleContent .ruleArea li,.giftTab thead tr th{
+    font-weight:bold;
+}
+.ruleContent p{
+    font-weight:normal;
+}

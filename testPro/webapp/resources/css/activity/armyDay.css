@@ -1,0 +1,100 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+.bg01 {
+  width: 100%;
+  height: 2.54rem;
+  background: url("../../image/activity/armyDay/body_bg01.png") no-repeat;
+  background-size: 100% 100%;
+}
+.bg02 {
+  width: 100%;
+  height: 3.06rem;
+  background: url("../../image/activity/armyDay/body_bg02.png") no-repeat;
+  background-size: 100% 100%;
+}
+.bg03 {
+  width: 100%;
+  height: 2.54rem;
+  background: url("../../image/activity/armyDay/body_bg03.png") no-repeat;
+  background-size: 100% 100%;
+}
+.bg04 {
+  width: 100%;
+  height: 3.22rem;
+  background: url("../../image/activity/armyDay/body_bg04.png") no-repeat;
+  background-size: 100% 100%;
+}
+.bg04 .entry_name {
+  width: 2.27rem;
+  height: .57rem;
+  background: url("../../image/activity/armyDay/name_bg.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  font-size: .3rem;
+}
+.bg04 input {
+  width: 100%;
+  height: 100%;
+  font-size: .3rem;
+  color: #070403;
+  text-align: center;
+}
+.bg04 input::-moz-placeholder {
+  color: #070403;
+}
+.bg04 input::-webkit-input-placeholder {
+  color: #070403;
+}
+.bg04 input:-ms-input-placeholder {
+  color: #070403;
+}
+.bg04 .entry_btn {
+  width: 3.36rem;
+  height: .53rem;
+  margin: .54rem auto 0;
+  background: url("../../image/activity/armyDay/btn.png") no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.loading {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  background: url("../../image/activity/armyDay/loading.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -1rem;
+  z-index: 3;
+}
+.overlay {
+  display: none;
+  background: #000;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.errormsg {
+  display: none;
+  width: 3.8rem;
+  padding: .38rem 0;
+  font-size: .18rem;
+  background-color: #000;
+  background: rgba(3, 3, 3, 0.6);
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-left: -1.9rem;
+  text-align: center;
+  z-index: 4;
+  color: #fff;
+  word-break: break-all;
+}

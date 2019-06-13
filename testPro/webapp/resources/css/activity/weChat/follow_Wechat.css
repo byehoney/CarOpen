@@ -1,0 +1,243 @@
+body{
+    background: #32075e;
+}
+.follow_Wechat{
+    max-width:640px;
+    margin:0 auto;
+    background:#32075e;
+}
+.follow_Wechat img{
+    display:block;
+}
+.banner img{
+    width:6.11rem;
+    margin: 0 auto;
+}
+.banner_cont img{
+    width:6.15rem;
+    margin: 0 auto;
+}
+.attention_icon{
+    width:2.54rem;
+    margin:.3rem auto 0;
+}
+
+.follow_Wechat_cont{
+    margin:.15rem .15rem 1.5rem;
+    overflow: hidden;
+}
+.hint_info>div{
+    font-size:.24rem;
+    color:#fff;
+    line-height:.3rem;
+    padding:.3rem 0 .21rem 0;
+    list-style-type:decimal;
+}
+.hint_info span{
+    width:4%;
+}
+.hint_info p{
+    width:90%;
+    text-align: justify;
+}
+.hint_info{
+    width:100%;
+    margin:0 auto;
+}
+.hint_info img{
+    width:100%;
+}
+.concern{
+    width:6.1rem;
+    height:.74rem;
+    background:url(../../../image/activity/weChat/concern.png) no-repeat;
+    background-size:100% 100%;
+    /*margin:.62rem auto .15rem;*/
+    position:fixed;
+    bottom:.15rem;
+    left:50%;
+    margin-left: -3.05rem;
+}
+.verify{
+    text-align: center;
+}
+.number_cont{
+    padding:0 .62rem .32rem .62rem;
+    border-radius:.05rem;
+    background:#481082;
+    position:relative;
+}
+.number_cont h3{
+    line-height:1.2rem;
+    font-size:.28rem;
+    color:#ebebeb;
+    margin-bottom:.15rem;
+}
+input:-moz-placeholder {
+    color: #8c49d0;
+}
+input::-moz-placeholder {
+    color: #8c49d0;
+}
+
+input:-ms-input-placeholder{
+    color:#8c49d0;
+}
+input::-webkit-input-placeholder{
+    color: #8c49d0;
+}
+.number_cont .txt,.number_cont li input {
+    display:block;
+    height: .65rem;
+    font-size: .24rem;
+    color:#fff;
+    background: #410e75;
+    text-indent:.22rem;
+    border-radius:.05rem;
+    border-top:.01rem solid #400e73;
+    border-bottom:.02rem solid #4f1c83;
+    border-left:.01rem solid #4f1c83;
+    border-right:.01rem solid #4f1c83;
+}
+.number_cont li input{
+    float:left;
+}
+.number_cont .txt{
+    width:99.5%;
+}
+
+
+.next_step{
+    width:100%;
+    height:.67rem;
+    line-height:.67rem;
+    background:url(../../../image/activity/weChat/draw_btn.png) no-repeat;
+    background-size:100% 100%;
+    margin:.64rem auto 0;
+    font-size:.3rem;
+    color:#32075e;
+    text-align: center;
+    cursor: pointer;
+}
+.verify p{
+    font-size:.2rem;
+    color:#8c49d0;
+}
+.verify p:first-of-type{
+    line-height:.8rem;
+    margin-bottom:.55rem;
+}
+.verify p:last-of-type{
+    line-height:.55rem;
+    margin-bottom:.07rem;
+}
+.logo img{
+    width:1.52rem;
+    margin:0 auto;
+}
+
+.verify li {
+    height:.66rem;
+    margin-bottom: .3rem;
+}
+
+.verify .verificationCode {
+    width:2.96rem;
+}
+.verify .pop_msg_count {
+    min-width: 1.8rem;
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+    border-radius: .06rem;
+    background: #8c49d0;
+    cursor: pointer;
+    float: right;
+    color: #ffe935;
+    font-size: .22rem;
+}
+.number_cont ul{
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    padding-top:.38rem;
+}
+.number_cont img {
+    width: 1.8rem;
+    height:.66rem;
+    float: right;
+    border-radius:.05rem;
+}
+.draw_btn{
+    margin-top:.2rem;
+}
+.errormsg {
+    display: n-one;
+    font-size: .18rem;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index:1;
+    font-size: .2rem;
+    color: #8c49d0;
+    word-break: break-all;
+}
+.follow_Wechat .number_cont li img {
+    display: inline-block;
+}
+
+/*弹窗*/
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+.employ_pop{
+    width:4.1rem;
+    text-align: center;
+    position: absolute;
+    top:41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#481082;
+    border-radius:.06rem;
+    z-index: 3;
+    padding:0 .2rem .28rem
+}
+.pop-up_cont{
+    padding-top:.52rem;
+}
+.pop-up_cont p{
+    line-height:.48rem;
+    font-size:.3rem;
+    color:#ffe935;
+}
+.open_app{
+    width:100%;
+    margin:.36rem auto 0;
+}
+.open_app a{
+    height:.82rem;
+    line-height:.67rem;
+    background:url(../../../image/activity/weChat/open_app.png) no-repeat;
+    background-size:100% 100%;
+    display: block;
+    cursor: pointer;
+}
+.rate_coupon{
+    width:3.52rem;
+    height:3.41rem;
+    background:url(../../../image/activity/weChat/rate_coupon.png) no-repeat;
+    background-size:100% 100%;
+    margin: 0 auto;
+}
+.step2{
+    z-index:22;
+}

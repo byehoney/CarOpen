@@ -1,0 +1,255 @@
+.deskCalenda_page{
+    max-width:750px;
+    margin:0 auto;
+}
+.deskCalenda_page img{
+    display:block;
+    width:  100%;
+}
+.w430{
+    width:4.3rem;
+}
+/*.redpacket_two{*/
+    /*display: none;*/
+/*}*/
+.redpacket,.redpacket_two,.deskCalenda_b{
+    position:relative;
+}
+.redpacket{
+	height:100%;
+    margin-top: -.26rem;
+}
+.redpacket_two{
+    height:100%;
+}
+.deskCalenda_c{
+    width:100%;
+	height:49.85%;
+    background:url(../../../image/activity/weChatTaili/bg_c.png) no-repeat;
+    background-size:100% 100%;
+}
+.redpacket .redpacket_count,.redpacket_two .redpacket_count,.tips{
+    width: 83%;
+    height: 93%;
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    transform: translate(-50%,0);
+}
+.redpacket .redpacket_count p{
+	height:2.4rem;
+    line-height:2.4rem;
+    text-align: center;
+    color: #212c4f;
+    font-size: .82rem;
+}
+.redpacket_two .redpacket_count p{
+    text-align: center;
+    color: #212c4f;
+    font-size: .82rem;
+}
+.redpacket .redpacket_count p>span{
+    font-size: 1.64rem;
+}
+
+.redpacket .redpacket_count>div,.redpacket_two .redpacket_count>div{
+    width: 78%;
+    line-height: .32rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: .26rem;
+    color: #fff;
+}
+.redpacket .redpacket_count>div{
+    left: 53%;
+	top: 77%;
+}
+.redpacket_two .redpacket_count>div{
+    top: 67%;
+    text-align: left;
+}
+.redpacket_count>div>em{
+    font-weight:bold;
+}
+.redpacket img,.redpacket_two img{
+    width:83%;
+    margin:0 auto;
+}
+.download_btn{
+    width:60%;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%,0);
+    cursor:pointer;
+}
+.download_btn>div{
+    width: 100%;
+    text-align: center;
+    font-size: .36rem;
+    font-weight:bold;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,0);
+    letter-spacing: .05rem;
+}
+
+.redpacket_two .redpacket_count{
+    top: 21%;
+    left:53%;
+    font-size: .64rem;
+}
+.redpacket_two .redpacket_count p>span{
+    font-size: 1.34rem;
+    font-weight:bold;
+}
+.redpacket_two .redpacket_count p>div{
+    bottom: 13%;
+    text-align: center;
+}
+.tips .smiling_face{
+    position: absolute;
+    left: 50%;
+    bottom: 13%;
+    transform: translate(-50%,0);
+}
+.tips{
+    width:46%;
+    height:76%;
+    top:24%;
+    left: 54%;
+    font-size:.26rem;
+    color:#212c4f;
+}
+.tips h3{
+    line-height:1;
+    margin-bottom:.3rem;
+    font-weight:bold;
+}
+.tips p{
+    line-height:.32rem;
+    font-size:.26rem;
+    color:#212c4f;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index:1;
+}
+.redpacket_pup{
+    text-align: center;
+    background:#fff;
+    position:fixed;
+    top:30%;
+    left:50%;
+    margin-left: -2.75rem;
+    z-index:2;
+}
+.deskCalenda_pupCount{
+    padding:.35rem .59rem .5rem;
+}
+.close_btn {
+    width: .38rem;
+    height: .38rem;
+    background: url(../../../image/activity/weChatTaili/close.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: .3rem;
+    top: .15rem;
+}
+.redpacket_pup h3 {
+    line-height: .8rem;
+    font-size: .28rem;
+    color: #333;
+}
+.redpacketDiv{
+    overflow: hidden;
+}
+.code{
+    height:.64rem;
+    background:#eee;
+    border:.01rem solid #999;
+    margin-bottom:.14rem;
+
+}
+.code input{
+    height:.64rem;
+    text-indent:.18rem;
+    font-size:.22rem;
+    color:#333;
+}
+.code .picture_code{
+
+    width:2.48rem;
+}
+.code img{
+    float:right;
+    width:1.81rem;
+    height:.64rem;
+    font-size:.22rem;
+    color:#333;
+    border-left:.01rem solid #999;
+}
+.code .send{
+    width:1.81rem;
+    text-align: center;
+    line-height:.64rem;
+    font-size:.2rem;
+    color:#333;
+    border-left:.01rem solid #999;
+}
+.next_step {
+    width: 100%;
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+    background: #ffc900;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:.16rem;
+}
+.next_step a{
+    display:block;
+    font-size:.28rem;
+    color:#1d1d1d;
+}
+.code .txt{
+    width:100%;
+    height:100%;
+}
+.errormsg{
+    display:none;
+    width: 3.8rem;
+    padding: .14rem 0;
+    font-size: .18rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .8);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -1.9rem;
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+    word-break: break-all;
+}
+.money span,.redpacket .redpacket_count p>sub{
+    vertical-align: bottom;
+}
+.money sub{
+	font-weight:bold;
+    vertical-align: text-top;
+}
+.download_btn>div.draw_btn{
+    font-size:.42rem;
+    top:20%;
+}
+

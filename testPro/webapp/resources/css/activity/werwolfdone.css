@@ -1,0 +1,118 @@
+html {
+  font-size: 625%;
+}
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 312.5% !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 350% !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 390.625% !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 417.9% !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 468.75% !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 546.875% !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 625% !important;
+  }
+}
+.page {
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #171a28;
+  overflow: hidden;
+}
+.ico_suc {
+  width: 1.34rem;
+  height: 1.34rem;
+  margin: 1.85rem auto 0;
+  background: url(../../image/activity/werwolfdone/ico_suc.png) no-repeat;
+  background-size: 100% 100%;
+}
+h3 {
+  font-size: .3rem;
+  color: #fff;
+  margin-top: .2rem;
+  margin-bottom: .32rem;
+  text-align: center;
+}
+.txt {
+  line-height: .38rem;
+  font-size: .24rem;
+  color: #bebebe;
+  text-align: center;
+}
+.con {
+  width: 4.43rem;
+  margin:.34rem auto 2.26rem;
+  padding-top: .86rem;
+  background-color: #5d627f;
+  border-radius: .1rem;
+  overflow: hidden;
+}
+.con_per{
+  width: 3.5rem;
+  margin: 0 auto;
+  font-size: .24rem;
+}
+.con_per p{
+  line-height: 1;
+}
+.con_per .strong_per{
+  width: 1.88rem;
+  text-align: center;
+  
+}
+.bold_per,.date_per{
+  font-size: .6rem;
+  color: #fff;
+}
+.bold_per i,.date_per i{
+   font-size: .24rem;
+}
+.per_txt{
+  color: #bebebe;
+  margin-top: .4rem;
+}
+.nor_date{
+  width: 1.28rem;
+  text-align: center;
+}
+a.btn{
+  width: 3.47rem;
+  height: .8rem;
+  margin: .44rem auto .22rem;
+  background: url(../../image/activity/werwolfdone/btn.png) no-repeat;
+  background-size: 100% 100%;
+  display:block;
+}
+.jumpto{
+  text-align: center;
+  color: #bebebe;
+  font-size: .24rem;
+  margin-bottom: .26rem;
+}
+.jumpto span{
+  color: #fff;
+}

@@ -1,0 +1,1209 @@
+html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
+    height: 100%;
+    font-family:PingFang SC,"Microsoft Yahei",Helvetica,sans-serif;
+}
+body{
+    background-color: #fff!important;
+}
+.swiperOne{
+    display: none;
+}
+.swiperOne>.swiper-wrapper>.swiper-slide{
+    background: url("../../../image/activity/zzrAnnals/bodyBg.png") no-repeat 0 0;
+    background-size: cover;
+}
+.header,.footer{
+    width: 100%;
+    height: 9.7%;
+    position: relative;
+}
+.header img{
+    width: 1.38rem;
+    height: .49rem;
+    position: absolute;
+    top: .27rem;
+    left:.4rem;
+}
+.footer .copyRight{
+    width: 2.41rem;
+    height: .51rem;
+    position: absolute;
+    bottom: .26rem;
+    left:.4rem;
+}
+.footer .nextBtn{
+    width: .32rem;
+    height: .14rem;
+    position: absolute;
+    right: .4rem;
+    bottom: .26rem;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    animation: moveNext .5s infinite alternate-reverse;
+    -moz-animation: moveNext .5s infinite alternate-reverse;
+    -webkit-animation: moveNext .5s infinite alternate-reverse;
+    -o-animation: moveNext .5s infinite alternate-reverse;
+}
+@keyframes moveNext{
+    from{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    to{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+}
+@-webkit-keyframes moveNext{
+    from{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    to{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+}
+
+.content{
+    height: 80.6%;
+    position: relative;
+}
+.content .contentHeader{
+    padding: .2rem 0 .28rem 0;
+    border-bottom: .01rem solid #e0e0e0;
+}
+.content h3{
+    font-size: .36rem;
+    color:#363391;
+    text-align: center;
+    letter-spacing: .08rem;
+    font-weight: bold;
+}
+.content .shareIcon{
+    display: none;
+    width: .44rem;
+    height: .44rem;
+    position: absolute;
+    top: .2rem;
+    right: .3rem;
+}
+/*slider one*/
+.one .cont{
+    padding-left: 1.34rem;
+    height: 80.6%;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.one .cont h3{
+    line-height: 1.16rem;
+    height: 1.16rem;
+    margin-top: 1.32rem;
+    font-weight: bold;
+}
+.one .cont h3 span{
+    font-size: .9rem;
+}
+.one .cont h3 em{
+    font-size: .5rem;
+}
+.one .cont p{
+    height: .74rem;
+    line-height: .74rem;
+    font-weight: bold;
+    font-size: .6rem;
+}
+.one .cont img{
+    width: 1.91rem;
+    height: 1.44rem;
+    margin-top: 1.1rem;
+}
+/*slider two*/
+.swiper-slide .content{
+    width: 87.5%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: .2rem;
+}
+.swiper-slide .contentDetails {
+    padding:.15rem .48rem;
+    color:#666;
+    font-size: .24rem;
+    height: 80%;
+}
+.two .contentDetails{
+    width: 100%;
+    padding:0;
+}
+.two .contentDetails .swiper-slide{
+    width: 80%;
+    height:auto;
+    margin:0 auto;
+    padding:.15rem 0;
+}
+.two .contentDetails .swiper-scrollbar,.three .swiper-scrollbar{
+    background-color: transparent;
+}
+.two .contentDetails .swiper-scrollbar-drag,.three .swiper-scrollbar-drag{
+    background-color: #d9dadd;
+}
+.two .contentDetails p{
+    line-height: .36rem;
+    text-indent: 1em;
+}
+.two .contentDetails p.divide{
+    margin-top: .25rem;
+}
+.two .contentDetails .end{
+    text-align: right;
+    margin-top:.25rem;
+}
+/*slider 3,14*/
+.thirteen .contentDetails{
+    padding:.38rem .44rem;
+}
+.three .contentDetails{
+    padding:0;
+}
+.three .swiper-slide{
+    width:85%;
+    height:auto;
+}
+.three .swiper-slide:last-child{
+    padding-bottom: .4rem;
+    height:auto;
+}
+.three .swiper-wrapper{
+    padding:.38rem .44rem;
+    height:auto;
+}
+.three .swiper-container,.thirteen .swiper-container{
+    width:100%;
+    height: 100%;
+}
+.three .axisList,.thirteen li{
+    position: relative;
+    margin-left: .13rem;
+    padding:0 .1rem .3rem .4rem;
+    box-sizing: border-box;
+}
+.thirteen .content{
+    overflow: hidden;
+}
+.thirteen li{
+    padding-bottom:.25rem;
+}
+.three .axisList:before,.thirteen li:before{
+    content: '';
+    display: block;
+    width:.18rem;
+    height:.18rem;
+    border: .05rem solid #ccc;
+    border-radius: 50%;
+    background-color: #8181e2;
+    position: absolute;
+    left:-.13rem;
+    top:.1rem;
+}
+.three .axisList h4,.thirteen li h4{
+    line-height:.4rem;
+    font-size: .3rem;
+    font-weight: bold;
+    color: #363391;
+}
+.three .axisList p,.thirteen li p{
+    line-height: .38rem;
+    font-size: .22rem;
+    color: #666;
+}
+/*slide four*/
+.four .contentDetails .nTitle{
+    text-align: center;
+    color:#363391;
+    font-weight: bold;
+}
+.four .dataBox{
+    padding-top: .26rem;
+}
+.four .dataBox img{
+    width: .98rem;
+    margin-bottom: .25rem;
+    margin-top:.72rem;
+}
+.four.swiper-slide-active .dataBox img{
+    animation:zoomIn 1s forwards;
+    -webkit-animation:zoomIn 1s forwards;
+}
+.four .dataBox li{
+    width: 50%;
+    float:left;
+    text-align: center;
+}
+.four .dataBox li .num{
+    font-size: .3rem;
+    color:#363391;
+    font-weight: bold;
+}
+.four .dataBox li .text{
+    font-size: .22rem;
+    color:#666;
+}
+.fourteen .swiper-container-horizontal>.swiper-pagination {
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+/*slide 5*/
+.five .sameDateChart{
+    width: 4.72rem;
+    height: 5.53rem;
+    position: relative;
+    margin:16.69% auto 0 auto;
+}
+.five .sameDateChart .rect2016,.five .sameDateChart .rect2017{
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.five.swiper-slide-active .rect{
+    animation: slideIn 1s forwards;
+    -webkit-animation: slideIn 1s forwards;
+}
+.five .sameDateChart .rect2016{
+    width: .58rem;
+    height: 2.12rem;
+    background-image: linear-gradient(#fb96fe 10%,#065dbe 100%);
+    border-top-left-radius: .29rem;
+    border-top-right-radius: .29rem;
+    position: absolute;
+    bottom: .54rem;
+    left:.52rem;
+}
+.five .sameDateChart .rect2017{
+    width: .58rem;
+    height: 4.66rem;
+    background-image: linear-gradient(#fb96fe 10%,#065dbe 100%);
+    border-top-left-radius: .29rem;
+    border-top-right-radius: .29rem;
+    bottom: .54rem;
+    right:1.03rem;
+    position: absolute;
+}
+.five .sameDateChart .yearBar{
+    width: 4.38rem;
+    height: .54rem;
+    background:url("../../../image/activity/zzrAnnals/yearBar.png") no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.five .sameDateChart .rect2016 span{
+    font-size: .3rem;
+    color:#363391;
+    display: inline-block;
+    width: 2.38rem;
+    text-align: center;
+    position: absolute;
+    top:-.44rem;
+    left: -.7rem;
+    font-weight: bold;
+}
+.five .sameDateChart .rect2017 span{
+    font-size: .3rem;
+    color:#363391;
+    display: inline-block;
+    width: 2.38rem;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: -.44rem;
+    left:-.86rem;
+}
+.five .sameDateChart .addRate{
+    width: 1.41rem;
+    height: .77rem;
+    background:url("../../../image/activity/zzrAnnals/addRate.png") no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    top: .8rem;
+    left: .4rem;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.five.swiper-slide-active .sameDateChart .addRate{
+    animation: slideIn 0.8s 1.3s forwards;
+    -webkit-animation: slideIn 0.8s 1.3s forwards;
+}
+.five .sameDateChart .addArrow{
+    width: 1.42rem;
+    height: 1.48rem;
+    background:url("../../../image/activity/zzrAnnals/addArrow.png") no-repeat 0 0;
+    background-size: 100%;
+    top: .58rem;
+    left: 1.14rem;
+    position: absolute;
+}
+.five .sameDateChart .addArrow .arrowOpc{
+    width:105%;
+    height:105%;
+    background-color: #fff;
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: center top;
+    -o-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+}
+.five.swiper-slide-active .addArrow .arrowOpc{
+    animation: slideOut 1.2s .8s forwards;
+    -webkit-animation: slideOut 1.2s .8s forwards;
+}
+
+/*slide six*/
+.six .tip{
+    margin-bottom: .5rem;
+}
+.six .dealData {
+    margin: 15% auto 0 auto;
+}
+.six .dealData li {
+    width: 50%;
+    text-align: center;
+}
+.six .dealData li.aveRate div {
+    width: 1.02rem;
+    height: .95rem;
+    background: url(../../../image/activity/zzrAnnals/aveRate.png) no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.six.swiper-slide-active .dealData li div,.ten.swiper-slide-active .topThree li,.eleven.swiper-slide-active .giftReward li div,.twelve.swiper-slide-active .risk li div,.fifteen.swiper-slide-active .mostTr img{
+    animation:zoomIn 1s forwards;
+    -webkit-animation:zoomIn 1s forwards;
+}
+.six .dealData li.aveTime div {
+    width: 1.02rem;
+    height: .95rem;
+    background: url(../../../image/activity/zzrAnnals/aveTime.png) no-repeat center center;
+    background-size: 90%;
+    margin: 0 auto;
+}
+.six .dealData li .num {
+    font-size: .3rem;
+    line-height:.44rem;
+    color: #ff165c;
+    font-weight: bold;
+    margin-top: .12rem;
+}
+.six .dealData li .text {
+    font-size: .24rem;
+    line-height:.44rem;
+    color: #363391;
+    font-weight: bold;
+    margin: .12rem auto .22rem auto;
+}
+/*slide seven*/
+.seven .contentDetails{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.seven .circleBox{
+    position: absolute;
+    width: 5.26rem;
+    height: 5.48rem;
+    top:8%;
+    left: 50%;
+    margin-left:-2.68rem;
+}
+.seven .pTypeData{
+    width: 5.26rem;
+    height: 5.48rem;
+    background: url("../../../image/activity/zzrAnnals/circleData.png") no-repeat 0 0;
+    background-size: 100% ;
+    margin:0 auto;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 2;
+    opacity: 0;
+}
+.seven  .ptypeCircle{
+    width: 3.1rem;
+    height: 3.1rem;
+    background:url("../../../image/activity/zzrAnnals/circle.png") no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    top:1.06rem;
+    left:.85rem;
+    z-index: 1;
+    opacity:0;
+}
+.seven.swiper-slide-active .ptypeCircle{
+    animation: rotateIn .65s forwards;
+    -webkit-animation: rotateIn .65s forwards;
+}
+.seven.swiper-slide-active .pTypeData,.seven.swiper-slide-active .pTypeRect{
+    animation: zoomOut .65s .65s forwards;
+    -webkit-animation: zoomOut .65s .65s forwards;
+}
+.seven .pTypeRect{
+    width: 1.2rem;
+    position: absolute;
+    right: .48rem;
+    bottom: .15rem;
+    opacity: 0;
+}
+.seven .pTypeRect li span{
+    line-height: .3rem;
+    font-size: .22rem;
+    color:#666;
+}
+.seven .pTypeRect li em{
+    display: inline-block;
+    width: .12rem;
+    height: .12rem;
+    margin-right: .24rem;
+    position: relative;
+    top: -.02rem;
+}
+.seven .pTypeRect li:nth-child(1) em{
+    background-color: #fec079;
+}
+.seven .pTypeRect li:nth-child(2) em{
+    background-color: #e895ef;
+}
+.seven .pTypeRect li:nth-child(3) em{
+    background-color: #fd7c86;
+}
+.seven .pTypeRect li:nth-child(4) em{
+    background-color: #8181e2;
+}
+@keyframes rotateIn{
+    0%{
+        opacity:0;
+        -webkit-transform:scale(0) rotate(-180deg) translateZ(1px);
+        transform:scale(0) rotate(-180deg) translateZ(1px)
+    }
+    80%{
+        opacity:1;
+        -webkit-transform:scale(1.1) rotate(10deg) translateZ(1px);
+        transform:scale(1.1) rotate(10deg) translateZ(1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:scale(1) rotate(0deg) translateZ(1px);
+        transform:scale(1) rotate(0deg) translateZ(1px)}
+}
+@-webkit-keyframes rotateIn{
+    0%{
+        opacity:0;
+        -webkit-transform:scale(0) rotate(-180deg) translateZ(1px);
+        transform:scale(0) rotate(-180deg) translateZ(1px)
+    }
+    80%{
+        opacity:1;
+        -webkit-transform:scale(1.1) rotate(10deg) translateZ(1px);
+        transform:scale(1.1) rotate(10deg) translateZ(1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:scale(1) rotate(0deg) translateZ(1px);
+        transform:scale(1) rotate(0deg) translateZ(1px)}
+}
+@keyframes zoomOut{
+    0%{
+        opacity:0;
+        -webkit-transform:scale(1.1) translateZ(1px);
+        transform:scale(1.1) translateZ(1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:scale(1) translateZ(1px);
+        transform:scale(1) translateZ(1px)}
+}
+@-webkit-keyframes zoomOut{
+    0%{
+        opacity:0;
+        -webkit-transform:scale(1.1) translateZ(1px);
+        transform:scale(1.1) translateZ(1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:scale(1) translateZ(1px);
+        transform:scale(1) translateZ(1px)}
+}
+/*slider 8*/
+.eight .contentDetails{
+    position: relative;
+}
+.eight .sexBox{
+    margin-top: .3rem;
+}
+.eight .female{
+    width: 1.06rem;
+    height: 1.03rem;
+    background:url("../../../image/activity/zzrAnnals/female.png") no-repeat 0 0;
+    background-size: 100%;
+    margin-right: .6rem;
+}
+.eight .male{
+    width: 1.07rem;
+    height: 1.08rem;
+    background:url("../../../image/activity/zzrAnnals/male.png") no-repeat 0 0;
+    background-size: 100%;
+    position: relative;
+    top: -.05rem;
+}
+.eight .ageChart{
+    width: 4.65rem;
+    height: 4.43rem;
+    position: absolute;
+    bottom:.47rem;
+    left: 50%;
+    margin-left:-2.325rem;
+}
+.eight .ageChart>div{
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+    border-top-left-radius: .29rem;
+    border-top-right-radius: .29rem;
+}
+.eight.swiper-slide-active .ageChart>div{
+    animation: slideIn 1s forwards;
+    -webkit-animation: slideIn 1s forwards;
+}
+.eight .ageChart div span{
+    font-size: .3rem;
+    font-weight: bold;
+    color:#ff165c;
+    position: absolute;
+    top:-.5rem;
+    left: -35%;
+}
+.eight .ageChart .before60{
+    width: .58rem;
+    height: .72rem;
+    background-color: #fcef7a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.eight .ageChart .after60{
+    width: .58rem;
+    height: 1.07rem;
+    background-color: #fec079;
+    position: absolute;
+    bottom: 0;
+    left: 1.03rem;
+}
+.eight .ageChart .after70{
+    width: .58rem;
+    height: 1.92rem;
+    background-color: #9aaffc;
+    position: absolute;
+    bottom: 0;
+    left: 2.05rem;
+}
+.eight .ageChart .after80{
+    width: .58rem;
+    height: 4.43rem;
+    background-color: #847efc;
+    position: absolute;
+    bottom: 0;
+    left:3.07rem;
+}
+.eight .ageChart .after90{
+    width: .58rem;
+    height: 3.69rem;
+    background-color: #fd7c86;
+    position: absolute;
+    bottom: 0;
+    left: 4.09rem;
+}
+.eight .ageBar{
+    width: 5.25rem;
+    height: .47rem;
+    background:url("../../../image/activity/zzrAnnals/ageBar.png") no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    margin-left: -2.625rem;
+}
+
+@keyframes slideIn {
+    from{
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+}
+@-webkit-keyframes slideIn {
+    from{
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+}
+@keyframes slideOut {
+    from{
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+    }
+}
+@-webkit-keyframes slideOut {
+    from{
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(0);
+        -webkit-transform: scaleY(0);
+    }
+}
+@keyframes zoomIn{
+    0%{
+        -webkit-transform:scale(0) translateZ(1px);transform:scale(0) translateZ(1px);opacity:0
+    }
+    80%{
+        -webkit-transform:scale(1.05) translateZ(1px);transform:scale(1.05) translateZ(1px);opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1) translateZ(1px);transform:scale(1) translateZ(1px);opacity:1
+    }
+}
+@-webkit-keyframes zoomIn{
+    0%{
+        -webkit-transform:scale(0) translateZ(1px);transform:scale(0) translateZ(1px);opacity:0
+    }
+    80%{
+        -webkit-transform:scale(1.05) translateZ(1px);transform:scale(1.05) translateZ(1px);opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1) translateZ(1px);transform:scale(1) translateZ(1px);opacity:1
+    }
+}
+/*slider nine*/
+.nine .content .title{
+    letter-spacing: .02rem;
+}
+.nine .contentDetails{
+    padding:.15rem .38rem;
+    position: relative;
+}
+.nine .map{
+    width: 5.03rem;
+    height: 4.16rem;
+    background:url("../../../image/activity/zzrAnnals/map.png") no-repeat 0 0;
+    background-size: 100%;
+    margin:.05rem auto 0 auto;
+    position: relative;
+}
+.nine .map span{
+    width: .39rem;
+    height: .48rem;
+    position: absolute;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.nine.swiper-slide-active .map span{
+    animation: fadeIn .3s forwards;
+    -webkit-animation: fadeIn .3s forwards;
+}
+.nine.swiper-slide-active .map span.beijing{
+    right:1.08rem;
+    top: 1.27rem;
+    background:url(../../../image/activity/zzrAnnals/beijing.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+.nine.swiper-slide-active .map span.jiangsu{
+    right:.7rem;
+    top: 1.92rem;
+    background:url(../../../image/activity/zzrAnnals/jiangsu.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: .75s;
+    animation-delay: .75s;
+}
+.nine.swiper-slide-active .map span.shandong{
+    right: .98rem;
+    top: 1.62rem;
+    background:url(../../../image/activity/zzrAnnals/shandong.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+}
+.nine.swiper-slide-active .map span.zhejiang{
+    right:.77rem;
+    top: 2.42rem;
+    background:url(../../../image/activity/zzrAnnals/zhejiang.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay:.3s;
+    animation-delay: .3s;
+}
+.nine.swiper-slide-active .map span.hebei{
+    right:1.46rem;
+    top: 1.61rem;
+    background:url(../../../image/activity/zzrAnnals/hebei.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: 1.05s;
+    animation-delay: 1.05s;
+}
+.nine.swiper-slide-active .map span.hubei{
+    right:1.52rem;
+    top: 2.24rem;
+    background:url(../../../image/activity/zzrAnnals/hubei.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: .45s;
+    animation-delay: .45s;
+}
+.nine.swiper-slide-active .map span.anhui{
+    right: 1.1rem;
+    top: 2.16rem;
+    background:url(../../../image/activity/zzrAnnals/anhui.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+.nine.swiper-slide-active .map span.liaoning{
+    right:.58rem;
+    top: 1rem;
+    background:url(../../../image/activity/zzrAnnals/liaoning.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: 1.35s;
+    animation-delay: 1.35s;
+}
+.nine.swiper-slide-active .map span.guangdong{
+    right: 1.3rem;
+    top: 2.99rem;
+    background:url(../../../image/activity/zzrAnnals/guangdong.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.nine.swiper-slide-active .map span.hunan{
+    right:1.46rem;
+    top: 2.6rem;
+    background:url(../../../image/activity/zzrAnnals/hunan.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+.nine .areaRate{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.nine .areaRate li{
+    width: 50%;
+    font-size: .22rem;
+    color:#363391;
+    text-align: center;
+    line-height:.43rem;
+    font-weight: bold;
+}
+.nine .areaRate li em{
+    color:#ff165c;
+    font-size: .3rem;
+}
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+        -webkit-transform:translate3d(0,-50%,1px);
+        transform:translate3d(0,-50%,1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:translate3d(0,0,1px);
+        transform:translate3d(0,0,1px)
+    }
+}
+@-webkit-keyframes fadeIn{
+    0%{
+        opacity:0;
+        -webkit-transform:translate3d(0,-50%,1px);
+        transform:translate3d(0,-50%,1px)
+    }
+    100%{
+        opacity:1;
+        -webkit-transform:translate3d(0,0,1px);
+        transform:translate3d(0,0,1px)
+    }
+}
+/*slider ten*/
+.ten .topThree{
+    width: 3.9rem;
+    margin:10% auto 4% auto;
+}
+.ten .contentDetails{
+    position: relative;
+}
+.ten .topThree li{
+    opacity:0;
+}
+.ten .topThree li:nth-child(1){
+    width: .96rem;
+    height: 1.56rem;
+    background:url("../../../image/activity/zzrAnnals/tainping.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.ten .topThree li:nth-child(2){
+    width: 1.21rem;
+    height: 1.93rem;
+    background:url("../../../image/activity/zzrAnnals/tianxie.png") no-repeat 0 0;
+    background-size: 100%;
+    margin-left: .4rem;
+    margin-top: -.34rem;
+}
+.ten .topThree li:nth-child(3){
+    width: .96rem;
+    height: 1.57rem;
+    margin-top: .02rem;
+    background:url("../../../image/activity/zzrAnnals/sheshou.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.ten .topThree li:nth-child(1){
+    -webkit-animation-delay: .25s;
+    animation-delay: .25s;
+}
+.ten .topThree li:nth-child(2){
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.ten .topThree li:nth-child(3){
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.ten .others{
+    width: 80%;
+    margin-left:10%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.ten .others img{
+    width: .77rem;
+    height: 1.47rem;
+}
+.ten .textBox{
+    position: absolute;
+    top: 37%;
+    width: 80%;
+    left:10%;
+}
+.ten .text{
+    text-indent: 1em;
+    line-height: .35rem;
+    margin-bottom: .2rem;
+}
+/*slider eleven*/
+.eleven .contentDetails{
+    position: relative;
+}
+.eleven .actBox{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+}
+.eleven .giftReward{
+    margin:2% auto 0 auto;
+}
+.eleven .giftReward li{
+    width: 50%;
+    text-align:center;
+}
+.eleven .giftReward li.rewardMoney div{
+    width: 1.03rem;
+    height: 1.01rem;
+    background: url("../../../image/activity/zzrAnnals/awardMoney.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.eleven .giftReward li.gift div{
+    width: .87rem;
+    height: .95rem;
+    background: url("../../../image/activity/zzrAnnals/gift.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin:.06rem auto 0 auto;
+}
+.eleven .giftReward li .num{
+    font-size: .3rem;
+    color:#ff165c;
+    font-weight: bold;
+    margin-top: .35rem;
+}
+.eleven .giftReward li .text{
+    font-size: .22rem;
+    color:#363391;
+    font-weight: bold;
+    margin:.12rem auto .22rem auto;
+}
+.eleven .tip{
+    font-size: .22rem;
+    color:#363391;
+    text-align:center;
+    font-weight: bold;
+}
+.eleven .actBox{
+    margin:0 auto;
+}
+.eleven .actBox li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: .22rem;
+    color:#363391;
+    font-weight: bold;
+}
+.eleven .actBox li .actName{
+    line-height: .38rem;
+}
+.eleven .actBox li .actImg{
+    width:2.39rem;
+    height: 1.35rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.eleven .actBox li .actImg.first{
+    background: url("../../../image/activity/zzrAnnals/5.18.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.eleven .actBox li .actImg.second{
+    background: url("../../../image/activity/zzrAnnals/birth.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.eleven .actBox li .actImg.third{
+    background: url("../../../image/activity/zzrAnnals/doubleDan.png") no-repeat 0 0;
+    background-size: 100%;
+}
+.eleven .actBox li .actImg.fourth{
+    background: url("../../../image/activity/zzrAnnals/iphone8.png") no-repeat 0 0;
+    background-size: 100%;
+}
+/*slider twelve*/
+.twelve .contentDetails{
+    position: relative;
+}
+.twelve .risk{
+    margin:2% auto 0 auto;
+}
+.twelve .risk li{
+    width: 50%;
+    text-align:center;
+}
+.twelve .risk li.riskNormal div{
+    width: 1.02rem;
+    height: .95rem;
+    background: url("../../../image/activity/zzrAnnals/riskNormal.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.twelve .risk li.riskBad div{
+    width: .95rem;
+    height: .95rem;
+    background: url("../../../image/activity/zzrAnnals/riskBad.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.twelve .risk li .num{
+    font-size: .3rem;
+    line-height:.44rem;
+    color:#ff165c;
+    font-weight: bold;
+    margin-top: .12rem;
+}
+.twelve .risk li .text{
+    font-size: .22rem;
+    line-height:.44rem;
+    color:#363391;
+    font-weight: bold;
+    margin:.12rem auto .22rem auto;
+}
+.twelve .textBox{
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    left:10%;
+}
+.twelve .text{
+    text-indent: 1em;
+    line-height: .35rem;
+    margin-bottom: .2rem;
+}
+
+/*slider fourteen*/
+.fourteen .contentDetails,.fourteen .presentBox{
+    position: relative;
+}
+
+.fourteen .tip{
+    font-size: .3rem;
+    color:#363391;
+    font-weight: bold;
+    margin:10% auto 10% auto;
+}
+.fourteen .prev,.fourteen .next{
+    position: absolute;
+    top:28%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: 55%;
+    background-image: url("../../../image/activity/zzrAnnals/swiperArrow.png");
+}
+.fourteen .prev{
+    left:.23rem;
+}
+.fourteen .next{
+    right:.23rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.fourteen .contentDetails h3{
+    font-size: .24rem;
+    color:#333;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: .44rem;
+    font-weight: bold;
+}
+.fourteen  .textBox p{
+    font-size: .22rem;
+    color:#666;
+    text-align: left;
+}
+.fourteen .presentSwiper{
+    text-align: center;
+}
+.fourteen  .presentBox img{
+    width: 4.64rem;
+    margin-bottom: .2rem;
+}
+/*slider 15*/
+.fifteen .contentDetails{
+    position: relative;
+    padding:0 .84rem;
+    height: 87%;
+    overflow: hidden;
+}
+.fifteen .mostTr{
+    margin-top:12%;
+    color: #363391;
+}
+.fifteen .mostTr img{
+    display: block;
+    width:.94rem;
+    margin:0 auto;
+}
+.fifteen .mostTr p{
+    text-align: center;
+    font-size: .3rem;
+}
+.fifteen .mostTr .mostTit{
+    line-height: .4rem;
+    font-weight: bold;
+    margin-top:.22rem;
+}
+.fifteen .mostNum{
+    line-height: .4rem;
+    margin-top:.1rem;
+    color: #ff165c;
+}
+.fifteen .mostNum span{
+    font-weight: bold;
+}
+.fifteen .mostNum em{
+    font-size: .22rem;
+}
+.fifteen .mostDes{
+    line-height: .32rem;
+    font-size: .22rem;
+}
+.fifteen .linkBtn{
+    margin-left:-2.32rem;
+    width:4.64rem;
+    height:.66rem;
+    line-height:.66rem;
+    font-size: .3rem;
+    position: absolute;
+    left:50%;
+    bottom:4%;
+    font-weight: bold;
+    text-align: center;
+    color: #f1f1f1;
+    background-color: #363391;
+    border-radius: .1rem;
+}
+.fs22{
+    font-size: .22rem!important;
+}
+.noWeixin{
+    display: none;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    top:7%;
+    font-size: .4rem;
+}

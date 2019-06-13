@@ -1,0 +1,184 @@
+html,body{
+    height:100%;
+}
+.main {
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    /*padding-bottom: 4rem;*/
+    background-size: 100% 100%;
+    font-size: .24rem;
+}
+.riskBox .askBox{
+    padding: .48rem .2rem 1rem .2rem;
+    font-size: .38rem;
+    color:#fff;
+    background:#298fe6 url("../../../image/activity/riskRate/logo.png") no-repeat 100% -0.25rem;
+    background-size: 1.42rem 1.84rem;
+    position: relative;
+}
+.riskBox .askBox .ask{
+    line-height: .7rem;
+}
+.riskBox .askBox .askPro{
+    position: absolute;
+    bottom:.2rem;
+    right:.16rem;
+    font-size: .28rem;
+}
+.riskBox .askBox .askPro span{
+    font-size: .36rem;
+}
+.main .qBox{
+    margin-top: .26rem;
+}
+.main .qBox li{
+    padding:.24rem .38rem .24rem .35rem;
+    position: relative;
+    overflow: hidden;
+    font-size: .3rem;
+    color:#666;
+    border-bottom: 1px solid #e4e4e4;
+}
+.main .qBox li.checkedLi{
+    background-color: #e9f4fc;
+}
+.main .qBox li:last-child{
+    border:none;
+}
+.qBox li .order{
+    margin-right: .33rem;
+    position: relative;
+    top:.05rem;
+}
+.riskBox .qText{
+    width:80%;
+    word-break: break-all;
+}
+.main .riskBox .qCheck{
+    width: .38rem;
+    height: .38rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -.19rem;
+    right: .38rem;
+    background: url("../../../image/activity/riskRate/circle.png") no-repeat;
+    background-size: 100%;
+}
+.main .riskBox .qCheck.checked{
+    background: url("../../../image/activity/riskRate/circleC.png") no-repeat;
+    background-size: 100%;
+}
+.riskBox .company{
+    position: fixed;
+    bottom:.35rem;
+    text-align: center;
+    width:100%;
+    font-size: .24rem;
+    color:#999;
+}
+
+.main .riskBox .preBtn,.main .riskBox .sendBtn,.main .riskBox .disableBtn,.resultBox .goInvest,.resultBox .reRate{
+    width: 5rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    color:#fff;
+    font-size: .3rem;
+    color:#298fe6;
+    border:.02rem solid #298fe6;
+    border-radius: .3rem;
+    letter-spacing: .08rem;
+    /*position: absolute;*/
+    /*bottom:1.26rem;*/
+    /*left:50%;*/
+    /*margin-left: -2.5rem;*/
+}
+.main .riskBox .sendBtn,.main .riskBox .disableBtn,.resultBox .goInvest{
+    background-color: #298fe6;
+    bottom:2.25rem;
+    color:#fff;
+    margin-bottom: .42rem;
+}
+.resultBox .typeBox{
+    height:2.18rem;
+    line-height: 2.18rem;
+    font-size: .38rem;
+    color:#fff;
+    background:#298fe6 url("../../../image/activity/riskRate/logo.png") no-repeat 100% -0.25rem;
+    background-size: 1.42rem 1.84rem;
+    position: relative;
+    text-align: center;
+}
+.resultBox .textBox{
+    padding:.34rem .8rem .34rem .65rem;
+    font-size: .3rem;
+    color:#666;
+}
+.resultBox .textBox p{
+    line-height: .55rem;
+}
+.tipBox{
+    margin:0 .25rem;
+    font-size: .26rem;
+    color:#298fe6;
+    border:1px solid #298fe6;
+    border-radius: .1rem;
+    padding:.21rem .21rem .3rem .21rem;
+    background-color: #f9f9f9;
+}
+.tipBox .title{
+    font-style: italic;
+}
+.tipBox .title span{
+    display: inline-block;
+    width:.08rem;
+    height:.08rem;
+    border-radius: 50%;
+    background-color: #298fe6;
+    position: relative;
+    top:-.1rem;
+    margin-right: .1rem;
+}
+.tipBox p{
+    line-height: .5rem;
+    margin-top: .28rem;
+}
+.riskBox,.resultBox{
+    height:100%;
+    position: relative;
+    /*min-height: 11.5rem;*/
+}
+.resultBox{
+    min-height: 11.5rem;
+    display: none;
+}
+.btnBox{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -2.5rem;
+}
+
+/*错误提示信息样式开始*/
+.err{
+    display: none;
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+/*错误提示信息样式结束*/

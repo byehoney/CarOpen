@@ -1,0 +1,187 @@
+.credit_page {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 1.26rem;
+}
+.credit_page .credit_cont {
+    margin: 0 .74rem;
+}
+.credit_page .header {
+    background: #227fe6;
+    padding: .44rem 0;
+}
+.header img {
+    display: block;
+    width: 2.16rem;
+    margin: 0 auto .22rem;
+}
+.header h3 {
+    text-align: center;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .36rem;
+    color: #fff;
+}
+.credit_page .leave {
+    padding: .6rem 0 .32rem;
+    line-height: .4rem;
+    font-size: .3rem;
+    color: #767e87;
+    border-bottom: 1px solid #e5e5e5;
+}
+.credit_page .user_info {
+    width: 100%;
+    overflow: hidden;
+}
+.user_info .txt {
+    display: block;
+    width: 100%;
+    height: .66rem;
+    background: #f0f0f0;
+    text-indent: .08rem;
+    color: #767e87;
+}
+.property .Choice {
+    font-size: .3rem;
+    color: #9ba1ab;
+    line-height: .5rem;
+}
+.property .Choice i {
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    margin-right: .1rem;
+    background: url("../../image/borrow/off.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.property .Choice i.on {
+    background: url("../../image/borrow/on.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.site_info .specific {
+    margin-top: .4rem;
+}
+.specific select {
+    display: block;
+    width: 100%;
+    height: .67rem;
+    margin-top: .24rem;
+    background: url(../../image/borrow/drop.png) no-repeat;
+    border: none;
+    outline: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    text-indent: .08rem;
+    color: #9ba1ab;
+    background-size: 100% 100%;
+}
+
+.user_info .err {
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #f0544c;
+    margin-top: .18rem;
+    visibility: hidden;
+}
+.user_info .submit_btn {
+    width: 100%;
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+    background: #227fe6;
+    font-size: .3rem;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.userName p,
+.property p {
+    padding-bottom: .1rem;
+}
+.userName p,
+.property p,
+.specific p {
+    line-height: .7rem;
+    font-size: .32rem;
+    color: #000;
+}
+.userName {
+    margin-top: .3rem;
+}
+.userName,
+.property,
+.specific {
+    padding: .12rem;
+}
+.user_info .red_border {
+    border: 1px solid #f05d56;
+}
+/*弹窗*/
+.overlay {
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+.popup {
+    width: 4.1rem;
+    border-radius: .05rem;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -2.05rem;
+    background: #fff;
+    text-align: center;
+    z-index: 3;
+    display: none;
+}
+.refer_cont {
+    padding: 1.2rem 0;
+    display: none;
+}
+.popup p {
+    font-size: .3rem;
+    color: #f05d56;
+}
+.popup .refer_cont p {
+    padding-bottom: .4rem;
+}
+.popup .relation {
+    line-height: .44rem;
+    font-size: .22rem;
+    color: #6e6e6e;
+}
+.popup .succeed_cont {
+    padding: 1.6rem 0 1.8rem;
+    display: none;
+}
+.popup .succeed_icon {
+    width: 1rem;
+    height: 1rem;
+    background: url("../../image/borrow/succeed_icon.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.closebtn {
+    width: .28rem;
+    height: .28rem;
+    background: url("../../image/borrow/closebtn.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .26rem;
+    right: .26rem;
+    cursor: pointer;
+}
+.succeed_cont p {
+    line-height: .58rem;
+    margin-top: .14rem;
+}

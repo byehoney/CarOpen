@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, button, input, textarea, th, td 
+body, button, input, select, textarea {padding:0;margin:0; font:.12rem microsoft YaHei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;}
+code, kbd, pre, samp, tt {font-family: "Courier New", Courier,monospace;}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;}
+ul, ol {list-style:none;}
+a{text-decoration:none;}
+abbr[title], acronym[title] {border-bottom:1px dotted;cursor:help;}
+q:before, q:after {content: '';}
+legend {color:#000;}
+fieldset {border:none;}
+img{border:none;vertical-align:top;}
+input{ padding:0; border:none 0; outline:none; background:none;}
+table{ border-collapse:collapse;text-align:center; vertical-align:middle;}
+button, input, select, textarea {font-size:100%;}
+table {border-collapse:collapse;border-spacing:0;}
+.clearfix:after{display:block;clear:both; content:'';}
+.clearfix{zoom:1;}
+.fl{ float:left; }
+.fr{ float:right;}
+html{font-size:625%;}
+@media only screen and (min-width: 320px){
+	html {
+		font-size: 312.5% !important;
+	}
+}
+@media only screen and (min-width: 401px){
+	html {
+		font-size: 390.625% !important;
+	}
+}
+@media only screen and (min-width: 428px){
+	html {
+		font-size: 417.9% !important;
+	}
+}
+@media only screen and (min-width: 481px){
+	html {
+		font-size: 468.75% !important; 
+	}
+}
+@media only screen and (min-width: 569px){
+	html {
+		font-size: 546.875% !important; 
+	}
+}
+@media only screen and (min-width: 641px){
+	html {
+		font-size: 625% !important; 
+	}
+}
+.compliance_page{width:100%;}
+.banner_t{width:100%;height:2.56rem;background:url(../../../resources/image/activity/compliance/bg_t.png) no-repeat top center;background-size:100% 100%;}
+.bg_content{width:100%;height:3.58rem;background:url(../../../resources/image/activity/compliance/bg_c.png) no-repeat top center;background-size:100% 100%;}
+.preface_cont{width:93.75%;height:3.44rem;background:url(../../../resources/image/activity/compliance/bg_center.png) no-repeat top center;background-size:100% 100%;margin:0 auto;-webkit-box-shadow:0 0 .5rem #e3e5e5;-moz-box-shadow:0 0 .5rem #e3e5e5;box-shadow:0 0 .5rem #e3e5e5;border-radius:.08rem;}
+.preface_cont h2{font-size:.2rem;font-weight:bold;letter-spacing:.1rem;color:#75a5dc;text-align:center;padding:.3rem 0 .15rem;}
+.preface_cont p{line-height:.28rem;font-size:.18rem;color:#333;padding:0 .2rem;letter-spacing:.01rem;}
+.preface_cont p.method_title{margin-top:.2rem;}
+.bg_b{width:100%;height:2.04rem;background:url(../../../resources/image/activity/compliance/bg_b.png) no-repeat top center;background-size:100% 100%;padding-top:.5rem;}
+.bg_b .date{width:4.04rem;height:.5rem;line-height:.5rem;text-align:center;font-size:.22rem;color:#fff;background-color:#71b8ec;margin:0 auto;letter-spacing:.02rem;}
+.bg_big{width:100%;background:url(../../../resources/image/activity/compliance/bg_big.png) no-repeat top center;background-size:100% 100%;}
+.table{width:93.75%;font-size:.2rem;margin:.1rem auto 0;-webkit-box-shadow:0 0 .5rem #e3e5e5;-moz-box-shadow:0 0 .5rem #e3e5e5;box-shadow:0 0 .5rem #e3e5e5;border-radius:.08rem;}
+.table tr{border-bottom:1px solid #e6f4fe;}
+.small_icon{width:.16rem;height:.16rem;background:url(../../../resources/image/activity/compliance/small_icon.png) no-repeat;background-size:.16rem;display:inline-block;margin-right:.1rem;vertical-align: middle;}
+.complete_icon{background-position:0 0;}
+.dealt_with_icon{background-position:0 -.24rem;}
+.schedule{border-left:1px solid #e6f4fe;}
+.table tr th{width:1.65rem;height:.77rem;font-size:.2rem;font-weight:bold;color:#75a5dc;text-align:center;}
+.table tr td{width:1.65rem;height:.99rem;color:#333;}
+.table tr td.mortgage{text-align:center;padding:0 .45rem;letter-spacing:.04rem;}
+.table tr td.gray{color:#b5b5b5;}
+
+
+
+

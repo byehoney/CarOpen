@@ -1,0 +1,330 @@
+
+html{font-size:625%}
+@media only screen and (max-width: 374px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 375px){
+    html {
+        font-size: 350% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+a:focus,input{outline:none;}
+html,body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);  
+-webkit-tap-highlight-color: transparent;
+}
+
+
+.page{
+	background-color: #ededed;
+}
+.top{
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffdc18;
+}
+.top_banner>div{
+	background-size: 100% 100%;
+}
+.top_banner01{
+	height: 1.14rem;
+	overflow: hidden;
+	background: url("../../image/activity/redPackets/top_banner_01.png") no-repeat center;	
+}
+.top_banner01 a{
+	display: block;
+	width: 3.47rem;
+	margin-top: 0.29rem;
+	margin-left: 0.24rem;
+}
+.top_banner02{
+	height: 1.52rem;
+	background: url("../../image/activity/redPackets/top_banner_02.png") no-repeat center;
+}
+.top_banner03{
+	height: 1.5rem;
+	background: url("../../image/activity/redPackets/top_banner_03.png") no-repeat center;
+}
+.red_packet{
+	background-color: #ededed;
+}
+.red_packet>div{
+	background-size: 100% 100%;
+}
+.red_packet01{
+	height: 1.84rem;
+	background: url("../../image/activity/redPackets/redpacket_01.png") no-repeat center;
+}
+.red_packet02{
+	height: 1.15rem;
+	background: url("../../image/activity/redPackets/redpacket_02.png") no-repeat center;
+	position: relative;
+}
+
+.red_packet03{
+	height: 1.95rem;
+	background: url("../../image/activity/redPackets/redpacket_03.png") no-repeat center;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+.btn{
+	display: block;
+	width: 4rem;
+	height: .8rem;
+	text-align: center;
+	font-size: .28rem;
+	margin:0 auto;
+	border-radius: .05rem;
+	box-shadow: 0 .02rem .04rem #d43d05;
+}
+.red_packet02 input{	
+	color: #666;
+}
+.red_packet03 a{	
+	background-color: #ffc31f;
+	color: #fff;
+	line-height: .8rem;
+}
+.red_packet03 p,.con_reason p{
+	font-size: .18rem;
+	line-height: .3rem;
+}
+.red_packet03 .pk_tip1{
+	margin-top: .11rem;
+	color: #fffabe;
+}
+.red_packet03 .pk_tip2{
+	color: #ffd4c5;
+}
+.con_reason{
+	margin:.14rem .12rem;
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.con_reason h2{
+	width: 2.66rem;
+	font-size: .32rem;
+	line-height: .46rem;
+	border-bottom: .02rem solid #fbcc34;
+	margin:0 auto;
+	margin-top: .37rem;
+}
+.con_reason ul{
+	margin: .5rem .77rem   .54rem;
+}
+.con_reason ul li{
+	margin-bottom: .91rem;
+}
+.pic{
+	width: 1.48rem;
+	height: 1.48rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+.txt{
+	width: 3.08rem;
+	float: right;
+	text-align: left;
+}
+.txt h3{
+	font-size: .32rem;
+	line-height: .68rem;
+}
+.txt p{
+	font-size: .24rem;
+	color: #666;
+}
+.rea_item1 .pic{
+	background-image: url("../../image/activity/redPackets/reason_bg01.png");	
+}
+.rea_item1 .txt h3{
+	color: #f57f7f;
+
+}
+.rea_item2 .pic{
+	background-image: url("../../image/activity/redPackets/reason_bg02.png");
+}
+.rea_item2 .txt h3{
+	color: #52b7c7;
+}
+.rea_item3 .pic{
+	background-image: url("../../image/activity/redPackets/reason_bg03.png");
+}
+.rea_item3 .txt h3{
+	color: #40bc90;
+}
+.rea_item4 .pic{
+	background-image: url("../../image/activity/redPackets/reason_bg04.png");
+}
+.rea_item4 .txt h3{
+	color: #f19347;
+}
+.con_reason a{	
+	background-color: #f74d0a;
+	color: #fff;
+	box-shadow: 0 .02rem .04rem #cbcbcb;
+	line-height:.8rem;
+}
+.con_reason .pk_tip1{
+	margin-top: .11rem;
+	color: #f8b551;
+}
+.con_reason .pk_tip2{
+	color: #f2a338;
+}
+.popup{
+	 display: none; 
+	width: 5.1rem;
+	height: 5.98rem;
+	background: url("../../image/activity/redPackets/popup.png") no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -2.99rem;
+	margin-left: -2.55rem;
+	text-align: center;
+	z-index: 60;
+}
+.popup input.btn{
+    margin: 1.04rem auto 0;
+	color: #333;
+
+}
+.pop_check_txt{
+	height: .66rem;
+	width: 4.02rem;
+	border-bottom: 1px solid #fff;
+	margin:.24rem auto 0;
+}
+.img-code {
+    vertical-align: middle;
+    cursor: pointer;
+    height: .53rem;
+    width: 1.28rem;
+    float: right;
+}
+.pop_check_msg{
+	height: .71rem;
+	width: 4.02rem;
+	border-bottom: 1px solid #fff;
+	margin:.19rem auto .45rem;	
+}
+
+.pop_msg_count{
+	line-height: .6rem;
+	padding:0 .18rem;
+	background-color: #9d1919;
+	font-size: .24rem;
+	color: #fff;
+	border-radius: .05rem;
+	float: right;	
+}
+input.pop_num{
+	width: 2rem;
+	margin-left: .2rem;
+	height: .6rem;
+	font-size: .28rem;
+	color: #fff;
+	float: left;
+	outline: none;
+	text-align: center;
+	background-color: #ce1817;
+}
+
+
+.popup a.btn{
+	background-color: #eca41a;
+	color: #fff;
+	line-height: .8rem;
+}
+.pop_agr{
+	margin-top: .32rem;
+	color: #fff;
+	font-size: .2rem;
+}
+.agree{
+	width: .17rem;
+	height: .17rem;
+	margin: .06rem .13rem 0 .82rem;
+	background-image: url("../../image/activity/redPackets/circle_off.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.pop_agron{
+	background-image: url("../../image/activity/redPackets/circle_on.png");
+}
+
+.pop_agr span{
+	float: left;
+}
+.pop_agr span a{
+	color: #fff;
+	font-size: .2rem;
+}
+#overlay{
+	background: #000;
+    opacity: 0.5;  
+  	display: none; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 50; 
+}
+.error_msg{
+	width: 3.8rem;
+	padding:.38rem 0; 
+	font-size: .18rem;
+	background-color:#ccc ;
+	background: rgba(3,3,3,.5);
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-left: -1.9rem;
+	text-align: center;
+	z-index: 70;
+	color: #fff;
+	word-break: break-all;
+}
+.error_msg p{
+	line-height: .36rem;
+}

@@ -1,0 +1,78 @@
+html{font-size:62.5%;}
+body,div,span,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,object,form,iframe,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0; -webkit-text-size-adjust:none;}
+body,button,input,select,textarea{ font-family: STHeiti,"Microsoft Yahei", tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img,a img,iframe,input{border:0 none;}
+img{width:100%; display: block;}
+address,caption,cite,code,dfn,em,s,i,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+.clearfix{zoom:1;}
+.clearfix:after{ display:block; clear:both; content:"";}
+input[type="button"],input[type="submit"],select,button{cursor:pointer;}
+a{text-decoration:none;color:#333;}
+.tg_banner{width:100%;}
+.tg_banner img {width:100%; display:block; border:none;}
+.zg_bg{width:98%; margin:auto; background:#f35f46; padding-top:20px; border-radius:8px;}
+.safety{padding:10px 0px 20px 0px;}
+.safety ul{width:100%;}
+.safety ul li{width:33%; float:left; font-size:1.4rem; text-align:center; border-right: 1px dotted #f5f5f5;}
+.safety ul li:last-child{border:none;}
+.safety ul li div{width:56px; height:56px; margin:auto; }
+.safety ul li .state_owned{background:url(../../image/static/activity/state_owned.png) no-repeat center center; background-size:70%;}
+.safety ul li .high_yield{background:url(../../image/static/activity/high_yield.png) no-repeat center center; background-size:70%;}
+.safety ul li .safe{background:url(../../image/static/activity/safe.png) no-repeat center center; background-size:70%;}
+.safety ul li span{color:#777; height:26px; display:block; font-size:16px;}
+.safety ul li p{color:#b7b7b7; font-size:13px;}
+.login{margin:0px 10px; padding-bottom:20px;}
+.login-bind-title{margin-bottom: 15px;padding-left: 3%;}
+.login-bind-title img{max-width: 25px;display: inline-block;vertical-align: middle;margin-right: 10px;}
+.phone_box,.password,.code_box{background:#fff; height:40px; position:relative; border-radius:4px; overflow: hidden;}
+.phone_box .phone_icon{float:left; width:12px; margin:11px 0 0 10px;}
+.password .password_icon{float:left; width:15px; margin:11px 0 0 10px;}
+.phone_box .phone_txt,.password .password_txt{margin:0px 10px 0px 30px; right:0px; position:absolute; left:0px; top:0px;}
+.phone_box .phone_txt input,.password .password_txt input ,.code_box .code_txt input{height:30px; font-size:14px; background: none; border:none; outline: none; margin-top:5px; width:100%;}
+.phone_box .success_icon{float:right; width:20px; margin:11px 10px 0 0px; display:none;}
+.password .password_icon{margin-top:12px;}
+.password .password_txt{margin: 0 4px 0 30px;}
+.password .clear_icon{width:20px; height:25px; float:right; margin-top:12px;display:none;}
+.password .toggle_icon{float:right; width:35px; height:40px;  padding-right:10px; background:url('../../image/toggle_closed.png') no-repeat left center; background-size:30px;}
+.password .toggle_open{background:url('../image/toggle_open.png') no-repeat left center; background-size:36px;}
+.password .icon_hr{  float: right;
+display:none;line-height: 40px;margin: 0 5px;color: #cecece;font-size: 17px;}
+.login_btn,.open_btn{ height:42px; width:100%; border-radius:5px; line-height: 40px; margin-top:35px; font-size:17px; text-align:center; letter-spacing: 5px; color: #fff; }
+.registration_btn{text-align:center;border-radius:4px; background:#ffed88;}
+.registration_btn a{color:#fe492a; text-decoration:none; font-size:18px; padding:10px 0; display: block;}
+.go-register{margin-top:10px;text-align: center;}
+.go-register a{color:#00b1eb; text-decoration: none;font-size: 15px;}
+.yzm_box{height:40px; position:relative; background:#fff; border-radius:4px;}
+.yzm_box .yzm_left{background: #fff; border-radius: 5px;position: relative; overflow: hidden;height: 40px;margin-right: 120px;}  
+  .yzm_box .yzm_right{width: 115px; position: absolute;right: 0px;top: 0px;height: 40px;overflow: hidden;} 
+.yzm_left .yzm_icon{width:14px; display:block; float:left; margin-top:13px; margin-left:10px;}
+.yzm_left .yzm_txt{ float:left; position: absolute; left:0px; top:0px; right:0px; margin:0px 10px 0 30px}
+.yzm_left .yzm_txt input{width:100%; height: 30px; font-size:14px; margin-top:5px; color:#cecece; line-height: 30px; background:none; border:none; outline: none;}
+.yzm_btn,.yzm_time{background:#ffed88; height:40px; text-align:center; line-height: 40px;}
+.yzm_btn a{text-decoration: none; color:#fd8010; font-size:15px; display: block;}
+.margin_box{min-height:30px; overflow:hidden;}
+.error,.yzm_ts{margin-top:10px; display:none; background: url('../../image/error_icon.png') no-repeat 10px center; background-size:18px; font-size:13px; line-height:30px; padding-left:33px; color:#fff;}
+.error{margin:0px;}
+.yzm_time{border:none; display:none; font-size:13px; height:42px; background: #cecece; line-height: 42px; text-align: center;}
+.yzm_ts{background:none; padding:0px; line-height:normal}
+.yzm_ts a{color:#00afeb}
+.xy_box input{vertical-align: middle;} 
+.monety_hint{background:url('../image/money_icon.png') no-repeat left center; background-size:23px; height:30px;line-height:30px;
+padding-left:9%; margin:0 20px; color:#f00;}
+.code_box .code_icon{width:18px; margin:12px 0 0 10px; float:left;}
+.code_box .code_txt{position:absolute; top:0px;left:0px; right:0px; margin: 0 10px 0 30px;}
+.code_box {display:none;}
+.tg_btn{width:93.7%; height:50px; position:relative; margin:45px auto 30px; background:#f35f46; text-align:center;}
+.tg_btn img{width:53.6%; height:50px; display:inline;}
+.tg_btn span{display: block;position:absolute; width:100%; line-height:52px;color:#ffed89; font-size:16px;}
+
+.presentation{width:87.6%; margin:auto; padding:30px 0px;}
+.presentation p{line-height:22px; font-size:15px; text-indent:2em; color:#666; font-weight:bold;}
+.tg_title{width:100%; border-bottom:1px solid #e0e0e0; margin:36px 0px 10px 0px;}
+.tg_title span{position:absolute; left:50%; margin:-12px 0px 0px -48px; font-size:18px; font-weight:bold; padding:0px 8px; background:#fff; color:#999;}
+.xy_box{font-size:13px; color:#fff;}
+.xy_box a{color:#fff; text-decoration:underline;}
+.footer{background:#353535;padding:20px 0px;}
+.footer p{font-size:12px; color:#fff; line-height:20px; text-align:center;}

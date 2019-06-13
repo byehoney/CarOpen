@@ -1,0 +1,348 @@
+html,body{
+    background-color: #3b2a66;
+
+}
+.main {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 4.87rem;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .activeDay {
+    position: absolute;
+    top: .8rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: .22rem;
+    color: #ffe88f;
+}
+
+.p_cont {
+    width: 100%;
+    color: #988ccf;
+}
+
+.p_cont .tabList {
+    background-color: #4a3580;
+}
+
+.p_cont .tabList ul {
+    margin: 0 auto;
+    width: 5.5rem;
+}
+
+.p_cont .tabList li {
+    width: 33.333%;
+    height: .6rem;
+    text-align: center;
+    float: left;
+}
+
+.p_cont .tabList li span {
+    display: block;
+    width: 1.4rem;
+    margin: 0 auto;
+    line-height: .59rem;
+    font-size: .28rem;
+    color: #988ccf;
+}
+
+.p_cont .tabList li span.active {
+    border-bottom: 1px solid #f3f292;
+    color: #f3f292;
+}
+
+.goldCoin,.countData{
+    height: .79rem;
+    width: 100%;
+    background-color: #3b2a66;
+    padding: .22rem 0 .22rem 0;
+
+}
+
+.goldCoin li,.countData li{
+    float: left;
+    text-align: center;
+    border-right: .02rem solid #231e3c;
+    box-sizing: border-box;
+}
+.goldCoin li{
+    width: 33.3%;
+}
+.countData li{
+    width: 50%;
+}
+
+.goldCoin li:last-child,.countData li:last-child {
+    border-right: none;
+}
+
+.goldCoin li span,.countData li span{
+    display: block;
+    line-height: 1;
+    font-size: .2rem;
+    color: #6c619f;
+    margin-top: .21rem;
+}
+
+.goldCoin li em,.countData li em {
+    display: block;
+    line-height: 1;
+    font-size: .3rem;
+    color: #988ccf;
+}
+
+.giftTab {
+    background-color: #402e6e;
+    overflow: hidden;
+}
+
+.giftTab li {
+    width: 33.33%;
+    height: 1.24rem;
+    border-right: .02rem solid #3b2a66;
+    border-bottom:.02rem solid #3b2a66;
+    box-sizing: border-box;
+    float:left;
+    display: none;
+}
+.giftTab li:nth-child(2) {
+    /*border-bottom:none;*/
+}
+
+.giftTab li .leftGift, .giftTab li .rightNum {
+    float: left;
+}
+
+.giftTab li .leftGift {
+    width: 75%;
+    text-align: center;
+}
+
+.giftTab li .leftGift .goldImg {
+    width: .79rem;
+    margin-top: .1rem;
+}
+.giftTab li .leftGift .watchTV {
+    width: 1.45rem;
+    margin-top: .22rem;
+}
+.giftTab li .leftGift .robot {
+    width: .93rem;
+    margin-top: .16rem;
+}
+.giftTab li .leftGift .machine {
+    width: 1.39rem;
+    margin-top: .2rem;
+}
+.giftTab li .leftGift .redBag {
+    width: .81rem;
+    margin-top: .1rem;
+}
+
+.giftTab li .rightNum {
+    width: 25%;
+    font-size: .24rem;
+    color: #f3f292;
+    margin-top: .92rem;
+}
+thead tr {
+    height: .6rem;
+    background-color: #4a3580;
+}
+thead td{
+    width: 33.333%;
+    font-size: .24rem;
+    color: #988ccf;
+}
+.tab_body {
+    overflow: auto;
+    background-color: #3b2a66;
+    padding-top: .17rem;
+    padding-bottom: .27rem;
+}
+.tab_body::-webkit-scrollbar-track {
+    background-color: #241843;
+}
+.tab_body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #241843;
+}
+.tab_body::-webkit-scrollbar-thumb {
+    background-color: #4a3580;
+    border-radius: 3px;
+}
+/*改需求后修改样式*/
+.myInvite thead td,.myInvite tbody td{
+    width:24%;
+}
+.myInvite .tipBox{
+    width:30%;
+}
+.myInvite .btn_td{
+    width:46%;
+}
+.myInvite tbody .isInvest{
+    width:30%;
+}
+.myInvite tbody .tip_btn{
+    width:46%;
+}
+.myInvite .tab_body .shareBtn{
+    margin-right: .12rem;
+}
+tbody tr {
+    line-height: .6rem;
+}
+tbody td {
+    width: 33.333%;
+    font-size: .24rem;
+}
+.myInvite .tab_head tr td:nth-child(2){
+    position: relative;
+}
+.myInvite .tab_head i.tips{
+    position: absolute;
+    top: .2rem;
+    right: .24rem;
+    width: .22rem;
+    height: .22rem;
+    vertical-align: bottom;
+    cursor: pointer;
+    background: url(../../../image/activity/ruffian/exclamation.png) no-repeat;
+    background-size: 100% 100%;
+}
+.myInvite .tab_head .cueTips {
+    display: none;
+    width: 1.45rem;
+    height: .38rem;
+    line-height: .38rem;
+    text-align: center;
+    background-color: #988ccf;
+    color: #19152b;
+    font-size: .18rem;
+    border-radius: .06rem;
+    position: absolute;
+    top: -.2rem;
+    right: -1.05rem;
+}
+.myInvite .tab_body tr td a{
+    display: inline-block;
+    width: 1.35rem;
+    height: .42rem;
+    line-height: .42rem;
+    text-align: center;
+    font-size: .2rem;
+    border-radius: .05rem;
+    margin: 0 auto;
+}
+.myInvite .tab_body tr td a.earmTd,.myInvite .tab_body tr td a.earmTdApp,.myInvite .tab_body tr td a.infoTdApp,.myInvite .tab_body tr td a.infoTd{
+    background-color: #988ccf;
+    color: #19152b;
+}
+.myInvite .tab_body tr td a.investTd,.myInvite .tab_body tr td a.investTd{
+    background-color: #4a3580;
+    color: #988ccf;
+}
+.noData{
+    font-size: .24rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.hide{
+    display: none;
+}
+
+/*弹框样式*/
+.overlay {
+    display: none;
+    background: #000;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.remind{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    width: 4.9rem;
+    height: 4rem;
+    margin-top: -2rem;
+    margin-left: -2.45rem;
+    background-color: #3b2a66;
+    border-radius: .05rem;
+}
+.remind p{
+    font-size: .24rem;
+    color: #988ccf;
+    text-align: center;
+    line-height: 1;
+    margin: .2rem 0 .12rem 0;
+}
+.remind .copyContent{
+    width: 4.4rem;
+    height: 2.16rem;
+    margin: 0 auto;
+    padding: .24rem .1rem 0;
+    background-color: #241843;
+    border-radius: .05rem;
+    font-size: .22rem;
+    color: #988ccf;
+    line-height: .4rem;
+    word-break: break-all;
+    -webkit-touch-callout: auto;
+    -webkit-user-select: auto;
+    -khtml-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+.remind .btn{
+
+    width: 1.8rem;
+    height: .57rem;
+    line-height: .57rem;
+    text-align: center;
+    margin: .24rem auto 0;
+    background-color: #f3f292;
+    border-radius: .05rem;
+    font-size: .24rem;
+    color: #1d1532;
+}
+
+.err {
+    display: none;
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}

@@ -1,0 +1,65 @@
+/* pages/detail/detail.wxss */
+@import "../../utils/wxParse/wxParse.wxss";
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+video{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin:0;
+  display: block;
+}
+.des{
+  position: fixed;
+  bottom:82rpx;
+  width: 90%;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.des .des_title{
+  width: 420rpx;
+  font-size: 38rpx;
+  color: #fff;
+  letter-spacing: 4rpx;
+  line-height: 53rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.des .des_fun{
+  display: flex;
+  align-self:flex-start;
+}
+.des .des_fun .line{
+  width: 4rpx;
+  height: 30rpx;
+  background-color: #3AD48B;
+  margin-right: 35rpx;
+  align-self:center;
+}
+.des .des_icon{
+  width: 51rpx;
+  height: 51rpx;
+  margin-right: 12rpx;
+}
+.des .des_text{
+  font-size: 24rpx;
+  color: #45C45D;
+  letter-spacing: 2.53px;
+  align-self:center;
+}

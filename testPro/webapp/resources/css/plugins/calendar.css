@@ -1,0 +1,121 @@
+/*
+  // 蓝色调
+  主色调【字体颜色】： #000000
+  背景颜色：           #b2e3f2
+  辅助颜色：           #
+  选中背景色：         #
+  划过/点击时背景色：  #
+*/
+.calendarBox{
+  background-color: #b2e3f2;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+}
+.calendarBox .calendarHead{
+  padding: 10px 5% 0;
+  text-align: center;
+  position: relative;
+}
+.calendarBox .calendarHead .titleName{
+  display: inline-block;
+  font-size: 18px;
+}
+.calendarBox .calendarHead > i{
+  position: absolute;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px rgba(255, 255, 255, 0) solid;
+}
+.calendarBox .calendarHead > i:active:after{
+  border-left: 1px #39c7f2 solid;
+  border-bottom: 1px #39c7f2 solid;
+}
+.calendarBox .calendarHead > i:after{
+  content: '';
+  position: absolute;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-left: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  cursor: pointer;
+}
+.calendarBox .calendarHead .switchMonthPrev{
+  left: 10px;
+}
+.calendarBox .calendarHead .switchMonthPrev:after{
+  left: 9px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.calendarBox .calendarHead .switchMonthNext{
+  right: 10px;
+}
+.calendarBox .calendarHead .switchMonthNext:after{
+  right: 9px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.calendarBox .calendarListView{
+  
+}
+.calendarBox .tableHead{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  padding:10px 0;
+  border-bottom: 1px #77d5f2 solid;
+  margin-bottom: 5px;
+}
+.calendarBox .tableHead > div{
+  -webkit-box-flex: 1;
+  -webkit-flex:1;
+  flex:1;
+}
+.calendarBox .calendarListView{
+  overflow: hidden;
+}
+.calendarBox .calendarListView .datesListBox{
+  overflow: hidden;
+  position: relative;
+  left: -320px;
+}
+.calendarBox table{
+  width: 100%;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  text-align: center;
+  float: left;
+}
+.calendarBox table td{
+  padding:2px 0;
+}
+.calendarBox table td > span:not(.emptyContent){
+  border-radius: 100%;
+  display: inline-block;
+  border: 1px #b2e3f2 solid;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.calendarBox table td > span:not(.emptyContent):active{
+  
+}
+.calendarBox .tableHead .weekend,
+.calendarBox table td > span.weekend{
+  color: #00aeef;
+}
+.calendarBox table td > span.activeSelect{
+  background-color: #fff;
+}
+.calendarBox table td > span.today{
+  color: #fff;
+  background-color: #39c7f2;
+}
+.calendarBox table td > span.special-date{
+  border: 1px #fff solid;
+}

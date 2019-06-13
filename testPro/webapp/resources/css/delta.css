@@ -1,0 +1,39 @@
+body{background:#f6f6f6;}
+.delta{margin:0 10px;}
+.del_title{ color:#919191; font-weight: normal; margin-top:20px; font-size:13px;}
+.money_num{background: #fff; padding:0 10px; border:1px solid #e8e8e8; height:40px; font-size:13px; border-radius:5px;margin-top:10px; line-height:40px;}
+.money_num input{width:100%; outline:none;}
+.bank_ka,.ka_user{color:#919191; line-height: 35px; font-size:14px; overflow: hidden;}
+.ka_user{margin-top:20px;}   
+.bank_ka span,.ka_user span{display:block; float:left; margin-right:10px;}
+.bank_ka div,.ka_user div{float:left; color:#3b3b3b;}
+.delta_ts{background: url('../../resources/image/error_icon.png') no-repeat left center; background-size:15px; height:20px; line-height: 20px;
+    padding-left:20px; font-size:.8em; margin-top:10px; color:#919191;
+}
+.delta_btn{height:40px; background:#fd8010; text-align: center; line-height: 40px; border-radius:5px; color:#fff; letter-spacing: 5px; font-size:20px; margin-top:30px;}
+.delta_gz{font-size:14px; text-align: right;margin-top:10px;}
+.delta_gz a{color:blue; display:block; text-decoration:underline; color:#00afeb}
+.delta_icon{width:30%; margin:80px auto 0;}
+.delta_chzhi{font-size:20px; text-align:center; margin-top:33px;}
+.delta_jine{font-size:16px; text-align: center; margin-top:10px;}
+.delta_jine span{font-size:26px; color:#ff3514;}
+.delta_back{margin-top:50px; text-align: center;}
+.delta_back a{color:#00afeb; text-decoration: none; text-decoration:underline;}
+.money_wrong{line-height:20px; display:none;background: url('../../resources/image/error_icon.png') no-repeat left center; background-size:15px; font-size:12px; padding-left:20px}
+.bank_select{height:40px; position:relative; border:1px solid #e8e8e8; border-radius:5px; background:#fff; margin-top:20px; line-height:40px;}
+.select_title{overflow:hidden;}
+.w90{width:91%;}
+.bank_icon{width:17px; margin:12px 3px 0 5px; float:left;}
+.bank_name{font-size:13px;}
+.bank_js{font-size:12px;}
+.t_right{float:right; height:40px;}
+.t_right a{  display: block;
+    width: 10px;
+    margin-top: 11px;
+    margin-right: 7px;
+    border-left: 1px solid #d2d2d2;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+}
+.select_list{position:absolute; background: #fff; width:100%; display: none; overflow:auto; height:250px;}

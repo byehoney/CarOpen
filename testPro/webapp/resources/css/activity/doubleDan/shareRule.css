@@ -1,0 +1,94 @@
+.main {
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    background:url("../../../image/activity/doubleDan/friendBg.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    font-size: .22rem;
+    color:#fff;
+}
+.ruleHeader{
+	width: 100%;
+	height: 1.16rem;
+	background: url("../../../image/activity/doubleDan/rullScreen.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.title{
+	text-align: center;
+	font-size: .36rem;
+	color:#fefefe;
+	padding-top: .15rem;
+	padding-bottom: .25rem;
+}
+.ruleBox{
+	padding:0 .6rem 0 .6rem;
+}
+.ruleBox p{
+	font-size: .24rem;
+	overflow: hidden;
+	line-height: .4rem;
+	margin-bottom: .13rem;
+}
+.ruleBox .numBox{
+	width: 3%;
+	text-align: left;
+	margin-right: 3%;
+	float: left;
+}
+.ruleBox .wordBox{
+	width: 94%;
+	float: left;
+	text-align: justify;
+}
+.ruleGiftBox{
+	width: 100%;
+	margin:0 auto;
+	overflow: hidden;
+	margin-bottom: .13rem;
+	padding-left: 6%;
+}
+.ruleGiftBox ul{
+	float:left;
+	text-align: center;
+	line-height: .5rem;
+	text-align: center;
+	border:1px solid #fff ;
+}
+.ruleGiftBox ul li{
+	border-bottom: 1px solid #fff;
+}
+.ruleGiftBox ul li:last-child{
+	border-bottom:none;
+}
+.ruleGiftBox .goodsTitle{
+	background-color: #fff;
+	color:#000;
+}
+.ruleGiftBox ul.giftTitle{
+	width: 40%;
+	margin-right: .01rem;
+}
+.ruleGiftBox ul.giftContent{
+	width: 54%;
+}
+.example{
+	font-size: .3rem;
+	color:#fff;
+	margin:0.18rem 0 0.08rem 0;
+	font-weight: bold;
+}
+.ruleBox .wordLast{
+	margin-bottom: .52rem;
+}
+/*活动规则样式结束*/
+.overlay {
+	background: #000;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+}

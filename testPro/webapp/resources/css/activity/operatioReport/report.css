@@ -1,0 +1,891 @@
+html, body, .swiper-container, .swiper-wrapper, .swiper-slide{
+	height: 100%;
+}
+.swiper-slide.swiper-slide-one{
+	background: url("../../../image/activity/operatioReport/report_bg.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	position: relative;
+}
+.swiper-slide-one .logo{
+	width: 1.66rem;
+	height: .57rem;
+	background: url('../../../image/activity/operatioReport/report_logo.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	margin:.72rem 0 0 .45rem;
+}
+.swiper-slide-one .title{
+	width: 4.06rem;
+	height: 2.41rem;
+	background:url("../../../image/activity/operatioReport/report_title.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom:20%;
+	left: 1.24rem;
+}
+.swiper-slide-one .arrow{
+	width: .61rem;
+	height: .53rem;
+	background:url('../../../image/activity/operatioReport/down_arrow.png') no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 5%;
+	left:50%;
+	margin-left: -.305rem;
+	animation: moveNext .5s infinite alternate-reverse;
+}
+@keyframes moveNext{
+    from{transform: translateY(0);}
+    to{transform: translateY(5px);}
+}
+
+/*第二页样式*/
+.swiper-slide.main{
+  background: -webkit-linear-gradient(#6caaf9,#3a62ed, #122ae2); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#6caaf9,#3a62ed,  #122ae2); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#6caaf9,#3a62ed,  #122ae2); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#6caaf9, #3a62ed, #122ae2); /* 标准的语法 */
+  position: relative;
+}
+.swiper-slide.main .dot_bg{
+	width: .51rem;
+	height: .51rem;
+	background:url("../../../image/activity/operatioReport/dot.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 2;
+}
+.swiper-slide.main .dot_bg.dot_one{
+	top:1.5%;
+	left:6%;
+}
+.swiper-slide.main .dot_bg.dot_two{
+	right: -3.1%;
+	top:46%;
+}
+.swiper-slide.main .dot_bg.dot_three{
+	bottom:1.5%;
+	left:41.33%;
+}
+.swiper-slide.main .content{
+	width: 95%;
+	height: 92%;
+	background-color: #fff;
+	position: absolute;
+	top: 4%;
+	left: 2.5%;
+	z-index: 1;
+	border-radius: .05rem;
+	font-size: 0;
+}
+.content .content_title{
+	margin-top: 5%;
+	margin-left: 4.2%;
+}
+.content .content_title.title_01{
+	width: 82%;
+}
+.content .total_scan{
+	width: 78.7%;
+	margin:6.9% auto 0;
+	display: block;
+}
+.content img{
+	display: inline-block;
+}
+.content .content_title.title_02{
+	width: 45%;
+}
+.content .content_title.title_03{
+	width: 57.6%;
+}
+.content .content_title.title_04{
+	width: 38.6%;
+}
+.content .content_title.title_05{
+	width:53.86%;
+}
+.content .content_title.title_09{
+	width: 34.4%;
+}
+ /*02-成交规模样式*/
+.scale_chart_box{
+	margin-top: 2%;
+	position: relative;
+	height: 80%;
+}
+.scale_chart_box h3{
+	font-size: .28rem;
+	color:#7d9cc3;
+	text-align: center;
+}
+.scale_chart_box .date{
+	width: 2.87rem;
+	font-size: .28rem;
+	color:#95b5dd;
+	text-align: center;
+	margin:0 auto;
+	position: absolute;
+	bottom: -7%;
+	left: 26.5%;
+}
+.scale_chart .rect{
+	width: .7rem;
+	position: relative;
+	-webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.swiper-slide-three.swiper-slide-active .rect {
+    animation: slideIn 1s 0.5s forwards;
+}
+.scale_chart .rect span{
+	position: absolute;
+	font-size: .26rem;
+	color:#95b5dd;
+	width: 1.5rem;
+	top: -.4rem;
+	left: -.3rem;
+}
+.scale_chart .rect.Q1_left{
+	height: 37%;
+	background-image:linear-gradient(#a173e4 50%,#757cdd 100%);
+	position: absolute;
+	bottom:0;
+	left: .14rem;
+}
+.scale_chart .rect.Q1_right{
+	height: 82.34%;
+	background-image:linear-gradient(#fd8461 10%,#f5575e 100%);
+	position: absolute;
+	bottom: 0;
+	right: .2rem;
+}
+.scale_chart {
+	width: 2.6rem;
+	position: absolute;
+	height: 76%;
+	bottom: 8%;
+	left: 50%;
+	margin-left: -1.3rem;
+	border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+.scale_chart  .rate{
+	font-size: .24rem;
+	color:#f5555d;
+	position: absolute;
+	-webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -ms-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+.swiper-slide-three.swiper-slide-active .scale_chart  .rate {
+    animation: slideIn 0.8s 1.3s forwards;
+}
+.scale_chart_one,.scale_chart_two{
+	height: 44%;
+	position: relative;
+}
+.scale_chart_one .rate{
+	left: -7%;
+	top: 29%;
+}
+.scale_chart_two .rate{
+	top: 29%;
+	left: -8%;
+}
+.scale_chart .up_arrow{
+	width: .57rem;
+	height: .55rem;
+	background:url("../../../image/activity/operatioReport/up_arrow.png") no-repeat 0 0;
+	background-size: 100%;
+	position: absolute;
+}
+.scale_chart .up_arrow .arrowOpc{
+	width: 105%;
+    height: 105%;
+    background-color: #fff;
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: center top;
+    -o-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+}
+.swiper-slide-three.swiper-slide-active .scale_chart .up_arrow .arrowOpc{
+	animation: slideOut 1.2s .8s forwards;
+}
+.scale_chart_one .up_arrow{
+	top: 26%;
+	left: 36%;
+}
+.scale_chart_two .up_arrow{
+	top: 28%;
+	left: 39%;
+}
+.scale_chart_box .divide{
+	width: 47%;
+	height: .02rem;
+	margin: 7% auto 3%;
+	background: url('../../../image/activity/operatioReport/line.png') no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.levalbox{
+	font-size: .24rem;
+	color:#95b5dd;
+	margin-top: 5%;
+}
+.levalbox .leval_left{
+	margin-left: 15.6%;
+}
+.levalbox .leval_right{
+	margin-right: 15.6%;
+}
+.levalbox i{
+	display: inline-block;
+	width: .2rem;
+	height: .2rem;
+	margin-right:.12rem;
+}
+.levalbox .leval_left i{
+	background-image: linear-gradient(#a173e4 50%,#757cdd 100%);
+}
+.levalbox .leval_right i{
+	background-image: linear-gradient(#fd8461 10%,#f5575e 100%);
+}
+@keyframes slideIn {
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
+@keyframes slideOut {
+    from{
+        transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(0);
+    }
+}
+@keyframes transIn {
+	from{
+		transform: scaleX(1);
+	}
+	to{
+		transform: scaleX(0);
+	}
+}
+@keyframes zoomIn{
+    0%{
+        -webkit-transform:scale(0) translateZ(1px);transform:scale(0) translateZ(1px);opacity:0
+    }
+    80%{
+        -webkit-transform:scale(1.05) translateZ(1px);transform:scale(1.05) translateZ(1px);opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1) translateZ(1px);transform:scale(1) translateZ(1px);opacity:1
+    }
+}
+.swiper-slide .Q1_icon {
+	width: 1rem;
+	height: .56rem;
+	background: url(../../../image/activity/operatioReport/Q1_icon.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -1%;
+	right: .3rem;
+	z-index: 8;
+}
+.swiper-slide-four .circleBox {
+	position: absolute;
+	width: 6.18rem;
+	height: 70%;
+	left: 50%;
+	margin-left: -3.09rem;
+}
+.circleBox div{
+	height: 40%;
+	position: relative;
+}
+.circleBox .distribute_top{
+	top: 6%;
+}
+.circleBox .distribute_bottom{
+	top: 9%;
+}
+.swiper-slide-four.swiper-slide-active .pTypeData,.swiper-slide-four.swiper-slide-active .pTypeRect,.swiper-slide-four.swiper-slide-active .distribute_bottom .pTypeData{
+	animation: zoomOut .65s 1s forwards;
+	-webkit-animation: zoomOut .65s 1s forwards;
+}
+.swiper-slide-four.swiper-slide-active .pTypeRect,.swiper-slide-four.swiper-slide-active .distribute_top .ptypeCircle,.swiper-slide-four.swiper-slide-active .distribute_bottom .ptypeCircle,.swiper-slide-four.swiper-slide-active .sex_cont .ptypeCircle{
+	animation: rotateIn .65s .65s forwards;
+	-webkit-animation: rotateIn .65s .65s forwards;
+}
+.swiper-slide-active .big_firstPrize img,.swiper-slide-active .user_list li img{
+    animation: rotateIn .65s  forwards;
+    -webkit-animation: rotateIn .65s  forwards;
+ }
+.swiper-slide-four .distribute_top .pTypeData {
+    width:92%;
+    height: 1.88rem;
+    background: url(../../../image/activity/operatioReport/circleData.png) no-repeat 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    margin-left: -46%;
+    z-index: 2;
+    opacity: 0;
+
+}
+.swiper-slide-four .distribute_top .ptypeCircle {
+    width: 46%;
+    height: 2.94rem;
+    text-align: center;
+    background: url("../../../image/activity/operatioReport/circle.png") no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    top: -4%;
+    left: 51%;
+    margin-left: -23%;
+    z-index: 3;
+    opacity: 0;
+
+}
+.distribute_top .ptypeCircle p,.distribute_bottom .ptypeCircle p,.sex_cont .ptypeCircle p{
+    font-size:.28rem;
+    color:#81a1c8;
+    opacity: 0;
+}
+.swiper-slide-four.swiper-slide-active .distribute_top .ptypeCircle p,.swiper-slide-four.swiper-slide-active .distribute_bottom .ptypeCircle p,.swiper-slide-four.swiper-slide-active .sex_cont .ptypeCircle p{
+    animation: lightIn 0.5s linear 1.2s forwards;
+    -webkit-animation:lightIn 0.5s linear 1.2s forwards;
+}
+.distribute_top .ptypeCircle p,.distribute_bottom .ptypeCircle p{
+    margin: 34% 2% 0 0;
+}
+.sex_cont .ptypeCircle p{
+    margin: 44% 0 0 2%;
+}
+
+.swiper-slide-four .distribute_bottom .pTypeData {
+    width: 92%;
+    height: 2.3rem;
+    background: url(../../../image/activity/operatioReport/clinch_stages.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    margin-left: -46%;
+    z-index: 2;
+    opacity: 0;
+
+}
+.swiper-slide-four .distribute_bottom .ptypeCircle {
+    width: 46%;
+    height: 2.94rem;
+    text-align: center;
+    background: url(../../../image/activity/operatioReport/clinch.png) no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    margin-left: -23%;
+    z-index: 1;
+    opacity: 0;
+}
+.swiper-slide-four .sex_cont .pTypeData {
+	width: 4.89rem;
+	height:1.19rem;
+	background: url("../../../image/activity/operatioReport/sex_icon.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 21%;
+	left: 50%;
+	margin-left: -2.45rem;
+	z-index: 2;
+	opacity: 0;
+}
+.swiper-slide-four .sex_cont .ptypeCircle {
+	width: 2.31rem;
+	height: 2.32rem;
+	background: url("../../../image/activity/operatioReport/sex_distribute.png") no-repeat 0 0;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	margin-left: -1.16rem;
+	z-index: 1;
+	opacity: 0;
+    text-align: center;
+}
+.swiper-slide-four .Project_level {
+	line-height:.38rem;
+	font-size: .24rem;
+	color: #95b5dd;
+	position: absolute;
+	top: 85%;
+	left: 12%;
+}
+.Project_level .short_term {
+	margin-right:.38rem;
+}
+.Project_level i {
+	display: inline-block;
+	width: .08rem;
+	height: .08rem;
+	margin-right: .08rem;
+	background: #95b5dd;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.content .age_cont{
+	position: absolute;
+	top: 46%;
+	width: 87%;
+	left: 50%;
+	margin-left: -43.5%;
+}
+.content .age_cont img{
+	width: 100%;
+}
+.age_cont p{
+	font-size:.28rem;
+	color:#81a1c8;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.content .age_scattergram{
+	position: relative;
+}
+.content .age_scattergram div{
+	position: absolute;
+	top: 0;
+	left: 18%;
+	width: 84%;
+	height: 102%;
+	background-color: #fff;
+	-webkit-transform: scaleY(1);
+	-moz-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	transform: scaleY(1);
+	-webkit-transform-origin: right;
+	-o-transform-origin: right;
+	-moz-transform-origin: right;
+	-ms-transform-origin: right;
+	transform-origin: right;
+}
+.swiper-slide-four.swiper-slide-active .age_scattergram div{
+	animation: transIn 1.2s .8s forwards;
+	-webkit-animation:transIn 1.2s .8s forwards;
+}
+/*05地区投资金额排名*/
+.content .map_cont {
+	position: relative;
+}
+.content .map_cont div{
+	font-size: .2rem;
+	color:#216dae;
+	text-align:  center;
+	opacity: 0;
+}
+.map_cont img{
+	width: 96%;
+	margin:0 auto;
+	display: block;
+}
+.map_cont .ah, .map_cont .bj, .map_cont .sd, .map_cont .js, .map_cont .heb, .map_cont .zj, .map_cont .hub, .map_cont .gd, .map_cont .ln, .map_cont .sc {
+	position: absolute;
+	cursor: pointer;
+}
+.map_cont .ah {
+	width: .54rem;
+	height: .3rem;
+	line-height: .3rem;
+	top: 58%;
+	right: 17.5%;
+}
+.map_cont .bj {
+	width: .48rem;
+	height: .3rem;
+	line-height: .3rem;
+	top: 38.5%;
+	right: 15%;
+}
+.map_cont .sd {
+	width: .48rem;
+	height: .3rem;
+	line-height: .3rem;
+	top: 45%;
+	right: 19%;
+}
+.map_cont .js {
+	width: .48rem;
+	height: .5rem;
+	line-height: .5rem;
+	top: 51%;
+	right: 6%;
+}
+.map_cont .heb {
+	width: .48rem;
+	height: .3rem;
+	line-height: .3rem;
+	top: 39%;
+	right: 26%;
+}
+.map_cont .zj {
+	width: .48rem;
+	height: .32rem;
+	line-height: .32rem;
+	top: 65%;
+	right: 12%;
+}
+.map_cont .hub {
+	width: .48rem;
+	height: .32rem;
+	line-height: .32rem;
+	top: 61%;
+	right: 28%;
+}
+.map_cont .gd {
+	width: .82rem;
+	height: .52rem;
+	line-height: .52rem;
+	top: 79%;
+	right: 20%;
+}
+.map_cont .ln {
+	width: .49rem;
+	height: .34rem;
+	line-height: .34rem;
+	top: 29%;
+	right: 11%;
+}
+.map_cont .sc {
+	width: .8rem;
+	height: .48rem;
+	line-height: .48rem;
+	top: 62%;
+	right: 44%;
+}
+.ranking_cont .region_cont{
+	margin: 0 11%;
+	position:  absolute;
+	top: 66%;
+}
+.ranking_cont .region_cont li{
+	float:left;
+	width: 50%;
+	line-height: .58rem;
+	font-size:.26rem;
+	color:#3999ea;
+	text-align: center;
+}
+.region_cont li i{
+	display: inline-block;
+	width:.08rem;
+	height:.08rem;
+	background:#3999ea;
+	border-radius: 50%;
+	vertical-align:  middle;
+	margin-right:.12rem;
+}
+.region_cont li.redColor{
+	width: 47.2%;
+	color:#fa7f74;
+	padding-left: 2.8%;
+}
+.region_cont li.greenColor{
+	color:#3cd7ca;
+}
+.region_cont li.violetColor{
+	color:#9276e1;
+}
+.swiper-slide-five.swiper-slide-active .content .map_cont div{
+	animation: zoomOut  1s linear 0.5s forwards ;
+	-webkit-animation: zoomOut  1s linear 0.5s forwards ;
+}
+/*大记事*/
+.content .content_title.title_09{
+	width: 36.34%;
+}
+.swiper-slide-nine .record_left{
+	width:21.9%;
+	text-align: center;
+	margin-left:4.5%;
+	position: relative;
+}
+.record_left .rightLinellae{
+	width:.02rem;
+	height: 85%;
+	background: #95b5dd;
+	position:  absolute;
+	top: .7rem;
+	right: 0;
+}
+.swiper-slide-nine .record_cont p{
+	font-size:.24rem;
+	color:#7d9cc3;
+}
+.swiper-slide-nine .record_left p{
+	margin-top: 89%;
+	position: relative;
+}
+.swiper-slide-nine .record_left i{
+	width:.24rem;
+	height:.24rem;
+	background: url(../../../image/activity/operatioReport/indicate_icon.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: -.09rem;
+	top: .03rem;
+}
+.content .record_right{
+	width:73.2%;
+	padding-top: .9rem;
+}
+.content .record_right p{
+	width: 52%;
+	text-align: center;
+	margin-top: 5%;
+}
+.content .record_right img{
+	width:41.5%;
+}
+.record_right li{
+	height: 40%;
+	overflow: hidden;
+	margin-bottom: .4rem;
+}
+/*投资人榜单1*/
+.big_firstPrize{
+	text-align: center;
+}
+.big_firstPrize img{
+	width:29%;
+}
+.big_firstPrize p{
+	font-size:.32rem;
+	color:#eeca03;
+	margin-top: .2rem;
+}
+
+.big_firstPrize span{
+	font-size:.26rem;
+	color:#7d9cc3;
+}
+.content .user_list li{
+	float:left;
+	width:25%;
+	text-align: center;
+}
+.content .user_list li p.accessit{
+	color:#035eea;
+}
+.content .user_list li p.thirdPrize{
+	color:#24caee;
+}
+.content .user_list{
+	margin-top: 10%;
+}
+.user_list li img{width: 66%;}
+.content .user_list li p{
+	font-size:.28rem;
+	color:#88ade1;
+	margin: .2rem 0 .08rem;
+}
+.content .user_list li span{
+	font-size:.24rem;
+	color:#7d9cc3;
+}
+
+/*投资人榜单2*/
+.content .content_title.title_06_01,.content .content_title.title_06_02{
+	width: 51.27%;
+}
+.swiper-slide-six-two h3{
+	font-size: .28rem;
+	color:#95b5dd;
+	text-align: center;
+	margin-bottom: 4%;
+	margin-top: 2.7%
+}
+.rank_box li{
+	color:#95b5dd;
+	font-size: .26rem;
+	width: 70%;
+	margin:0 auto;
+	height: .64rem;
+	line-height: .64rem;
+	text-align: center;
+	border-bottom: .02rem dotted #c8dffb;
+}
+.rank_box li.top{
+	height: .88rem;
+	line-height: .88rem;
+}
+.rank_box li:last-child{
+	border-bottom: none;
+}
+.rank_box li .rank_l{
+	width: 14%;
+}
+.rank_box li .rank_m{
+	width: 62%;
+}
+.rank_box li .rank_r{
+	width: 24%;
+}
+.rank_box li .rank_l.gold{
+	height: .88rem;
+	background: url("../../../image/activity/operatioReport/gold_brand.png") no-repeat center;
+	background-size: .58rem .58rem;
+}
+.rank_box li .rank_l.silver{
+	height: .88rem;
+	background: url("../../../image/activity/operatioReport/sliver_brand.png") no-repeat center;
+	background-size: .58rem .58rem;
+}
+.rank_box li .rank_l.cu{
+	height: .88rem;
+	background: url("../../../image/activity/operatioReport/cu_brand.png") no-repeat center;
+	background-size: .58rem .58rem;
+}
+.rank_box .rank_title{
+	font-size: .24rem;
+	text-align: center;
+	border-bottom: none;
+}
+/*活动概览*/
+.content .content_title.title_07{
+	width: 46.05%;
+}
+.swiper-slide-seven .act{
+	width: 84.79%;
+	margin:0 auto;
+	font-size: 0;
+}
+.swiper-slide-seven .act img{
+	width: 100%;
+}
+.swiper-slide-seven .act .act_des{
+	font-size: .26rem;
+	color:#7d9cc3;
+	text-align: center;
+	line-height: .56rem;
+	margin-bottom: 1%;
+}
+
+/*风控数据*/
+.content .content_title.title_08{
+	width: 36.38%;
+}
+.swiper-slide-eight .risk_data{
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 4.8%;
+}
+.swiper-slide-eight .risk_data img{
+	width: 2.17rem;
+	height: 2.17rem;
+	margin: 4.7% 4.93%;
+}
+.swiper-slide-eight .risk_text{
+	font-size: .24rem;
+	color:#95b5dd;
+	width: 92%;
+	margin:0 auto .2rem;
+	line-height: .35rem;
+}
+
+.big_things_box p{
+	text-align: center;
+}
+.swiper-slide-nine .record_right li{
+	opacity: 0;
+}
+.swiper-slide-nine.swiper-slide-active .record_right li:nth-child(4){
+	animation: lightIn 0.5s linear 0.5s forwards;
+	-webkit-animation:lightIn 0.5s linear 0.5s forwards;
+}
+.swiper-slide-nine.swiper-slide-active .record_right li:nth-child(3){
+	animation: lightIn 0.5s linear 1s forwards;
+	-webkit-animation: lightIn 0.5s linear 1s forwards;
+}
+.swiper-slide-nine.swiper-slide-active .record_right li:nth-child(2){
+	animation: lightIn 0.5s linear 1.5s forwards;
+	-webkit-animation: lightIn 0.5s linear 1.5s forwards;
+}
+.swiper-slide-nine.swiper-slide-active .record_right li:nth-child(1){
+	animation: lightIn 0.5s linear 2s forwards;
+	-webkit-animation: lightIn 0.5s linear 2s forwards;
+}
+
+@keyframes lightIn{
+	0%{
+		opacity:0
+	}
+	50%{
+		opacity:0.5
+	}
+	100%{
+		opacity:1
+	}
+}
+.content .content_title {
+	margin: 4.5% 0 3.7% 4.2%;
+}
+@keyframes rotateIn{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(0) rotate(-180deg) translateZ(1px);
+		transform:scale(0) rotate(-180deg) translateZ(1px)
+	}
+	80%{
+		opacity:1;
+		-webkit-transform:scale(1.1) rotate(10deg) translateZ(1px);
+		transform:scale(1.1) rotate(10deg) translateZ(1px)
+	}
+	100%{
+		opacity:1;
+		-webkit-transform:scale(1) rotate(0deg) translateZ(1px);
+		transform:scale(1) rotate(0deg) translateZ(1px)}
+}
+@keyframes zoomOut{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(1.1) translateZ(1px);
+		transform:scale(1.1) translateZ(1px)
+	}
+	100%{
+		opacity:1;
+		-webkit-transform:scale(1) translateZ(1px);
+		transform:scale(1) translateZ(1px)
+	}
+}
+
+
+
+
+

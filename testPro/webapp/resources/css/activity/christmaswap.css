@@ -1,0 +1,462 @@
+html{font-size:625%}
+@media only screen and (min-width: 320px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+html,body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);  
+-webkit-tap-highlight-color: transparent;
+}
+.w596{
+	width: 5.96rem;
+	margin:0 auto;
+}
+.page{
+	overflow: hidden;
+}
+.top_banner{
+	width: 100%;
+}
+.top_banner>div{
+	background-size: 100% 100%;
+}
+.top_banner01{
+	height: .86rem;
+	background: url(../../image/activity/christmaswap/top_banner_01.png) no-repeat center top;
+}
+.top_banner02{
+	height: 2.22rem;
+	background: url(../../image/activity/christmaswap/top_banner_02.png) no-repeat center top;
+}
+.top_banner03{
+	height: .89rem;
+	background: url(../../image/activity/christmaswap/top_banner_03.png) no-repeat center top;
+	overflow: hidden;
+}
+.act_date{
+	width: 4.02rem;
+	height: .43rem;
+	line-height: .43rem;
+	color: #ffd97f;
+	font-size: .2rem;
+	text-align: center;
+	margin:.08rem auto 0;
+	background: url(../../image/activity/christmaswap/date_bg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/* 双旦加息 */
+.act_con02{
+	overflow: hidden;
+	width: 100%;	
+	background: url(../../image/activity/christmaswap/cont2_bg_s.png);
+}
+.act_con02_lis{
+	margin-top: .33rem;
+	margin-bottom: .41rem;
+}
+.act_con02_lis li{
+	float: left;
+	width: 1.91rem;
+	height: .69rem;
+	text-align: center;
+	color: #fff;
+	font-size: .26rem;
+	line-height: .68rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.lis_item01,.lis_item02{
+	margin-right: .11rem;
+}
+.lis_item01{
+	background-image: url(../../image/activity/christmaswap/lis_item01.png);
+}
+.lis_item02{
+	background-image: url(../../image/activity/christmaswap/lis_item02.png);
+}
+.lis_item03{
+	background-image: url(../../image/activity/christmaswap/lis_item03.png);
+}
+
+.white_table{
+	width: 5.96rem;
+	height: 5.64rem;
+	overflow: hidden;
+	position: relative;
+}
+.white_table_tit{
+	width: 4.88rem;
+	height: .8rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+	top: .02rem;
+	margin-left: -2.44rem;
+	z-index: 1;
+}
+.white_table .table_tit01{
+	background-image: url(../../image/activity/christmaswap/table_tit01.png);
+}
+.white_table01,.white_table02{
+	height: 5.24rem;
+	margin-top: .42rem;
+	background: url(../../image/activity/christmaswap/white_tab.png) no-repeat center bottom;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.act_con02_card{
+	width: 3.52rem;
+	height: 4.39rem;
+	margin: .33rem auto 0;
+	background-image: url(../../image/activity/christmaswap/cont2_bg_card.png);
+	background-size: 100% 100%;
+}
+.act_con02_title{
+	text-align: center;
+	line-height: .68rem;
+	color: #fff;
+	font-size: .24rem;
+}
+.act_con02_per{
+	width: 2.2rem;
+	padding:0 .08rem .09rem;
+	overflow: hidden;
+	border-bottom: 1px solid #098348;
+	margin: 1.29rem auto 0;
+}
+.act_con02_per span{
+	display: block;
+}
+.strong_per{
+	float: left;
+	text-align: center;
+}
+.bold_per{
+	color: #bd0708;
+	font-size: .26rem;
+	line-height: .35rem;
+}
+.per_txt{
+	font-size: .18rem;
+	color: #098348;
+	line-height: .32rem;
+}
+.nor_date{
+	float: right;
+}
+.date_per{
+	margin-top: .06rem;
+	line-height: .28rem;
+	font-size: .2rem;
+	text-align: center;
+	color: #098348;
+}
+.act_con02_money{
+	font-size: .19rem;
+	color: #098348;
+	text-align: center;
+	line-height: .55rem;
+}
+.act_con02_card .act_con02_link{
+	display: block;
+	width: 2.5rem;
+	line-height: .6rem;
+	background-color: #bd0708;
+	color:#fff;
+	font-size: .26rem;
+	text-align: center;
+	border-radius: .3rem;
+	margin:0 auto;
+}
+.white_table i,.white_table03_bd i{
+	display: inline-block;
+	width: .36rem;
+	height: .35rem;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.white_table01 i{
+	background-image: url(../../image/activity/christmaswap/clo_red.png);
+}
+.btn_icon01{
+	top:.17rem;
+	left: .1rem;	
+}
+.btn_icon02{
+	bottom:.22rem;
+	left: .14rem;
+}
+.btn_icon03{
+	top:.17rem;
+	right: .1rem;
+}
+.btn_icon04{
+	bottom:.22rem;
+	right: .14rem;
+}
+.go_main{	
+	width: 1rem;
+	height: 1.53rem;
+	background: url(../../image/activity/christmaswap/go_main.png) no-repeat center top;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 1.58rem;
+	right: 0;
+	z-index: 9;
+}
+
+.act_con03{
+	overflow: hidden;
+	background: url(../../image/activity/christmaswap/cont3_bg_s.png);
+}
+.greenline{
+	height: .07rem;
+	background: url(../../image/activity/christmaswap/greenline.png) no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: .17rem;
+}
+/* 投资好礼 */
+.white_table .table_tit02{
+	background-image: url(../../image/activity/christmaswap/table_tit02.png);
+}
+.white_table02 i,.white_table03_bd i{
+	background-image: url(../../image/activity/christmaswap/clo_green.png);
+}
+.act_con03_bd{
+	margin-top: .67rem;
+}
+.ecard{
+	width: 1.94rem;
+	margin-left: .46rem;
+}
+.ecard h3{
+	font-size: .2rem;
+	color: #098348;
+	line-height: 1.1rem;
+	text-align: right;
+}
+.ecard_img{
+	width: 1.78rem;
+	height: 2.06rem;
+	margin-top: .2rem;
+	background: url(../../image/activity/christmaswap/Ecard.png) no-repeat;
+	background-size: 100% 100%;
+}
+.ecard_letter{
+	width: 3rem;
+	overflow: hidden;
+}
+.ecard_let{
+	width: 2.8rem;
+	height: 1.1rem;
+	font-size: .2rem;
+	margin:0 auto;	
+	color: #027f24; 
+	overflow: hidden;
+	text-align: center;
+	background: url(../../image/activity/christmaswap/Ecard_let.png) no-repeat;
+	background-size: 100% 100%;
+}
+.ecard_let .ecard_ert{	
+	line-height: 1;
+	margin-top: .21rem;
+}
+.ecard_let .ecard_ert em{
+	font-size: .26rem;
+	color: #bd0708; 
+}
+.ecard_let .ecard_limdate{
+	font-size: .2rem;
+	line-height: .6rem;
+}
+.ecard_let_j{
+	width: .29rem;
+	height: .27rem;
+	background: url(../../image/activity/christmaswap/Ecard_let_j.png) no-repeat;
+	background-size: 100% 100%;
+	margin:.12rem auto .14rem;
+}
+.ecard_letter a{
+	display: block;
+	width: 3rem;
+	line-height: .6rem;
+	background-color: #bd0708;
+	color: #fff;
+	font-size: .26rem;
+	border-radius: .3rem;
+	margin: 0 auto;
+	text-align: center;
+}
+/*邀请拿现金 */
+.white_table03{
+	margin-top: .31rem;
+	width: 5.96rem;
+    overflow: hidden;
+    position: relative;
+}
+.white_table03 .table_tit03{
+	background-image: url(../../image/activity/christmaswap/table_tit03.png);
+}
+.white_table03_bd{
+	margin-top: .42rem;
+	background-image: url(../../image/activity/christmaswap/white_tab.png);
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+.white_table03_bd .imp_msg{
+	font-size: .24rem;
+	font-weight: bold;
+	line-height: .4rem;
+	color: #098348;
+	text-align: center;
+	margin-top: .6rem;
+}
+.imp_msg em{
+	display: inline-block;
+	height: .46rem;
+	width: 1.17rem;
+	vertical-align: middle;
+	background: url(../../image/activity/christmaswap/redpack.png) no-repeat;
+	background-size: 100% 100%;
+}
+.white_table03_bd .invs_msg{
+	width: 3.86rem;
+	margin:.2rem auto 0;
+	line-height: .32rem;
+	font-size: .2rem;
+	color: #098348;
+	text-align: center;
+}
+.invs_card{
+	width: 3.71rem;
+	margin-top: .46rem;
+	margin-left: .25rem;
+	background: url(../../image/activity/christmaswap/invs_card.png) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	padding:.3rem .24rem .5rem 1.22rem;
+}
+.invs_card .example_txt{
+	width: .46rem;
+	height: .36rem;
+	font-size: .16rem;
+	text-align: center;
+	color: #fff;
+	line-height: .2rem;
+	padding:.1rem .04rem;
+	position: absolute;
+	left: .55rem;
+	top: -.06rem;
+	background: url(../../image/activity/christmaswap/example_txt.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.invs_card .peple_img{
+	width: .75rem;
+	height: .99rem;
+	position: absolute;
+	right: -.27rem;
+	top: -.75rem;
+	background: url(../../image/activity/christmaswap/peple_img.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.invs_card p{
+	line-height: .34rem;
+	font-size: .18rem;
+	color: #098348;
+	text-align: justify;
+	word-break: break-word;
+}
+.white_table03_bd a{
+	display: block;
+	width: 3.50rem;
+	line-height: .6rem;
+	background-color: #bd0708;
+	color: #fff;
+	font-size: .26rem;
+	border-radius: .3rem;
+	margin:.1rem auto .7rem;
+	text-align: center;
+}
+/* 活动规则 */
+.act_endrole{
+	overflow: hidden;
+	color: #fff;
+	background: url(../../image/activity/christmaswap/cont2_bg_s.png);
+}
+.redline{
+	height: .09rem;
+	background: url(../../image/activity/christmaswap/redline.png);
+	background-size: 100% 100%;
+}
+.act_endrole h3{
+	font-size: .3rem;
+	line-height: 1;	
+	margin-top: .38rem;
+	margin-bottom: .45rem;
+	text-align: center;
+}
+.act_endrole>div.clearfx{
+	margin-left: .23rem;
+}
+.act_endrole p{
+	width: 5.71rem;
+	float: left;
+	font-size: .2rem;
+	line-height:.36rem; 
+	text-align: justify;
+	word-break: break-all;
+}
+.act_endrole i{
+	float: left;
+	width: .19rem;
+	height: .19rem;
+	margin-right: .1rem;
+	background: url(../../image/activity/christmaswap/circle_ico.png) no-repeat 0 0rem;
+	background-size: 100% 100%;
+	margin-top: .08rem;
+}
+.end_rose{
+	margin-top: .6rem;
+	height: .5rem;
+	background: url(../../image/activity/christmaswap/end_bg.png);
+	background-size: contain;
+}

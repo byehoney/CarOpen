@@ -1,0 +1,151 @@
+html{font-size:625%}
+@media only screen and (max-width: 374px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 375px){
+    html {
+        font-size: 350% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 640px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+
+.pacificPage{
+	max-width:640px;
+	margin:0 auto;
+	background:url(../../image/static/typCpic/pacificBg.png) repeat-y;
+	padding:.54rem 0 .74rem;
+}
+.pacificPage .banner_t{
+	width:100%;
+	height:2.68rem;
+	background:url(../../image/static/typCpic/banner_t.png) no-repeat;
+	background-size:100% 100%;
+}
+.pacificPage .banner_b{
+	width:100%;
+	height:2.98rem;
+	background:url(../../image/static/typCpic/banner_b.png) no-repeat;
+	background-size:100% 100%;
+}
+.container{
+	margin:.6rem .6rem 0;
+}
+.container h3,.container p{
+	text-align:center;	
+}
+.container p{
+	font-size:.36rem;
+	color:#fff;
+	font-weight:bold;
+}
+.container .SafetyTips{	
+	padding:0 .32rem;
+	font-size:.5rem;
+	font-weight:bold;
+}
+.container .SecurityUpdates{
+	height:2.91rem;
+	background:url(../../image/static/typCpic/UpdatesBg.png) no-repeat;
+	background-size:100% 100%;
+	margin:.26rem auto 0;
+}
+.container .thread{
+	font-size:.24rem;
+}
+.container .thread{
+	padding-top:.2rem;
+}
+.pacificPage h3{
+	font-size:.62rem;
+	color:#fff;
+	font-weight:bold;
+	margin-top:.74rem	
+}
+.container b{
+	width:.6rem;
+	height:.05rem;
+	display:block;
+	background:#fff;
+	margin:.36rem auto .6rem;
+}
+.operator_t,.operator_b{
+	width:5.2rem;
+	margin:0 auto;
+}
+.operator_t{
+	height:2.59rem;
+	background:url(../../image/static/typCpic/operator_t.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+}
+.operator_b{
+	height:1.94rem;
+	background:url(../../image/static/typCpic/operator_b.png) no-repeat;
+	background-size:100% 100%;
+	margin-bottom:.3rem;
+}
+.container .opinion{
+	line-height:.36rem;
+	font-size:.22rem;
+	text-indent:2em;
+	text-align: justify;
+	font-weight:normal;
+}
+.insured_t,.insured_b{
+	width:4.18rem;
+	margin:0 auto;
+}
+.insured_t{
+	height:2.28rem;
+	background:url(../../image/static/typCpic/insured_t.png) no-repeat;
+	background-size:100% 100%;
+	margin-top:.44rem;
+}
+.insured_b{
+	height:1.88rem;
+	background:url(../../image/static/typCpic/insured_b.png) no-repeat;
+	background-size:100% 100%;
+	margin-bottom:.7rem;
+}
+.environment_t,.environment_b{
+	width:3.98rem;
+	margin:0 auto;
+}
+.environment_t{
+	height:2.21rem;
+	background:url(../../image/static/typCpic/environment_t.png) no-repeat;
+	background-size:100% 100%;
+}
+.environment_b{
+	height:2rem;
+	background:url(../../image/static/typCpic/environment_b.png) no-repeat;
+	background-size:100% 100%;
+	margin-bottom:.72rem;
+}
+

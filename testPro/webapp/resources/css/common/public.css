@@ -1,0 +1,64 @@
+body,div,span,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,object,form,iframe,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0; -webkit-text-size-adjust:none;}
+body,button,input,select,textarea{font-family: STHeiti,"Microsoft Yahei", "Î¢ÈíÑÅºÚ", tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img,a img,iframe,input{border:0 none;}
+address,caption,cite,code,dfn,em,s,i,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+button,input,select,textarea{font-size:100%;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";content:none;;}
+textarea{resize:vertical;overflow-y:auto;}
+.clearfx{zoom:1;}
+.clearfx:after{ display:block; clear:both; content:"";}
+input[type="button"],input[type="submit"],select,button{cursor:pointer;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:underline;color:#d50000;}
+.sup{vertical-align:text-top;}
+.sub{vertical-align:text-bottom;}
+.fl,.l{float:left;}
+.fr,.r{float:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.ml_5{margin-left:5px;}
+.ml_10{margin-left:10px;}
+.ml_20{margin-left:20px;}
+.mr_5{margin-right:5px;}
+.mr_10{margin-right:10px;}
+.mr_20{margin-right:20px;}
+.pr_5{padding-right:5px;}
+.pr_10{padding-right:10px;}
+.pr_20{padding-right:20px;}
+.pl_5{padding-left:5px;}
+.pl_10{padding-left:10px;}
+.pl_20{padding-left:10px;}
+/*×óÓÒ±ß¾à*/
+.ml{margin-left:10px;}
+.mr{margin-left:10px;}
+.mt{margin-top:10px;}
+.ml1{margin-left:20px;}
+.mr1{margin-left:20px;}
+.mt1{margin-top:20px;}
+.p15{padding:15px;}
+/*¿í¶È*/
+.whr{ width:100%}
+.w1000{width:1000px;margin:0 auto;}
+.w250{width:248px;}
+.w740{width:738px;}
+.w690{width:688px;}
+.w300{width:298px;} 
+/*ÎÄ×Ö´óÐ¡*/
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f15{font-size:15px;}
+.f16{font-size:16px;}
+/*ÎÄ×Ö×ÖÌå*/
+.fail{ font-family:Arial}
+/*×ÖÌåÑÕÉ«*/
+.fa{ color:#000}
+.fs{ color:#333}
+.fn{ color:#666;}
+.fz{ color:#999}
+.fol{ font-size:14px; font-weight:bold; color:#333;}

@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, button, input, textarea, th, td {margin: 0;  padding: 0;}
+body, button, input, select, textarea {font: 12px/1 microsoft YaHei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;}
+code, kbd, pre, samp, tt {font-family: "Courier New", Courier, monospace;}
+small {font-size: 12px;}
+ul, ol {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+abbr[title], acronym[title] {border-bottom: 1px dotted; cursor: help;}
+q:before, q:after {content: '';}
+legend {color: #000;}
+fieldset {border: none;}
+img{border: none; vertical-align:top;}
+button, input, select, textarea {font-size: 100%;}
+table {border-collapse: collapse; border-spacing: 0;}
+hr {border: none;  height: 1px;}
+html {overflow-y: scroll;}
+.clearFix:after{display:block; clear:both; content:'';}
+.clearFix{zoom:1;}
+/*活动wap页 banner*/
+html{font-size:100px;}
+.snacks_wap_content{width:3.2rem;margin:0 auto;}
+.snacks_wap_content .snacks_wap{width:3.2rem;height:1.28rem;position:relative;}
+.snacks_wap_content .snacks_wap .wap_banner_t{width:100%;height:0.625rem;}
+.snacks_wap_content .snacks_wap .wap_banner_b{width:100%;height:0.655rem;}
+.snacks_wap_content .snacks_wap i{background:url(../../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -3.21rem -2.44rem; width:0.46rem;height:0.16rem;position:absolute;left:0.135rem;top:0.14rem; text-indent:-999em;background-size:6rem;}
+.snacks_wap_content .background_ioc{ background:url(../../image/static/activity/snacts/snacks_project_b.png) repeat-x ;background-size:6rem;padding-bottom:0.05rem;}
+.snacks_wap_content .stripes_images{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -0.88rem -3.78rem; width:3.2rem;height:0.13rem;background-size:6rem;}
+.snacks_wap_content .major_award_content{width:3.2rem;padding-top:0.13rem; position:relative;}
+.snacks_wap_content .major_award{padding-top:0.065rem;}
+.major_award_content .major_award_list {width:3.025rem;margin:0 auto;height:0.565rem;}
+.major_award_content .major_award_list ul{width:3.1rem;height:100%;}
+.major_award_content .major_award_list ul li{float:left;width:0.97rem;height:0.565rem;margin-right:0.05rem;position:relative;border-right:1px solid #ba644a;border-bottom:1px solid #ba644a;z-index:11;cursor: pointer;}
+.major_award_list ul li.major_award_red{background-color:#ff8a66; }
+.major_award_list ul li.major_award_green{background-color:#73c2a5;}
+.major_award_list ul li.major_award_blue{background-color:#80a7de;}
+.major_award_list ul li .major_award_con{width:0.89rem;height:0.28rem;text-align:center;margin:0.035rem;border:1px dashed #fff;font-size:0.11rem;padding:0.09rem 0 0.12rem 0;}
+.major_award_list .major_award_con div{ color:#fff;margin-bottom:0.07rem;}
+.major_award_list .major_award_con p{color:#ff0;}
+.major_award_list b{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat; display:block; position:absolute;background-size:6rem;}
+.major_award_list b.shadow_red_ioc{background-position:-3.79rem -2.31rem;width:0.03rem; height:0.57rem; bottom:-0.005rem;right:-0.03rem;}
+.major_award_list b.shadow_green_ioc{background-position:-4.015rem -2.305rem;width:0.06rem; height:0.555rem; bottom:-0.005rem;right:-0.06rem;}
+.major_award_list b.shadow_blue_ioc{background-position:-4.265rem -2.285rem;width:0.05rem; height:0.55rem; bottom:-0.035rem;right:-0.05rem;}
+.major_award_list i{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat;width:0.15rem; height:0.15rem; position:absolute; background-size:3rem;}   
+.major_award_list i.red_envelope{background-position:-0.01rem -0.18rem; right:0; bottom:-0.03rem;}
+.major_award_list i.gift_box{background-position:-0.2975rem -0.1875rem; right:0.032rem; bottom:-0.025rem;}
+.major_award_list i.piggy_bank{background-position:-0.5rem -0.2025rem; right:0.025rem; bottom:-0.025rem;}
+.background_ioc .rung_pictures{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -0.87rem -4.175rem;width:3.2rem;height:0.12rem;margin-top:-0.04rem;background-size:6rem;}
+.background_ioc .yellow_block{width:3.17rem;height:0.05rem;margin:0 auto;background-color:#f8b651;margin-bottom:0.025rem;}
+.background_ioc h3{padding:0.095rem 0 0.12rem 0.085rem;font-size:0.13rem;color:#313131;}
+.background_ioc .information_content{width:3.02rem;height:0.795rem;padding:0 0.09rem;}
+.information_content .information_list{width:100%;height:0.375rem; }
+.information_content .information_list ul{float:left;width:3.045rem; padding-bottom:0.025rem;}
+.information_content .information_list ul li{float:left;width:0.735rem;height:0.375rem;line-height:0.375rem;text-align:center;background-color:#fff;font-size:0.1rem;color:#cb7d00;margin:0 0.025rem  0.025rem  0;}
+.information_content .amount{position:relative; height:0.78rem;}
+.listbox{ width:2.28rem; float:left; height:0.78rem; overflow:hidden; }
+.information_content .amount ul{padding-top:1px; float:left;width:2.28rem; padding-top:1px;}
+#MyInvestAwardList{position:relative; top:0px;}
+#mySnacksAwardButton{float:left;width:0.735rem;text-align:center;background-color:#f15a24;border-bottom:0.02rem solid #a40000;border-radius:0.025rem;color:#ff0;font-size:0.1rem; position:relative;}
+.information_list .snack_bags{float:left;width:0.735rem;text-align:center;background-color:#f15a24;border-bottom:0.02rem solid #a40000;border-radius:0.025rem;color:#ff0;font-size:0.1rem; position:relative;}
+.information_list div.receive{height:0.355rem;cursor: pointer;}
+.information_list div.receive span{line-height:0.21rem;}
+.information_list div.receive i,.information_list div.snack_bags i{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -2.46rem -2.445rem; width:0.21rem;height:0.145rem; position:absolute;left:0;top:0;background-size:6rem;}
+.information_content .information_list ul li.activity{ height:0.3rem;line-height:0.15rem; padding:0.03rem 0 0.05rem 0;}
+.information_list .snack_bags{height:0.255rem;padding:0.25rem 0;cursor: pointer; float:right;}
+.information_list .snack_bags p{margin-top:0.05rem;}
+.background_ioc .invitation_content{height:1.19rem;}
+.background_ioc .decline_button{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -2.785rem -2.41rem;width:0.26rem;height:0.26rem;margin:0.11rem auto 0.14rem;background-size:6rem;}
+.background_ioc .investment{width:3.025rem;height:0.415rem;line-height:0.415rem;text-align:center;background-color:#00b7ee;border-bottom:0.03rem solid #0075a9;font-size:0.175rem;color:#fff;border-radius:0.025rem;margin:0 auto;margin-bottom:0.21rem; cursor: pointer;}
+.background_ioc .information{background-color:#eb6100;border-bottom:0.03rem solid #7f2d00;margin:0.115rem auto 0.14rem;}
+.background_ioc .activity_rules{width:2.685rem;background-color:#ffc14a;margin:0 auto;padding:0.21rem 0.17rem  0.225rem;}
+.background_ioc .activity_rules_con{padding-top:0.1rem;}
+.background_ioc .activity_rules h4{font-size:18px;color:#b74a01;margin-bottom:0.05rem;}
+.background_ioc .activity_rules p{line-height:0.175rem;font-size:0.09rem;color:#b74a01;letter-spacing:0.005rem;}
+.zw{height:0.77rem;line-height:0.77rem;text-align:center; font-size:0.1rem;background:#fff; color:#cb7d00;}
+.address{width:3.05rem; display:none; z-index:9999999; position: absolute;  background-color:#ebebeb;border:1px solid #fff;font-size:0.09rem;color:#313131;}
+.address .select{height:0.365rem; line-height:0.365rem;padding-left:0.25rem;border-bottom:1px solid #fff;font-size:0.12rem;}
+.address .select i{float:right;width:0.37rem;height:0.365rem; line-height:0.365rem;text-align:center;background-color:#d2d2d2; display:inline-block; cursor:pointer;}
+.address .default_address_con{padding:0.17rem 0.13rem 0.17rem 0.2rem;}
+.default_address_con .default_address{font-size:0.12rem;height:0.16rem; line-height:0.14rem;}
+.default_address_con .default_address input{float:left;width:0.14rem; height:0.14rem;background-color:#d2d2d2;margin-right:0.075rem;display:inline-block;cursor:pointer;}
+.default_address_con .txt{ width:2.65rem;height:0.32rem; line-height:0.32rem;text-align:left;background-color:#d2d2d2;border:1px solid #fff;margin:0.135rem 0 0.135rem 0.035rem;color:#a2a1a1;}
+#yinkermask{background:#000;position: absolute; top: 0px; opacity: 0.3; display:none;}
+.snack_bags .links_content{width:2.61rem;height:1.7rem;background-color:#ebebeb;position:absolute;right:0.215rem;top:0.86rem; position:absolute;border-radius:0.05rem;}
+.snack_bags .links_content .links_ioc{background:url(../../image/static/activity/snacts/snacks_wap_ioc.png) no-repeat -3.25rem -2.92rem;width:0.16rem;height:0.16rem;top:-0.15rem;left:2.3rem;display:block;position:absolute;background-size:6rem;}
+.links_content .code{width:0.97rem;height:0.97rem;background-color:#fff;margin:0.17rem auto 0;}
+.links_content .invite{height:0.33rem;line-height:0.33rem;font-size:0.145rem;color:#cb7d00;}
+.links_content .invite_link{width:1.83rem;height:0.225rem;margin:0 auto;}
+.links_content .invite_link span{float:left;width:0.74rem;height:0.225rem;line-height:0.225rem; text-align:center;border-radius:0.03rem;font-size:0.145rem;color:#fff;background-color:#eb6100;}
+.links_content .invite_link span.share{background-color:#00b7ee;margin-left:0.34rem;}
+
+.address .region{width:2.77rem;margin:0.17rem 0 0 0.04rem;overflow:hidden;}
+.address .region ul{width:2.77rem;height:0.34rem;}
+.address .region ul select{ vertical-align:middle;}
+.address .region ul li{float:left;width:0.82rem;height:0.34rem;line-height:0.34rem;vertical-align:middle;margin-right:0.1rem; overflow:hidden;}
+.address .region ul li select{float:left;width:0.66rem;height:0.34rem;line-height:0.34rem;color:#313131;}
+.address .region ul li span{float:left;margin-left:0.02rem;font-size:0.135rem;color:#313131;}
+.default_address_con .selected{font-size:0.105rem;color:#313131;padding-left:0.05rem;}
+.default_address_con .selected i{margin-right:0.04rem;}
+.default_address_con .determine{width:0.925rem;height:0.31rem; line-height:0.31rem;margin:0.18rem auto 0; text-align:center;background-color:#f15a24;color:#fff;font-size:0.145rem;border-radius:0.04rem;border-bottom:3px solid #a40000; cursor:pointer;}
+.wp_footer{background:#000; color:#fff; padding:20px 0px;}
+.wp_footer p{text-align:center; line-height:20px; font-size:0.09rem;}
+

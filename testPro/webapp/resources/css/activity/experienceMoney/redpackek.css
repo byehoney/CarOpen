@@ -1,0 +1,78 @@
+.hb_nav ul li span{diplay:block; font-size:15px; color:#424242;}
+.hb_nav ul .active_li span{color:#00afeb; border-bottom:2px solid #00afeb; display: block; margin:0 10px;}
+
+    
+.hb_list ul li{background:#fff url('../../../image/hb_icon.png') repeat-x left bottom; border:1px solid #e8e8e8; border-radius:5px; padding:10px; width:90%;margin:0 auto 15px;border-bottom:none;}
+.hb_list ul li .h_title{ font-size:15px; float:left;}
+.hb_list ul li .h_money{ font-size:15px; float:right; color:#f00;}
+.hb_list ul li p{font-size:12px; color:#919191; line-height:20px; margin:5px 0;}
+.hb_list ul li p.sl_html{margin:5px 0; line-height:20px; font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.hb_list ul li .m_list{  display: none; font-size: 12px; color: #00afeb; margin-bottom:5px;}
+.hb_list ul li .list_footer{margin-bottom:10px;}
+.hb_list ul li .list_footer span{font-size:12px; color:#919191;}
+.hb_list ul li .hb_btn{border:1px solid #00afeb; border-radius:5px; width:30%; font-size:12px; color:#00afeb; text-align: center; line-height: 25px; margin:0px 0px 10px;}
+.hb_list ul li .hb_btn a{display:block;}
+/*已使用过要添加的class   hover_hb*/ 
+.hb_list ul .hover_hb{background:#ebebeb url('../../../image/active_icon.png') repeat-x left bottom;}
+.hb_list ul .hover_hb .h_money{color:#515151}
+
+
+/*已过期要添加的class  */
+.hb_list ul .active_hb .h_title,.hb_list ul .active_hb .h_money,.hb_list ul .active_hb p,.hb_list ul .active_hb .f_from,.hb_list ul .active_hb .f_time{color:#cecece}
+.content_height .exeConList{margin: 12px 10px 0;}
+#exeConList li{background-color:#fff;margin-bottom: 15px;}
+#exeConList li .list_header {padding: 0 10px;line-height: 25px;border-bottom: 1px solid #e6e6e6;overflow:hidden;}
+#exeConList li .list_header .h_title {font-size: 13px;color: #333;float: left;}
+#exeConList li .list_header .h_money{font-size: 12px;color: #999;float: right;}
+#exeConList li  .rules { padding: 0 10px 25px; position: relative;}
+.rules .activity_title {padding-top: 15px;}
+.rules .activity_money { color: #eda134;}
+.rules .activity_title .money {float: left;font-size: 30px;margin-right: 13px;}
+.rules .activity_title div {float: left;}
+.rules .activity_title div span {font-size: 15px;}
+.rules .activity_title div p {font-size: 12px;}
+
+ .rules .f_from {line-height: 25px;font-size: 12px; color: #919191;}
+
+.rules .use { width: 65px;height: 22px; line-height: 22px;text-align: center;font-size: 12px;color: #fff;
+    background-color: #eda134;border-radius: 2px;position: absolute;right: 8px; bottom: 8px;}
+
+.details_list{height: 24px; overflow:hidden; border: 1px solid #00aae9; border-left:none; border-radius: 2px;margin: 12px 38px 12px;}
+.details_list li{
+	width:33.33%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #00aae9;
+	float: left;	
+	cursor:pointer;	
+}
+.details_list li span{
+	width:100%;
+	display:block;
+	border-left: 1px solid #00aae9;
+}	
+ .details_list li span.plan_active{
+	width:100%;	
+	background-color:#00aae9;
+	color: #fff;
+}
+
+.details_list li span.bordernone{
+	border-radius:0 2px 2px 0;
+} 
+
+/*导航栏点击样式 */
+.redenvelopes_list{height:44px;line-height:44px;background:#fff;}
+.redenvelopes_list li{float:left; width:50%;text-align:center;}
+.redenvelopes_list li span{line-height:44px;display:inline-block;font-size:13px;color:#333;}
+.redenvelopes_list li span.active{color:#00afeb;border-bottom:2px solid #00afeb;}
+/* 弹窗 */
+.infoBox{display:none;width:350px;height:174px;text-align:center;padding-top:30px;background:#fff;border-radius:6px;position:fixed;left:50%;top:50%;margin:-102px 0 0 -175px;z-index:3;}
+.infoBox p{font-size:12px;color:#666;margin-bottom:13px;}
+.infoBox>div{margin:24px auto 0;overflow:hidden;display:flex;justify-content: space-around;}
+.infoBox>div>div{float:left;font-size:14px;color:#fff;background:#00aae9;width:125px;height:37px;line-height:37px;border-radius:4px;}
+.infoBox .redinfo{color:#999;font-size:14px;margin-top:16px;display:block;width:100%;}
+.Hborder{border-right:1px solid #00aae9;}
+#listBox{width:95%;margin:0 auto 15px;}

@@ -1,0 +1,54 @@
+html,body{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background:url("../../../image/activity/ruffian/activity_bg.png") #151025;
+    overflow: hidden;
+    background-size: .5rem;
+}
+.content{
+    width: 100%;
+    height:100%;
+}
+.main .shareArrow{
+    margin-left: 1.74rem;
+    margin-top: .32rem;
+    width: 3.61rem;
+    height: .8rem;
+    background:url("../../../image/activity/ruffian/share_arrow.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.main .plate{
+    margin-top: .2rem;
+    height: 100%;
+    background:url("../../../image/activity/ruffian/land_plate.png") no-repeat 0 0;
+    background-size: 100% 87%;
+    overflow: hidden;
+}
+.main .plate p{
+    font-size: .24rem;
+    color:#3b2a66;
+    width: 70%;
+    margin:0 auto;
+    line-height: .42rem;
+    text-indent: .48rem;
+}
+.main .plate p:first-child{
+    margin-top: 1.35rem;
+}
+.main .plate p:last-child{
+    margin-top: 0.16rem;
+}
+p.noWeixin{
+    display: none;
+    font-size: .24rem;
+    text-align: center;
+    line-height: 2rem;
+}

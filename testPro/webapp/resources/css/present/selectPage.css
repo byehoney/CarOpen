@@ -1,0 +1,53 @@
+input{outline:0;border:0}
+img{border:none;vertical-align:top}
+a{text-decoration:none}
+.left,.right{display:inline}
+.left{float:left}
+.right{float:right}
+.clear:after{clear:both;display:block;content:''}
+html{font-size:75pt;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}
+.contBox{position:relative;margin:0 auto;width:6.4rem;background-color:#ffe994;font-size:.26rem}
+.contBox .banner_t{width:100%;height:1.74rem}
+.contBox .banner_b{width:100%;height:2.33rem}
+.contBox .parasol{width:100%;height:.26rem}
+.pubBack{background:url(../../image/static/present/pre_back.png) no-repeat;background-size:2.03rem 1.18rem;}
+.contBox .logo{position:absolute;top:.24rem;left:.28rem;display:block;width:1.2rem;height:.42rem;background-position:left -0.4rem;text-indent:-999em;}
+.formBox{padding:.16rem .18rem .5rem}
+.tip{height:.6rem;font-size:.2rem;line-height:.6rem}
+.wrong{display:none;padding-left:6px;height:100%;text-align:left;}
+.wrongIcon{margin-top:0.16rem;margin-right:4px;width:0.26rem;height:0.26rem;background-position:left -0.86rem;;}
+.posiP{position:relative;}
+.icon{position:absolute;top:50%;left:0.2rem;}
+.phoneIcon{margin-top:-0.22rem;width:.32rem;height:.44rem;background-position:right -.4rem;}
+.pasInput,.phoneInput,.textInput{padding:0.23rem 0;padding-left:.7rem;}
+.pasInput,.phoneInput{width:5.34rem}
+.textInput{width:3.1rem}
+.pasInput,.phoneInput,.valiInput{background-color:#fff}
+.valiIcon{width:0.32rem;height:0.32rem;margin-top:-0.16rem;background-position:-1.25rem -0.40rem;}
+.pasIcon{width:0.32rem;height:0.44rem;margin-top:-0.22rem;background-position:-1.26rem -0.78rem;}
+.codeIcon{width:0.37rem;height:0.28rem;margin-top:-0.13rem;background-position:-0.72rem -0.87rem;}
+.textBox{padding:.11rem 0}
+.textW{font-size:.26rem}
+.textH{height:.82rem;line-height:.82rem;}
+.textRadian{border-radius:5px}
+.textAllW{width:6.04rem;}
+.validatorImg{vertical-align:middle}
+.sendVal,.validatorImg{width:1.96rem}
+.sendVal{display:inline-block;height:.77rem;border-bottom:.05rem solid #bb7e0a;background:#ffa800;line-height:.77rem}
+.sendValTime{background-color:#cecece;border-bottom-color:#cecece}
+.valBtn,.valTime{display:inline-block;width:100%;height:100%}
+.valTime{display:none;font-size:.16rem}
+.gift,.sendVal{color:#fff;cursor:pointer}
+.textCenter{text-align:center}
+.acceptBox{position:relative;padding-left:.3rem;height:.6rem;font-size:.18rem;line-height:.6rem}
+.acceptBox input[type=checkbox]{position:absolute;top:50%;left:0;margin-top:-.1rem;margin-right:.1rem;width:.2rem;height:.2rem}
+.acceptWord{margin:0 .02rem;color:#b74a01}
+.inputRadio{position:relative;display:inline-block;margin-right:.08rem;width:.16rem;height:.16rem;background:#ffc14a;cursor:pointer}
+.gift{letter-spacing:0.02rem;border-bottom:.06rem solid #7f2d00;background:#eb6100}
+.footer,.navigation{display:none}
+footer{padding:.1rem 0;background:#353535;font-size:.16rem}
+footer .nav{margin:auto;padding:.22rem 0 .12rem;width:68%;text-align:center}
+.footer .nav a,footer .nav span{font-size:.15rem}
+footer .nav span{padding:0 6%;color:#707070}
+footer .nav a{color:#fff}
+footer p{color:#676767;text-align:center;font-size:.12rem;line-height:.3rem}

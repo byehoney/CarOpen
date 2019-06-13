@@ -1,0 +1,367 @@
+body{
+    background:#301464;
+}
+.egg_pair_page{
+    max-width:750px;
+    margin:0 auto;
+    position: relative;
+}
+.egg_pair_t{
+    display:block;
+    /*width:100%;*/
+    /*height:2.87rem;*/
+    /*background:url(../../../image/activity/doubleDan/egg_pair_t.png) no-repeat;*/
+    /*background-size:100% 100%;*/
+}
+.egg_pair_c{
+    width:100%;
+    height:4.11rem;
+    background:url(../../../image/activity/doubleDan/egg_pair_c.png) no-repeat;
+    background-size:100% 100%;
+}
+.egg_pair_b{
+    width:100%;
+    height:6.33rem;
+    background:url(../../../image/activity/doubleDan/egg_pair_b.png) no-repeat;
+    background-size:100% 100%;
+    position:relative;
+}
+.egg_pair_count{
+    text-align: center;
+}
+.egg_pair_count .notice_title li p{
+    font-size:.2rem;
+    color:#fff;
+    line-height:.5rem;
+}
+.notice {
+    width: 4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.notice .notice_title {
+    height:.5rem;
+}
+.notice .notice_title ul{
+    margin-left: 0;
+}
+.notice .notice_title ul li {
+    height:.5rem;
+    line-height:.5rem;
+    overflow:hidden;
+}
+.egg_pair_count p{
+    font-size:.31rem;
+    color:#fff300;
+    line-height:1;
+}
+.egg_pair_count p.money{
+     font-size:.74rem;
+     color:#fff300;
+     margin:.16rem 0 .08rem 0;
+ }
+.egg_pair_count .arrow_btn{
+    width:.53rem;
+    height:.38rem;
+    background:url(../../../image/activity/doubleDan/arrow.png) no-repeat;
+    background-size:100% 100%;
+    margin:.08rem auto;
+    position: relative;
+    top:0;
+}
+
+/*马路样式部分*/
+.swiper-container {
+    width:100%;
+    height:1.5rem;
+}
+.swiper-container .swiper-wrapper{
+    position:relative;
+}
+.swiper-container .road,.swiper-container .matters{
+    width: 100%;
+    height: .76rem;
+    position: absolute;
+    top:50%;
+    margin-top:-.34rem;
+    z-index: 2;
+}
+.swiper-container .road{
+    background: url("../../../image/activity/doubleDan/scroll_bar.png") repeat-x;
+    background-size:cover;
+}
+.swiper-container .matters{
+    background: url("../../../image/activity/doubleDan/matters.png") no-repeat;
+    background-size:100% 100%;
+    width:3rem;
+    left:4rem;
+}
+.swiper-container .swiper-slide.zero{
+    background:transparent;
+    opacity: 1;
+    z-index:5;
+}
+.swiper-container .swiper-slide.first{
+    width: 6rem;
+    z-index:4;
+}
+.swiper-container .swiper-slide.second{
+    width: 4.05rem;
+    z-index:3;
+}
+.swiper-container .swiper-slide.third{
+    width: 6rem;
+    z-index:2;
+}
+.swiper-container .swiper-slide.last{
+    width: 7rem;
+    z-index:1;
+}
+.swiper-container .swiper-slide.last.road{
+    width:4rem;
+}
+.swiper-container .swiper-slide .go{
+    position: absolute;
+    right:-.705rem;
+    width:1.41rem;
+    height:1.41rem;
+    background:url(../../../image/activity/doubleDan/go_btn.png) no-repeat;
+    background-size:100% 100%;
+    z-index: 3;
+}
+.swiper-container .swiper-slide .radio{
+    position: absolute;
+    right: -.3905rem;
+    margin:0 auto;
+    width: .79rem;
+    height: .79rem;
+    line-height:.79rem;
+    text-align:center;
+    font-size:.56rem;
+    color:#600402;
+    background:url(../../../image/activity/doubleDan/coordinate.png) no-repeat;
+    background-size:100% 100%;
+    z-index: 3;
+}
+
+/*瓜分状态*/
+.present_carve,.about_carve{
+    width:3.83rem;
+    height: 3.04rem;
+    margin:0 auto;
+}
+.carve_count {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height:3.04rem;
+}
+.present_carve{
+    background:url(../../../image/activity/doubleDan/present_carve.png) no-repeat;
+    background-size:100% 100%;
+}
+.about_carve{
+    background:url(../../../image/activity/doubleDan/about_carve.png)  no-repeat;
+    background-size:100% 100%;
+    display:none;
+}
+.present_carve p,.about_carve p{
+    font-size:.46rem;
+    font-weight:bold;
+    color:#1a1a1a;
+    text-align: center;
+    padding-top:.7rem;
+}
+.Cartoon_car{
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+.rewards_pic{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 2;
+    cursor: pointer;
+}
+.rewards_pic img{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+.rule_btn{
+    width:.52rem;
+    height: 1.45rem;
+    background:url(../../../image/activity/doubleDan/rule_btn.png)  no-repeat;
+    background-size:100% 100%;
+    position:fixed;
+    bottom:30%;
+    right:0;
+    z-index: 1;
+}
+.rule_btn a{
+    width:100%;
+    height:100%;
+    display:block;
+}
+/*加息状态*/
+.rate_coupon{
+    position:fixed;
+    top:110%;
+    left:2%;
+    z-index: 200;
+    margin-top: -.8rem;
+}
+.usage_btn{
+    display: none;
+}
+.usage_btn img{
+    display:block;
+    width:1.3rem;
+}
+.immediate_pic1{
+    width:1.3rem;
+    height: 1.56rem;
+    background:url(../../../image/activity/doubleDan/immediate_pic1.png)  no-repeat;
+    background-size:100% 100%;
+    margin:.06rem 0 0 .06rem;
+    display:none;
+}
+.immediate_pic2{
+    width:1.3rem;
+    height: 1.56rem;
+    background:url(../../../image/activity/doubleDan/immediate_pic2.png)  no-repeat;
+    background-size:100% 100%;
+    margin:.06rem 0 0 .06rem;
+    display:none;
+}
+.immediate_pic3,.immediate_pic0{
+    width:1.3rem;
+    height: 1.56rem;
+    background:url(../../../image/activity/doubleDan/immediate_pic3.png)  no-repeat;
+    background-size:100% 100%;
+    margin:.06rem 0 0 .06rem;
+    display:none;
+}
+
+/*弹窗背景*/
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:3000;
+}
+
+/*加息弹窗样式*/
+.tic_pop_contaienr{
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 15%;
+    left:0;
+    z-index: 4000;
+}
+.ticTip{
+    text-align: center;
+    font-size: .38rem;
+    color:#fff;
+    position: absolute;
+    top: .5rem;
+    width: 100%;
+}
+.ticketBox{
+    width: 100%;
+    height:4.7rem;
+    background:url("../../../image/activity/doubleDan/ticketBg.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.ticketInfo{
+    width: 5.4rem;
+    height: 2.07rem;
+    background: url("../../../image/activity/doubleDan/ticket.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top:2.3rem;
+    left:50%;
+    margin-left: -2.7rem;
+}
+.ticTitle{
+    font-size: .45rem;
+    color:#fff;
+    width: .45rem;
+    height: 1.46rem;
+    float:left;
+    margin-left: .6rem;
+    margin-top: .22rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.ticDetail{
+    width: 2.2rem;
+    float: right;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: .24rem;
+    color:#fff;
+}
+.ticDetail .rate em{
+    font-size:.94rem;
+    font-weight: bold;
+    position: relative;
+    top: .08rem;
+}
+.ticDetail .rate i{
+    font-size: .46rem;
+    margin-left: .05rem;
+}
+.ticBtn{
+    width: 2.8rem;
+    height: .67rem;
+    text-align: center;
+    line-height: .67rem;
+    color:#fff;
+    font-size: .38rem;
+    margin:0 auto;
+    background: url("../../../image/activity/doubleDan/ticBtn.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.closeBtn{
+    width: .57rem;
+    height: .57rem;
+    line-height: .57rem;
+    background: url("../../../image/activity/doubleDan/closeBtn.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: .2rem;
+    right: .3rem;
+}
+/*错误提示信息样式开始*/
+.err{
+    display: none;
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+/*错误提示信息样式结束*/

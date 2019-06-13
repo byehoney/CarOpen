@@ -1,0 +1,98 @@
+.alipayPage{
+	background:#eee;
+}
+.alipayPage .banner_t{
+	height:3.45rem;
+	background:url(../../../image/activity/hotel/banner_t.png) no-repeat;
+	background-size:100% 100%;
+}
+.alipayPage .banner_b{
+	height:2.52rem;
+	background:url(../../../image/activity/hotel/banner_b.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.picList .units_ioc{
+	background: url(../../../image/activity/hotel/units_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .eyes_ioc{
+	background: url(../../../image/activity/hotel/eyes_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .flowers_ioc{
+	background: url(../../../image/activity/hotel/flowers_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.verify li i{
+	background:url(../../../image/activity/hotel/small.png) no-repeat;
+	background-size:.5rem;
+}
+.pop_agr .agree{
+	background: url(../../../image/activity/hotel/circle_off.png) center top no-repeat;
+	background-size:100% 100%;
+}
+.pop_agr .pop_agron {
+    background: url(../../../image/activity/hotel/circle_on.png) center top no-repeat;
+	background-size:100% 100%;
+}
+.alipayBg h3 span{
+	border-left:.04rem solid #07a373;
+}
+.ex_popup a{
+	 background-color:#07a373;
+}
+.treasure{
+	color:#333;
+}
+.timelimit div, .earnings_cont div {
+	color:#333;
+}
+.goReg a{
+	 background-color:#07a373;
+}
+.verify .pop_msg_count{
+	background:#07a373;
+}
+
+/*活动说明*/
+.alipayBg .instructions{
+	padding:.2rem .1rem .56rem .2rem;
+}
+.instructions li{
+	overflow:hidden;
+	padding-top:.3rem;
+}
+.instructions div{
+	width:90%;
+	float:right;
+}
+.instructions p{
+	line-height:.28rem;
+	font-size:.22rem;
+	color:#39383d;
+	text-align:justify;
+}
+.instructions span{
+	width:.37rem;
+	height:.37rem;
+	line-height:.37rem;
+	text-align:center;
+	background:#07a373;
+	float:left;
+	font-size:.26rem;
+	color:#fff;
+	border-radius:50%;
+}
+.footer{
+	text-align:center;
+	background:#434343;
+	padding:.34rem 0 .28rem;
+}
+.footer p{
+	font-size:.22rem;
+	color:#c9c9c9;
+}
+.changeColor{
+	color:#07a373;
+}

@@ -1,0 +1,262 @@
+
+.Wps_page {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #ffeccb;
+    padding-bottom: .35rem;
+}
+.Wps_page .banner {
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width:100%;
+    display:block;
+}
+.banner .activeDay {
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #faf3c7;
+}
+.Wps_page .container {
+    margin:0 .2rem;
+    margin-top: -3.5rem;
+    position: relative;
+    z-index: 3;
+    overflow:  hidden;
+}
+.Wps_page .distance {
+    width: 100%;
+    margin-bottom:.35rem;
+    text-align: center;
+    background: #fffdfa;
+    border-radius: .06rem;
+}
+.Wps_page .acquisition {
+    text-align: center;
+    font-size: .36rem;
+    color: #ff6600;
+    font-weight: 600;
+    margin-bottom:.35rem;
+}
+.Wps_page .chunk_bg {
+    padding: .34rem .3rem 0;
+}
+.Wps_page .welfare_distance{
+    padding: .34rem .3rem 0;
+}
+.Wps_page .deadline {
+    font-size: .26rem;
+    color: #666;
+    margin-top: .12rem;
+}
+.Wps_page .welfare_one {
+    line-height: .42rem;
+    background: url(../../../image/activity/wps/welfare_bg.png) no-repeat   center bottom;
+    background-size: contain;
+    margin: 0 .18rem;
+    font-size:.36rem;
+    color: #fe7215;
+}
+.Wps_page .first_shot {
+    margin-top: .22rem;
+}
+.Wps_page .first_shot p {
+    font-size: .28rem;
+    color: #333;
+    line-height: .46rem;
+    letter-spacing: .01rem;
+}
+.Wps_page .first_shot .mt{
+    margin-top:.2rem;
+}
+.Wps_page .first_shot p span {
+    font-size: .32rem;
+    color: #fe7215;
+    font-weight: 600;
+}
+
+
+/*项目卡片轮播图*/
+.Wps_page .lump{
+    width: 100%;
+    position: relative;
+}
+.swiper-container-horizontal>.swiper_btn{
+    bottom: 27px;
+    z-index: 999999;
+    /* width: 1rem; */
+    /* overflow:  hidden; */
+    /* margin-left: -.46rem; */
+    /* position:  absolute; */
+    /* left: 50%; */
+    height: .2rem;
+    line-height: .2rem;
+}
+.swiperOne {
+    width: 100%;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+}
+.swiper-slide, .swiper-wrapper{
+    height:auto;
+}
+
+.swiper-pagination-bullet {
+    background: #999;
+    margin-right:.2rem;
+    opacity: .4;
+    /* position:  absolute; */
+}
+.swiper-pagination-bullet-active {
+    opacity: .7;
+    background: #999;
+}
+.swiperOne  .swiper-slide {
+    width: 80%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+.Wps_page .rule_bg {
+    padding: .38rem .3rem;
+}
+.Wps_page .status .more {
+    font-size: .26rem;
+    color: #fe7215;
+    cursor: pointer;
+    margin-top: .26rem;
+}
+.Wps_page .status{
+    padding-bottom: .4rem;
+}
+.Wps_page .status .recommend {
+    font-size: .32rem;
+    color: #333;
+    line-height: .74rem;
+}
+.Wps_page .status .novice_project_left {
+    background: #fff5eb;
+    border: .06rem solid #ffe9d6;
+    padding-bottom: .34rem;
+    z-index: 4;
+    position:  relative;
+}
+.Wps_page .status .novice_project_left .page_title {
+    margin-left: -.06rem;
+}
+.Wps_page .status .novice_project_left .page_title i.novice_ioc {
+    background: url("../../../image/activity/wps/new_project.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.2rem;
+    height: .4rem;
+    line-height: .4rem;
+    float: left;
+    margin-top: .05rem;
+    font-size: .26rem;
+    color: #fff;
+}
+.Wps_page .status .novice_project {
+    padding: .36rem .32rem;
+    cursor: pointer;
+}
+.Wps_page .status .percentage_left,.Wps_page .status .date {
+    width: 50%;
+}
+.Wps_page .status .novice_project .percentage {
+    font-size: .44rem;
+    color: #fe7215;
+    font-weight: 600;
+}
+.Wps_page .status .novice_project p {
+    font-size: .28rem;
+    color: #666;
+    margin-top: .06rem;
+}
+.Wps_page .status .novice_project .date div {
+    font-size: .44rem;
+    color: #666;
+    font-weight: 600;
+}
+.Wps_page .status .novice_project .date div em {
+    margin-right: .14rem;
+}
+.Wps_page .status  .Involved-btn {
+    width: 3.36rem;
+    height: .5rem;
+    line-height: .5rem;
+    background: #fe7215;
+    margin:0 auto;
+    border-radius: .25rem;
+}
+.Wps_page .status .Involved-btn a {
+    display: block;
+    font-size: .28rem;
+    color: #fff;
+    cursor: pointer;
+}
+.Wps_page .status .no_project img{
+    margin: .26rem 0 .2rem;
+}
+.Wps_page .status .Close_Time img {
+    margin: .26rem 0 .24rem;
+}
+.Wps_page .status .no_project p,
+.Wps_page .status .Close_Time p {
+    line-height: .36rem;
+    font-size: .26rem;
+    color: #965a17;
+}
+.Wps_page .status .activity {
+    margin-top:.46rem;
+}
+.Wps_page .status .activity .no_started {
+    width: 4.88rem;
+    height: .72rem;
+    line-height: .72rem;
+    background: #feb786;
+    font-size: .28rem;
+    color: #fff;
+    border-radius: .36rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.Wps_page .status .activity .finish {
+    background: #d8d8d8;
+}
+.Wps_page .rule_icon {
+    width: 2.32rem;
+    line-height: .42rem;
+    background: url(../../../image/activity/wps/rule_bg.png) no-repeat center bottom;
+    background-size: contain;
+    margin: 0 auto;
+    font-size: .36rem;
+    color: #fe7215;
+}
+.Wps_page .rule_cont {
+    margin-top: .34rem;
+}
+.Wps_page .rule_cont ol {
+    text-align: left;
+    padding-left: .4rem;
+}
+.Wps_page .rule_cont ol li {
+    list-style-type: decimal;
+    line-height: .44rem;
+    font-size: .26rem;
+    color: #333;
+    letter-spacing: .01rem;
+}
+.bottom_pic{
+    display: block;
+    width:2.99rem;
+    margin:0 auto;
+}

@@ -1,0 +1,140 @@
+html,body{
+	width: 100%;
+    height: 100%;
+    background-color: #3b2a66;
+}
+.main{
+	width: 100%;
+	max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.banner {
+    width: 100%;
+    height: 4.87rem;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .activeDay {
+    position: absolute;
+    top: .8rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: .22rem;
+    color: #ffe88f;
+}
+
+.main .addBanner{
+    height:4.88rem;
+}
+.main .addTitle{
+    height:.6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    color:#988ccf;
+    text-align:center;
+    background-color: #4a3580;
+    position: relative;
+}
+.main .addTitle .modifyAdd{
+    position: absolute;
+    right:.26rem;
+    text-decoration: underline;
+    color:#fff;
+    display: none;
+}
+.main .addInfo{
+    padding-top: .35rem;
+    width: 94%;
+    margin:0 auto;
+}
+.main .addInfo li{
+    height:.56rem;
+    line-height:.56rem;
+    border:.02rem solid #988ccf;
+    margin-bottom: .27rem;
+    position: relative;
+    padding-left:.15rem;
+    border-radius: .04rem;
+}
+.main .addInfo li input{
+    display: inline-block;
+    width:95%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:.15rem;
+    color:#6c619f;
+    font-size: .22rem;
+}
+::-webkit-input-placeholder { 
+    color: #6c619f; text-overflow: ellipsis; 
+}
+.main .newAddBox{
+    margin:0 auto;
+    margin-top: .58rem;
+    width: 94%;
+    font-size: .24rem;
+    margin-bottom: .7rem;
+}
+.main .newAddBox li{
+    width:2.76rem;
+    height:.56rem;
+    line-height: .56rem;
+    text-align: center;
+    border:0.02rem solid #f3f292;
+    border-radius: .05rem;
+}
+.main .newAddBox li.backAct{
+    color:#f3f292;
+}
+.main .newAddBox li.saveAdd{
+    color:#3b2a66;
+    background-color: #f3f292;
+}
+.main .modifyBox{
+    margin-bottom:.7rem;
+    margin-top: .58rem;
+    display: none;
+}
+.main .modifyBox .modifyBack a{
+    display: block;
+    width:94%;
+    height:.56rem;
+    line-height: .56rem;
+    text-align: center;
+    border:0.02rem solid #f3f292;
+    border-radius: .05rem;
+    font-size: .24rem;
+    margin:0 auto;
+    color:#f3f292;
+}
+
+/*错误提示信息样式开始*/
+.err{
+    display: none; 
+    width: 4.2rem;
+    padding: 0 .2rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -2.1rem;
+    margin-top: -.6rem;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+    word-break: break-all;
+}
+/*错误提示信息样式结束*/

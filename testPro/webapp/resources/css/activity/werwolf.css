@@ -1,0 +1,412 @@
+html {
+  font-size: 625%;
+}
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 312.5% !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 350% !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 390.625% !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 417.9% !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 468.75% !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 546.875% !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 625% !important;
+  }
+}
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.top_banner {
+  height: 3.91rem;
+  width: 100%;
+  background: url("../../image/activity/werwolf/banner.png") no-repeat;
+  background-size: 100% 100%;
+}
+.example {
+  width: 100%;
+  border-top: 1px solid #707381;
+  overflow: hidden;
+  background-color: #171a28;
+}
+.example_img {
+  background: url("../../image/activity/werwolf/example.png") no-repeat;
+  background-size: 100% 100%;
+  height: .7rem;
+  width: 6.07rem;
+  margin: .32rem auto .3rem ;
+}
+.lisbg {
+  background: url("../../image/activity/werwolf/lis_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.example_lis {
+  width: 6rem;
+  margin: 0 auto;
+}
+.example_lis ul {
+  overflow: hidden;
+}
+.example_lis li {
+  width: 1.93rem;
+  height: 1.36rem;
+}
+.example_lis li p {
+  font-size: .22rem;
+  color: #f5cc87;
+  line-height: .3rem;
+  text-shadow: 0px 3px 3px #171a28;
+  text-align: center;
+}
+.example_lis li p:first-child {
+  margin-top: .24rem;
+}
+.example_lis .lis1,
+.example_lis .lis2 {
+  margin-right: .1rem;
+}
+.phbox {
+  width: 5.13rem;
+  height: .83rem;
+  margin: .5rem auto 0;
+  background-color: #131522;
+  border-radius: .15rem;
+  box-shadow: 0px 1px 3px #515155;
+  overflow: hidden;
+}
+.phbox input.phnum {
+  display: block;
+  width: 5rem;
+  margin: .07rem;
+  outline: none;
+  line-height: .7rem;
+  background-color: #141623;
+  border-radius: .15rem;
+  color: #fff;
+  font-size: .24rem;
+  text-align: center;
+}
+.ex_popup {
+  width: 5.11rem;
+  height: .8rem;
+  background: url("../../image/activity/werwolf/ex_popup_bef.png") no-repeat;
+  background-size: 100% 100%;
+  margin: .36rem auto .49rem;
+  cursor: pointer;
+}
+.act_txt {
+  width: 6rem;
+  background-color: #5d627f;
+  border-top: 2px solid #767b96;
+  border-radius: .1rem;
+  box-sizing: border-box;
+  margin: 0 auto .5rem;
+  overflow: hidden;
+  font-size: .22rem;
+}
+.act_txt h3 {
+  margin-left: .26rem;
+  margin-top: .2rem;
+  line-height: .44rem;
+  color: #fcc214;
+  font-size: .24rem;
+}
+.act_txt div {
+  margin: 0 .26rem;
+  color: #fff;
+}
+.act_txt div span {
+  line-height: .36rem;
+}
+.act_txt div p {
+  line-height: .36rem;
+  width: 5.16rem;
+  margin-left: .04rem;
+}
+.act_txt div:last-child {
+  margin-bottom: .34rem;
+}
+.reason_tit {
+  height: .88rem;
+  background: url("../../image/activity/werwolf/reason_bg.png");
+  overflow: hidden;
+}
+.reason_tit h2 {
+  height: .44rem;
+  line-height: .44rem;
+  font-size: .28rem;
+  color: #fff;
+  margin-top: .24rem;
+  overflow: hidden;
+  text-align: center;
+}
+.reason_tit h2 i {
+  display: inline-block;
+  width: .13rem;
+  height: .44rem;
+  vertical-align: middle;
+}
+.reason_tit h2 .ic_l {
+  background: url("../../image/activity/werwolf/icon_bfl.png") no-repeat;
+  background-size: 100% 100%;
+  margin-right: .18rem;
+}
+.reason_tit h2 .ic_r {
+  background: url("../../image/activity/werwolf/icon_bfr.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: .18rem;
+}
+.reason_per {
+  height: 5.14rem;
+  border-bottom: 2px solid #262936;
+  background: url("../../image/activity/werwolf/wolf_bg.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+.reason_per .per_exam {
+  width: 2.3rem;
+  height: .45rem;
+  background: url("../../image/activity/werwolf/per_exam.png") no-repeat;
+  background-size: 100% 100%;
+  font-size: .26rem;
+  color: #fff;
+  text-align: center;
+  margin-right: .2rem;
+  margin-top: .3rem;
+}
+.reason_per .per_exam p {
+  line-height: .45rem;
+}
+.reason_per .zzr_per,
+.reason_per .yeb_per,
+.reason_per .bank_per {
+  position: absolute;
+  color: #ffffff;
+  z-index: 1;
+}
+.reason_per .zzr_per {
+  font-size: .24rem;
+  background: url("../../image/activity/werwolf/per_bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding: .05rem .17rem .05rem .08rem;
+  overflow: hidden;
+  left: .58rem;
+  top: .5rem;
+}
+.reason_per .zzr_per i {
+  display: inline-block;
+  width: .32rem;
+  height: .32rem;
+  margin-right: .08rem;
+  background: url("../../image/activity/werwolf/icon_logo.png") no-repeat;
+  background-size: 100% 100%;
+}
+.reason_per .yeb_per {
+  color: #aca2b2;
+  font-size: .22rem;
+  background: url("../../image/activity/werwolf/per_bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding: .07rem .14rem;
+  overflow: hidden;
+  left: 1.84rem;
+  top: 1.84rem;
+}
+.reason_per .yeb_per i {
+  display: inline-block;
+  width: .24rem;
+  height: .27rem;
+  margin-right: .08rem;
+  background: url("../../image/activity/werwolf/icon_yeb.png") no-repeat;
+  background-size: 100% 100%;
+}
+.reason_per .bank_per {
+  color: #aca2b2;
+  font-size: .16rem;
+  background: url("../../image/activity/werwolf/per_bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding: .06rem .14rem .06rem ;
+  overflow: hidden;
+  left: 3.35rem;
+  top: 2.69rem;
+}
+.reason_per .bank_per i {
+  display: inline-block;
+  width: .21rem;
+  height: .21rem;
+  margin-left: .08rem;
+  background: url("../../image/activity/werwolf/icon_bank.png") no-repeat;
+  background-size: 100% 100%;
+}
+.return {
+  overflow: hidden;
+  background-color: #1b1e2b;
+  box-shadow: 0 2px 2px #000;
+}
+.return .return_top {
+  margin-top: .66rem;
+  margin-bottom: .74rem;
+}
+.return p.foot_txt {
+  font-size: .2rem;
+  color: #a8a9ab;
+  margin-bottom: .76rem;
+  text-align: center;
+}
+.popup {
+  display: none;
+  width: 6rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  text-align: center;
+  z-index: 60;
+}
+.pop_tborder {
+  height: .15rem;
+  background: url("../../image/activity/werwolf/pop_tborder.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pop_fborder {
+  height: .15rem;
+  background: url("../../image/activity/werwolf/pop_fborder.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pop_bd {
+  background-color: #5d627f;
+  overflow: hidden;
+}
+.pop_bd input.btn_mobnumber {
+  display: block;
+  width: 5.12rem;
+  height: .83rem;
+  margin: .5rem auto 0;
+  outline: none;
+  line-height: .83rem;
+  color: #fff;
+  font-size: .24rem;
+  text-align: center;
+  overflow: hidden;
+  background: url("../../image/activity/werwolf/input_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pop_bd .pop_check {
+  height: .8rem;
+  width: 5.12rem;
+  margin: .29rem auto 0;
+}
+.pop_bd .pop_check input {
+  width: 3rem;
+  padding-left:.25rem;
+  line-height: .81rem;
+  font-size: .24rem;
+  color: #fff;
+  float: left;
+  outline: none;
+  background: url("../../image/activity/werwolf/input_bg.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pop_bd .pop_check_msg .pop_msg_count {
+  line-height: .81rem;
+  padding: 0 .12rem;
+  background-color: #787c93;
+  font-size: .24rem;
+  color: #fff;
+  border-radius: .1rem;
+  float: right;
+}
+.pop_bd .pop_check_txt .img-code {
+  vertical-align: middle;
+  cursor: pointer;
+  height: .81rem;
+  width: 1.72rem;
+  float: right;
+  font-size: .18rem;
+  border-radius: .1rem;
+}
+.pop_bd .pop_agr {
+  margin-top: .29rem;
+  color: #bebebe;
+  font-size: .18rem;
+}
+.pop_bd .pop_agr .agree {
+  width: .28rem;
+  height: .32rem;
+  margin-left: 1.42rem;
+  margin-right: .1rem;
+  background: url("../../image/activity/werwolf/circle_off.png") no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+.pop_bd .pop_agr .pop_agron {
+  background-image: url("../../image/activity/werwolf/circle_on.png");
+}
+.pop_bd .pop_agr span {
+  line-height: .32rem;
+  float: left;
+}
+.pop_bd .pop_agr span a {
+  color: #bebebe;
+}
+.pop_bd .go_reg {
+  width: 5.11rem;
+  height: .8rem;
+  background: url("../../image/activity/werwolf/go_reg.png") no-repeat;
+  background-size: 100% 100%;
+  margin: .22rem auto .58rem;
+  cursor: pointer;
+}
+#overlay {
+  background: #000;
+  opacity: 0.5;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+.error_msg {
+  width: 3.8rem;
+  padding: .38rem 0;
+  font-size: .18rem;
+  background-color: #ccc ;
+  background: rgba(3, 3, 3, 0.5);
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-left: -1.9rem;
+  text-align: center;
+  z-index: 70;
+  color: #fff;
+  word-break: break-all;
+}
+.error_msg p {
+  line-height: .36rem;
+}

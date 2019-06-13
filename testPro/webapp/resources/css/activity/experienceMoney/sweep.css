@@ -1,0 +1,39 @@
+body{background-color:#f0f0f0;}
+.sweep_exchange{width:100%;}
+.sweep_exchange .sweep_exchange_cont{margin:.28rem .2rem 0;}
+.sweep_exchange .sweep_exchange_cont .sweep_bg{text-align:center;padding-bottom:.38rem;background-color:#fff;}
+.sweep_exchange_cont .sweep_bg .experience_amount{width:2.72rem;margin:0 auto;padding-top:.25rem;}
+.experience_amount .money{width:2.72rem;height:1.46rem;background:url(../../../image/activity/experienceMoney/figure_icon.png) no-repeat;background-size:100%;}
+.experience_amount .money p{text-align:center;font-size:.42rem;color:#ff4e00;padding:.45rem 0 .25rem;}
+.experience_amount .money p em{font-size:.24rem;}
+.sweep_exchange_cont .experience_amount .experience_title{font-size:.3rem;color:#f6d056;text-align:center;background-color:#e93808;padding:.48rem 0 .6rem;}
+.sweep_bg .txt{width:6.12rem;height:.66rem;line-height:.66rem;text-align:center;font-size:.24rem;color:#999;border:1px solid #f45e16;border-radius:.4rem;margin:0 auto;}
+.sweep_exchange .sweep_exchange_cont .sweep_bg .errorTips{width:5.3rem;height:.28rem;line-height:.28rem;font-size:.18rem;color:#e93808;background-color:#ffeed9;border-radius:.14rem;margin:.1rem auto .08rem;}
+.sweep_exchange .sweep_exchange_cont .sweep_bg .use{color:#fff;font-size:0.24rem;width:4.14rem;height:.68rem;line-height:.68rem;text-align:center;border-radius:.3rem;margin:.23rem auto 0;background:#eee;}
+.sweep_exchange .sweep_exchange_cont .sweep_bg .newBtn{background:linear-gradient(to right, #f18f1c 20%, #f73010)!important;}
+.sweep_exchange .sweep_exchange_cont .sweep_bg .use a{font-size:.24rem;color:#fff;}
+.sweep_bg .exchange_pic{width:5.1rem;height:3rem;background:url(../../../image/activity/experienceMoney/exchange_pic.png) no-repeat;background-size:100%;margin:0 auto;}
+.sweep_exchange_cont .rules{padding-top:.26rem;}
+.sweep_exchange_cont .rules p{line-height:.36rem;font-size:.24rem;color:#666;}
+.errorTips{visibility: hidden;}
+.successBox{display:none;width:3.88rem;height:1.25rem;padding-top:0.65rem;border-radius:6px;background:#fff;z-index:4;font-size:.24rem;color:#666;text-align:center;position:fixed;left:50%;top:50%;margin-top:-0.95rem;margin-left:-1.94rem;}
+.exeCover{display:none;background:rgba(0,0,0,0.4);width:100%;height:100%;position:fixed;left:0;top:0;}
+.mobile {
+    width: 2.56rem;
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .18rem;
+    color: #e93808;
+    background-color: #ffeed9;
+    border-radius: .14rem;
+    margin: .1rem auto .08rem;
+    visibility:hidden;
+}
+
+.convertBtnActive{
+	background:linear-gradient(to right, #f18f1c 20%, #f73010)!important;
+}
+
+
+
+

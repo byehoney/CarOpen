@@ -1,0 +1,361 @@
+.invite_page {
+    max-width: 750rem;
+    margin: 0 auto;
+    background: #ffefd2;
+    padding-bottom: 1.2rem;
+}
+.invite_page .banner {
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width:100%;
+    display:block;
+}
+.banner .activeDay {
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    text-align: center;
+    font-size: .24rem;
+    color: #fff;
+}
+.invite_page .container {
+    margin: .3rem .3rem 0;
+    position: relative;
+    z-index: 3;
+}
+
+/*数据轮播样式*/
+.notice i {
+    width:.4rem;
+    height: .34rem;
+    margin: .09rem .28rem 0 .15rem;
+    background: url("../../../image/activity/invitation/broadcast.png") no-repeat;
+    background-size: 100% 100%;
+}
+.notice {
+    width:100%;
+    height:.54rem;
+    background:#fde4e3;
+    margin-bottom: .92rem;
+}
+.notice .notice_title {
+    width: 4.96rem;
+    height:.54rem;
+    overflow: hidden;
+}
+.notice_title ul li {
+    height:.54rem;
+    line-height:.54rem;
+    text-align:center;
+    font-size: .26rem;
+    color:#00f6ff;
+}
+.notice_title ul li>span:nth-of-type(1){
+    margin-right: .05rem;
+}
+.notice_title ul li .moreleft,.notice_title .moreright {
+    font-size: .26rem;
+    color:#f14841;
+}
+.invite_page .distance {
+    width: 100%;
+    text-align:  center;
+}
+.invite_page .earnings_pic,.invite_page .earn_pic,.invite_page .invite_pic{
+    margin: 0  auto;
+}
+.invite_page .earnings_pic{
+    width:3.61rem;
+    height:.6rem;
+    background: url("../../../image/activity/invitation/earnings_pic.png") no-repeat;
+    background-size:100% 100%;
+    margin-top: -.56rem;
+}
+.invite_page .earn_pic{
+    width:2.51rem;
+    height:.57rem;
+    background: url("../../../image/activity/invitation/earn_pic.png") no-repeat;
+    background-size:100% 100%;
+    margin-top: -.56rem;
+}
+
+.invite_page .mt{
+    margin:1.4rem auto .92rem;
+}
+.invite_page .chunk_bg{
+    padding: .12rem .19rem .28rem;
+    background: #fe743d;
+    border-radius: .15rem .15rem .3rem .3rem;
+    position:relative;
+}
+.chunk_bg  .left_riband,.chunk_bg  .right_riband{
+    width:.63rem;
+    height:.23rem;
+    background: url("../../../image/activity/invitation/riband.png") no-repeat;
+    background-size: 100% 100%;
+    position:absolute;
+    z-index: -1;
+}
+.chunk_bg  .riband_one{
+    left: -.28rem;
+    top:.44rem;
+}
+.chunk_bg .right_riband_one{
+    right: -.24rem;
+    bottom: 4rem;
+}
+.chunk_bg .small_redPacket{
+    width:.73rem;
+    height:.73rem;
+    background: url("../../../image/activity/invitation/small_redPacket.png") no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto;
+    position:absolute;
+    z-index: -1;
+}
+.chunk_bg .small_redPacket_one{
+    left: 1.4rem;
+    bottom: -.7rem;
+}
+.chunk_bg .small_redPacket_two{
+    right: -.3rem;
+    top: .8rem;
+}
+.invite_page .chunk_bg_two{
+    background: #fff;
+    border-radius: .15rem .15rem .38rem .38rem;
+    text-align: center;
+    color:#666;
+    position:  relative;
+    z-index: 3;
+}
+.friends_earnings{
+    padding: .24rem .6rem .17rem;
+}
+.invite_page .border_bg{
+    width:100%;
+    height: .52rem;
+    background: #f9c6bd;
+    background: -moz-linear-gradient(#f9c6bd,#f9cbc3,#f9c6bd,#f9c6bd,#fefaf9);
+    background: -webkit-linear-gradient(#f9c6bd,#f9cbc3,#f9c6bd,#f9c6bd,#fefaf9);
+    background: -o-linear-gradient(#f9c6bd,#f9cbc3,#f9c6bd,#f9c6bd,#fefaf9);
+    border-radius: 0 0 .2rem .2rem;
+    margin-top: -.33rem;
+    position:  relative;
+    z-index: 1;
+}
+.invite_page .bottom_bg{
+    width:100%;
+    height: .6rem;
+    background: #ffa35a;
+    border-radius: 0 0 .2rem .2rem;
+    margin-top: -.33rem;
+    position:  relative;
+    z-index: -1;
+    box-shadow: 0rem 0.07rem 0.1rem #f5bea1;
+}
+.invite_page  .award_cont{
+    padding: .2rem .17rem .32rem;
+
+}
+.chunk_bg_two .revenue{
+    width: 4.1rem;
+    margin: 0 auto;
+}
+.revenue .lucky_money{
+    width:1.34rem;
+    height:1.42rem;
+    background: url("../../../image/activity/invitation/lucky_money.png") no-repeat;
+    background-size: 100% 100%;
+}
+.revenue .new_standard{
+    width:1.35rem;
+    height:1.36rem;
+    background: url("../../../image/activity/invitation/new_standard.png") no-repeat;
+    background-size: 100% 100%;
+}
+.revenue .sign{
+    line-height: 1.34rem;
+    font-size: .5rem;
+    color:#f9634d;
+    margin: 0 .5rem;
+}
+.lucky_money div,.new_standard div {
+    font-size: .22rem;
+    color: #f9634d;
+    margin-top: .28rem;
+}
+.lucky_money div span,.new_standard div span{
+    font-size: .36rem;
+}
+.lucky_money p,.new_standard p{
+    font-size: .24rem;
+    color:#fff;
+}
+.lucky_money p{
+    margin-top: .22rem;
+}
+.new_standard p{
+    margin-top: .16rem;
+}
+.chunk_bg .award_one p{
+    line-height:.42rem;
+    font-size:.28rem;
+    color:#666;
+}
+.chunk_bg .award_one p span{
+    font-size:.32rem;
+    color:#f14841;
+}
+.chunk_bg .award_one p.money{
+    line-height: .86rem;
+    font-size:.32rem;
+    color:#f14841;
+}
+.chunk_bg .award_one p.money span{
+    font-weight:bold;
+}
+.chunk_bg .award_one p.money i{
+    display:  inline-block;
+    width:.42rem;
+    height:.42rem;
+    background: url("../../../image/activity/invitation/red_packet.png") no-repeat center center;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin-right: .16rem;
+}
+.chunk_bg .mt35{
+    margin-top:.35rem;
+}
+.invite_page .illustrate{
+    margin-top:.5rem;
+}
+.invite_page .illustrate_title p{
+    line-height: .52rem;
+    font-size: .24rem;
+}
+.invite_page .illustrate_title p.example{
+    font-size: .28rem;
+    color:#f14841;
+}
+.container .cost-list {
+    width: 100%;
+    margin-top: .1rem;
+}
+.container .cost-list table {
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 1px solid #f56e40;
+}
+.container .Payment_detailst tr {
+    border-top: 1px solid #f56e40;
+}
+.container .Payment_detailst tr td{
+    color: #666;
+}
+.container .Payment_detailst tr td span{
+    color: #f14841;
+    font-weight:bold;
+}
+.container .Payment_detailst tr th, .container .Payment_detailst tr td {
+    font-size: .26rem;
+    height: 1rem;
+    border-right: 1px solid #f56e40;
+    text-align: center;
+    font-weight: normal;
+}
+.container .Payment_detailst tr th{
+    color: #f14841;
+    width: 33.33%;
+    height: .75rem;
+}
+.container .Payment_detailst tr th:last-child, .container .Payment_detailst tr td:last-child {
+    border-right: none;
+}
+.invitation{
+    text-align:  center;
+}
+.invitation_pic{
+    width:2.64rem;
+    display: block;
+    margin: 0 auto;
+}
+.container .rule{
+    line-height: 1;
+    font-size:.34rem;
+    color: #f14841;
+    margin: .65rem auto .48rem;
+}
+.copyright {
+    text-align: center;
+    line-height:.34rem;
+    font-size:.22rem;
+    color: #b7746a;
+}
+.bottom{
+    width:100%;
+    height: .94rem;
+    line-height: .94rem;
+    text-align: center;
+    font-size:.3rem;
+    color:#fff;
+    background:#fe743d;
+    position: fixed;
+    left:0;
+    bottom:0;
+    z-index: 9;
+}
+.bottom.grey{
+    background: #d4d4d4;
+}
+.examine_code {
+    width: 2.61rem;
+    height: 2.59rem;
+    margin: .41rem auto 0;
+    position: relative;
+}
+.examine_code img{
+    width:2.61rem;
+}
+.wechat{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    border-radius: .06rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.examine_code .logoin {
+    position:  relative;
+    font-size: .24rem;
+    color: #fff;
+    margin-top: .9rem;
+}
+.logoin a {
+    cursor: pointer;
+    color: #f14841;
+    text-decoration:  underline;
+}
+.invitation>p {
+    font-size: .26rem;
+    color:#666;
+    line-height: .78rem;
+}
+
+
+
+/*添加的*/
+.exclusive{
+    width:2.18rem;
+    margin: .54rem auto .38rem;
+}
+.invite_page .exclusive_cont{
+    border: 1px solid #f56e40;
+    border-radius: 0;
+    margin-bottom: .82rem;
+    background-color: transparent;
+}

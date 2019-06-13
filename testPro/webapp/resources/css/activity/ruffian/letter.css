@@ -1,0 +1,81 @@
+html,body{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #3b2a66;
+}
+.main{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+    background:url("../../../image/activity/ruffian/activity_bg.png") ;
+    background-size: .5rem;
+}
+.main .content{
+	width: 94%;
+	position: relative;
+	top:10%;
+	height: 8.6rem;
+	left:3%;
+	background:url("../../../image/activity/ruffian/letter.png") no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.main .content .letterBox{
+	padding: .3rem .48rem 0 .48rem;
+}
+.main .content h3{
+	text-align: center;
+	font-size:.3rem;
+	color:#ae00ff;
+	margin-bottom: .3rem;
+}
+.main .content .hello{
+	font-size: .24rem;
+	color:#3b2a66;
+	margin-bottom: .2rem;
+	font-weight: bold;
+}
+.main .content .letterContent{
+	font-size: .24rem;
+	color: #3b2a66;
+}
+.main .content .letterContent p:nth-child(1){
+	line-height: .42rem;
+	text-indent: .48rem;
+}
+.main .content .letterContent p:nth-child(2){
+	line-height: .5rem;
+	text-indent: .48rem;
+}
+.main .content .letterContent p:nth-child(3){
+	text-align: right;
+	margin-top: .3rem;
+	margin-right: .34rem;
+}
+.main .content .letterContent .fTel{
+	margin-left: .16rem;
+}
+.main .acpBtn{
+	position: absolute;
+	bottom:7.8%;
+	left:50%;
+	margin-left: -1.01rem;
+	width: 2.02rem;
+	height: .6rem;
+	line-height: .6rem;
+	background-color: #f3f292;
+	border-radius: .05rem;
+}
+.main .acpBtn a{
+	color:#151025;
+	font-size: .24rem;
+	text-align:center;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	letter-spacing: .03rem;
+}

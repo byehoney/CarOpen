@@ -1,0 +1,528 @@
+body{
+    background:#554cc5;
+}
+.big_war{
+    max-width:750px;
+    margin:0 auto;
+}
+.big_war .banner{
+    width:100%;
+}
+.big_war .banner img{
+    width: 100%;
+    display:block;
+}
+.banner_b{
+    background:url(../../image/activity/big_war/banner_b.png) no-repeat top center;
+    background-size:100% 100%;
+}
+.status_cont{
+    margin:0 .3rem;
+    padding-bottom:.82rem;
+    padding-top:.42rem;
+}
+.project_list{
+    width:100%;
+    margin:0 auto;
+}
+.status_box,.activity_rules div,.project_list li{
+    background:#fff;
+    border-radius:.08rem;
+}
+.status_cont .big_distance{
+    width:100%;
+    cursor: pointer;
+}
+.Show_state {
+    width:98%;
+    padding:.18rem .14rem .1rem .1rem;
+    position: relative;
+}
+.Show_state .olduser_tip{
+    width:60%;
+    height:.69rem;
+    display:none;
+    line-height:.69rem;
+    text-align: center;
+    background:#2e110e;
+    opacity: 0.9;
+    color:#fff;
+    font-size:.22rem;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-30%;
+    margin-top:-.345rem;
+}
+.Show_state .rough_one {
+    position:absolute;
+    top:-.44rem;
+    left:44%;
+}
+.Show_right{
+    padding-top:.86rem;
+}
+.Show_right h3{
+    padding-bottom:.1rem;
+}
+.Show_right p,.distance_four p{
+    padding:0;
+}
+.rough_red, .rough_green {
+    width:.99rem;
+    height:.99rem;
+    border-radius: 50%;
+    margin:0 auto;
+}
+.rough_one .rough_red {
+    background:#e85548;
+}
+.rough_one .rough_green {
+    background:#22b573;
+}
+.rough_red .checkpoint_one, .rough_red .checkpoint_two, .rough_red .checkpoint_three, .rough_red .checkpoint_four, .rough_green .checkpoint_one, .rough_green .checkpoint_two, .rough_green .checkpoint_three, .rough_green .checkpoint_four {
+    width:.65rem;
+    height:.88rem;
+    margin:0 auto;
+}
+.rough_red .checkpoint_one, .rough_green .checkpoint_one {
+    background: url(../../image/activity/big_war/checkpoint_one.png) no-repeat;
+    background-size:100% 100%;
+}
+.rough_red .checkpoint_two, .rough_green .checkpoint_two {
+    background: url(../../image/activity/big_war/checkpoint_two.png) no-repeat;
+    background-size:100% 100%;
+}
+.rough_red .checkpoint_three, .rough_green .checkpoint_three {
+    background: url(../../image/activity/big_war/checkpoint_three.png) no-repeat;
+    background-size:100% 100%;
+}
+.rough_red .checkpoint_four, .rough_green .checkpoint_four {
+    background: url(../../image/activity/big_war/checkpoint_four.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.opabox {
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    top:0;
+    right:0;
+    border-radius:.09rem;
+}
+.rough_one .opabox {
+    width:.99rem;
+    height:.99rem;
+}
+.opabox .opa {
+    width: 100%;
+    height: 100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    position: absolute;
+    background: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+.rough_one .opabox .opa {
+    border-radius: 50%;
+}
+
+.Show_center p, .rough_one p {
+    font-size:.24rem;
+}
+.rough_one p, .succeed p {
+    color: #727272;
+}
+.rough_one .opabox p {
+    height:.99rem;
+    line-height:.99rem;
+    font-size:.26rem;
+}
+
+.Show_left {
+    width:48%;
+}
+.Show_center {
+    width:52%;
+    padding-top:.66rem;
+}
+.Show_center h3, .rough_one h3 {
+    font-weight: bold;
+    color: #333;
+}
+.Show_center h3{
+    font-size:.31rem;
+    text-align:justify;
+}
+.Show_center p {
+    font-size:.24rem;
+}
+.rough_one p{
+    font-size:.18rem;
+    text-align: left;
+    padding-left:.06rem;
+}
+
+.Show_center p {
+    color:#727272;
+}
+.Show_center p {
+    padding-top:.1rem;
+}
+.Show_Top{
+    width:1.98rem;
+    margin-bottom:.15rem;
+}
+.register_btn {
+    width:2.78rem;
+    height:.6rem;
+    line-height:.6rem;
+    text-align:center;
+    border-radius:.05rem;
+    background:#e85548;
+    margin-top:.22rem;
+}
+.register_btn a{
+    display:block;
+    font-size:.36rem;
+    color:#fff;
+    cursor:pointer;
+}
+.dialog{
+    margin-top:.16rem;
+}
+.mt26{
+   margin-right:.26rem;
+}
+.Show_Top img:first-child{
+    width:.32rem;
+    height:.32rem;
+}
+.Show_Top img:last-child{
+    width:1.5rem;
+    height:.52rem;
+}
+.Show_souvenir img:first-child{
+    width:1.05rem;
+    height:2.05rem;
+}
+.Show_souvenir .laptop{
+    width:1.37rem;
+    height:1.5rem;
+}
+.Show_souvenir .item_icon{
+    width:1.5rem;
+    height:1.39rem;
+}
+.Show_souvenir .phone_icon{
+    width:1.5rem;
+    height:1.26rem;
+}
+.Show_souvenir .raise_icon{
+    width:1.5rem;
+    height:.94rem;
+    margin-top:.6rem;
+}
+.mt8{
+    margin-right:.08rem;
+}
+.mt6{
+     margin-right:.06rem;
+ }
+.mt1{
+    margin-right:.1rem;
+}
+.examine_btn {
+    width:100%;
+    height:.68rem;
+    line-height:.68rem;
+    border-radius:.08rem;
+    margin-bottom:.24rem;
+}
+.examine_btn a {
+    font-size:.34rem;
+}
+.activity_rules .travel_cont{
+    width:32.3%;
+    height:2rem;
+    margin-right:1%;
+    padding-top:.3rem;
+    text-align:center;
+}
+.travel_cont img{
+    width:1.06rem;
+    height:1.05rem;
+    display:block;
+    margin: 0 auto;
+}
+.travel_cont p{
+    font-size:.2rem;
+    font-weight:bold;
+    color:#333;
+}
+.app_cont{
+    width: 32.3%;
+    height: 1.94rem;
+    padding-top: .36rem;
+}
+.app_cont img{
+    width:1.81rem;
+    height:.88rem;
+    display:block;
+    margin: 0 auto;
+}
+.app_cont .loading_app{
+    width:1.78rem;
+    height:.4rem;
+    line-height:.4rem;
+    text-align:center;
+    background:#22b573;
+    border-radius:.2rem;
+    font-size:.24rem;
+    margin:.3rem auto 0;
+}
+.loading_app a{
+    display:block;
+    color:#fff;
+    cursor:pointer;
+}
+.activity_rules .rule{
+    width:61.5%;
+}
+.rule{
+    height:2.06rem;
+    padding:.24rem .1rem 0 .2rem;
+}
+.rule h3{
+    font-size:.26rem;
+    color:#333;
+    font-weight: bold;
+    margin-bottom:.12rem;
+}
+.rule ol{
+    padding-left: .23rem;
+}
+.rule li{
+    list-style-type:decimal;
+    font-size:.22rem;
+    color:#666;
+    margin-bottom: .02rem;
+}
+/*弹窗*/
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+.items-popup{
+    width:92%;
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,0);
+    z-index:4;
+}
+
+.status_list{
+    width:103%;
+    margin:.3rem 0px;
+}
+.status_list li{
+    float: left;
+    width:31.6%;
+    height: 2.76rem ;
+    margin-right:1%;
+    border-radius:.09rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: none;
+}
+.rough {
+    height:2.28rem;
+    padding-top:.48rem;
+    text-align:center;
+    position: relative;
+    background: #fff;
+}
+.rough_one h3 {
+    font-size:.22rem;
+}
+.rough .opabox {
+    width:100%;
+    height:2.76rem;
+    line-height:2.3rem;
+}
+.opabox p {
+    text-align:center;
+    position:relative;
+    font-size:.26rem;
+    color:#fff;
+}
+.rough_green {
+    background:#22b573;
+    margin-bottom:.18rem;
+}
+.succeed p {
+    font-size:.2rem;
+    font-weight:bold;
+    padding: 0;
+    text-align: center;
+}
+.rough .rough_one .rough_red{
+    margin-bottom:.12rem;
+}
+.countdown,.distance{
+    line-height:.3rem;
+    font-size:.26rem;
+    color:#333;
+}
+.countdown{
+    margin-left: -.28rem;
+    margin-top:.4rem;
+}
+.countdown span,.distance span {
+    display:inline-block;
+    width:.4rem;
+    height:.6rem;
+    line-height:.6rem;
+    text-align:center;
+    border-radius:.03rem;
+    background:#e85548;
+    font-size:.42rem;
+    color:#fff;
+    margin-right:.1rem;
+    vertical-align:bottom;
+}
+.Show_right{
+    padding-top:.86rem;
+}
+
+.Show_right p,.distance_four p{
+    padding:0;
+}
+.mt18{
+    margin-top:.4rem;
+}
+.distance_four{
+    padding-top:.8rem;
+}
+.showactive{
+    width:90%;
+    position: fixed;
+    top: 30%;
+    left: 3%;
+    background:#fff;
+    z-index: 999;
+    border-radius: .08rem;
+}
+.Official_accounts{
+    max-width:750px;
+    margin:0 auto;
+}
+.top_pic{
+    width:3.6rem;
+    margin-left:18%;
+    margin-top:.52rem;
+}
+.aap_cont{
+    height: 100%;
+    margin-top:-.96rem;
+    position:relative;
+}
+.aap_cont img{
+    width:100%;
+    display:block;
+}
+.details{
+    position:absolute;
+    left:16%;
+    top:1.24rem;
+    color:#fff;
+}
+.details p{
+    font-size:.28rem;
+}
+.details p:nth-child(2){
+    margin-bottom:.3rem;
+}
+.details h3{
+    font-size:.4rem;
+}
+.details h3+h3{
+    margin-bottom:.24rem;
+}
+.details img{
+    width:2.02rem;
+    margin-bottom:.48rem;
+}
+.fixedPos{
+    position: fixed;
+    width: 100%;
+}
+
+.showactive .btn {
+    width: 100%;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    margin: 0 auto;
+    background-color: #e85548;
+    border-radius: 0.05rem;
+    font-size: 0.32rem;
+    text-align: center;
+}
+.showactive .btn a {
+    color: #fff;
+}
+.showactive h4 {
+    font-size: 0.36rem;
+    color: #333;
+    margin: 0.84rem 0 0.94rem;
+    text-align: center;
+    font-weight:bold;
+}
+.showactive .close {
+    display: inline-block;
+    position: absolute;
+    top: .2rem;
+    right: .38rem;
+    width: .4rem;
+    height: .38rem;
+    background: url(../../image/activity/big_war/close.png) no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.weixin-modal {
+    height: 5.25em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 5.25em;
+    z-index: 99;
+}
+.weixin-modal img {
+    width: 100%;
+}
+.Show_pop {
+    width: 76%;
+    padding: .18rem .58rem .38rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+

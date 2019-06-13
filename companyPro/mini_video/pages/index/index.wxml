@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="mainContainer">
+  <view class="list_item" 
+    wx:for="{{videoList}}"  
+    wx:key="{{index}}" 
+    wx:for-index="index" 
+    wx:for-item="item"
+    data-vid="{{item.id}}"
+    data-title="{{item.title}}"
+    bindtap='goPlayer'
+    >
+    <view class="banner">
+      <image class="banner_img" src="{{item.headImage}}"></image>
+      <view class="mask"></view>
+      <image class="play_icon" src="../../img/play.png"></image>
+    </view>
+    <view class="des">
+      <view class="des_title">{{item.title}}</view>
+      <view class="des_fun">
+        <image class="des_icon" src="../../img/shareIconH.png"></image>
+        <view class="des_text">分享</view>
+      </view>
+    </view>
+  </view>
+</view>

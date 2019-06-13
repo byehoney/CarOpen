@@ -1,0 +1,127 @@
+html {
+  font-size: 625%;
+}
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 312.5% !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 350% !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 390.625% !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 417.9% !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 468.75% !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 546.875% !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 625% !important;
+  }
+}
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #171a28;
+}
+.bindId {
+  margin-top: .8rem;
+}
+.bindId .msg {
+  width: 4.26rem;
+  font-size: .22rem;
+  color: #fbff14;
+  line-height: .48rem;
+  margin: 0 auto;
+  background-color: #343c5b;
+  border-radius: .24rem;
+  text-align: center;
+}
+.bindId .idcon {
+  width: 5.12rem;
+  height: .82rem;
+  margin: .5rem auto 0;
+  background-color: #131522;
+  box-shadow: 0px 1px 3px #515155;
+  border-radius: .1rem;
+  overflow: hidden;
+}
+.bindId .idcon input.idnum {
+  display: block;
+  width: 5rem;
+  margin: .07rem;
+  outline: none;
+  line-height: .7rem;
+  background-color: #141623;
+  border-radius: .1rem;
+  color: #fff;
+  font-size: .24rem;
+  text-align: center;
+}
+.bindId .en_btn {
+  display:block;
+  width: 5.11rem;
+  height: .8rem;
+  background: url("../../image/activity/newwerwolf/en_btn.png") no-repeat;
+  background-size: 100% 100%;
+  margin: .34rem auto 0;
+  cursor: pointer;
+}
+.h_search {
+  width: 6rem;
+  color: #fff;
+  margin: .5rem auto 1.12rem;
+}
+.h_search h3 {
+  font-size: .3rem;
+}
+.h_search h5 {
+  line-height: .82rem;
+  font-size: .24rem;
+}
+.h_search > div {
+  width: 6rem;
+  height: 1.96rem;
+}
+.h_search .o_step {
+  background: url('../../image/activity/newwerwolf/o_step.png') no-repeat;
+  background-size: 100% 100%;
+}
+.h_search .t_step {
+  background: url('../../image/activity/newwerwolf/t_step.png') no-repeat;
+  background-size: 100% 100%;
+}
+.error_msg{
+  width: 3.8rem;
+  padding:.38rem 0;
+  font-size: .18rem;
+  background-color:#ccc ;
+  background: rgba(3,3,3,.5);
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-left: -1.9rem;
+  text-align: center;
+  z-index: 70;
+  color: #fff;
+  word-break: break-all;
+}
+

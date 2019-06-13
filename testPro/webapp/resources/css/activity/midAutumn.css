@@ -1,0 +1,79 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+html, body { min-height: 100%; }
+
+html { font-size: 625%; }
+
+@media only screen and (max-width: 374px) { html { font-size: 312.5% !important; } }
+@media only screen and (min-width: 375px) { html { font-size: 366% !important; } }
+@media only screen and (min-width: 401px) { html { font-size: 390.625% !important; } }
+@media only screen and (min-width: 428px) { html { font-size: 417.9% !important; } }
+@media only screen and (min-width: 481px) { html { font-size: 468.75% !important; } }
+@media only screen and (min-width: 569px) { html { font-size: 546.875% !important; } }
+@media only screen and (min-width: 640px) { html { font-size: 625% !important; } }
+.text-center, .mid-autumn > header, .mid-autumn > footer, .mid-autumn .main section { text-align: center; }
+
+.no-repeat, .back-box i, .mid-autumn .main section .back-top i, .mid-autumn .main section .back-bot i, .mid-autumn .banner { background-repeat: no-repeat; }
+
+.celarfix { zoom: 1; }
+
+.clearfix:after { clear: both; content: ''; display: block; }
+
+.fl { display: inline; float: left; }
+
+.fr { display: inline; float: right; }
+
+.back-box, .mid-autumn .main section .back-top, .mid-autumn .main section .back-bot { position: absolute; width: 100%; height: 0.84rem; }
+.back-box i, .mid-autumn .main section .back-top i, .mid-autumn .main section .back-bot i { width: 0.84rem; height: 0.84rem; }
+
+.text-icon, .mid-autumn .main section > header h3 .text-icon-l, .mid-autumn .main section > header h3 .text-icon-r { display: inline-block; width: 0.48rem; height: 0.34rem; background-position: 0 -0.84rem; vertical-align: middle; }
+
+.back-sprit, .mid-autumn .main section > header h3 .text-icon-l, .mid-autumn .main section > header h3 .text-icon-r, .mid-autumn .main section .back-top .top-l, .mid-autumn .main section .back-top .top-r, .mid-autumn .main section .back-bot .bot-l, .mid-autumn .main section .back-bot .bot-r { background-image: url("../../image/activity/mid_autumn/mid_back.png"); background-size: 0.84rem 1.18rem; }
+
+/****************************************************************/
+.mid-autumn { font-family: 'Microsoft YaHei'; font-size: 0.18rem; color: #f4e171; background-color: #423158; }
+.mid-autumn > header { height: 0.8rem; line-height: 0.8rem; background-color: #333; color: #fff; font-size: 0.28rem; }
+.mid-autumn > footer { height: 0.8rem; padding-top: 0.2rem; line-height: 0.3rem; background: #2b2d2d; color: #989797; font-size: 0.14rem; }
+.mid-autumn .banner { height: 3.01rem; background-image: url("../../image/activity/mid_autumn/mid_autumn.png"); background-size: 100% 3.01rem; }
+.mid-autumn .main { padding: 0 3.75%; }
+.mid-autumn .main .tip { padding: 0.26rem 0 0.1rem 0; text-align: right; }
+.mid-autumn .main section { padding: 0.2rem 0 0; position: relative; /************上背景*************/ /************下背景*************/ }
+.mid-autumn .main section > header { padding-bottom: 0.18rem; }
+.mid-autumn .main section > header h3 { font-size: 0.36rem; }
+.mid-autumn .main section > header h3 .text-icon-r { -moz-transform: rotateY(180deg); -webkit-transform: rotateY(180deg); transform: rotateY(180deg); }
+.mid-autumn .main section > header p { padding-top: 0.12rem; font-size: 0.18rem; }
+.mid-autumn .main section > ul li img { width: 4.27rem; height: 3rem; margin: 0 auto 0.16rem; }
+.mid-autumn .main section > ul li :nth-child(2) { padding-top: 0.08rem;margin: 0.02rem 0 0.16rem 0; }
+.mid-autumn .main section > ul li p:last-child { padding-bottom: 0.36rem; }
+.mid-autumn .main section > ul li p:last-child span { font-size: 0.24rem; }
+.mid-autumn .main section > ul :last-child :last-child { padding-bottom: 0.02rem; }
+.mid-autumn .main section > footer { text-align: right; }
+.mid-autumn .main section .back-top { top: 0.2rem; left: 0; }
+.mid-autumn .main section .back-top .top-r { -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+.mid-autumn .main section .back-bot { bottom: 0; left: 0; }
+.mid-autumn .main section .back-bot .bot-l { -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg); }
+.mid-autumn .main section .back-bot .bot-r { -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+.mid-autumn .main section .rule { padding: 0.2rem 2.7% 0; line-height: 0.4rem; font-size: 0.22rem; text-align: left; }
+.mid-autumn .main section .example { padding: 0 2.7% 0; line-height: 0.3rem; text-align: left; }
+.mid-autumn .main section .example :first-child { width: 16%; }
+.mid-autumn .main section .example :last-child { width: 84%; }
+.mid-autumn .main .two-sec { padding-bottom: 0.3rem; }
+.mid-autumn .main .thr-sec ul{ padding: 0 0 0.38rem 0.28rem; }
+.mid-autumn .main .thr-sec h3 { font-size: 0.3rem; }
+.mid-autumn .main .thr-sec li { list-style: decimal; text-align: left; line-height: 0.34rem; }

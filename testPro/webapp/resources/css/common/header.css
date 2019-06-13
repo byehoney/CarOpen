@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.navigation{width:93.8%; height:50px; background:#fff; position:relative; padding:0px 3.1%;}
+.navigation .userlogo,.navigation .menu,.wptis .touzi a span,.wptis .down span,.wp_warp .conter .project ul .go{background:url(../../image/index/pubic.png) no-repeat; margin-top:16px; background-size: 60px 60px;}
+.navigation .userlogo{width:19px; height:20px; float:left; background-position:0px 0px;}
+.navigation .userlogo a{width:100%; height:100%; display:block;}
+.navigation .menu{width:21px; height:18px; position:relative; background-position:-23px 0px; float:right; }
+.navigation .menu .list{width:94px; padding:0px 7px; display:none; position:absolute; top:36px; z-index:999; margin-left:-88px; background:#fff; border:1px solid #dbdbdb;}
+.navigation .menu .list ul li{height:40px; line-height:40px; text-align:center; font-size:15px; border-bottom:1px solid #e5e5e5;}
+.navigation .menu .list ul li:nth-of-type(5){border-bottom:0;}
+.navigation .menu .list ul li a:hover{color:#15a9f7; text-decoration:none;}
+.navigation .menu .list_jb{width:15px; display:none; position:absolute;top:26px; right:4px;z-index:9999;}
+.navigation .logo{width:80px; margin-top:14px; position:absolute; left:50%; margin-left:-40px;}
+

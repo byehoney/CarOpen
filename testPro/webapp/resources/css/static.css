@@ -1,0 +1,13 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0; font-family: STHeiti,"Microsoft Yahei", "微软雅黑", tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; outline: none;  -webkit-tap-highlight-color: transparent;}
+li{list-style:none;}
+.clearfx{zoom:1;}
+.clearfx:after{ display:block; clear:both; content:"";}
+.questionwp .banner{width:100%;}
+.questionwp .banner img{width:100%;}
+.questionwp .text{width:94%; margin:auto; padding-top:6px;}
+.questionwp .text .gz{line-height:32px; color:#333; font-size:16px; font-weight:400;}
+.questionwp .text li{line-height:20px; color:#666; font-size:13px; padding-bottom:18px;}
+.questionwp .text li span{width:20px; float:left;}
+.questionwp .text li font{width:92%; float:left;}
+.questionwp .btn{width:100%; }
+.questionwp .btn a{width:94%; height:40px; line-height:40px; border-radius:4px; font-size:20px; color:#fff;text-align:center; text-decoration:none;  background:#d83b23; display:block; margin:auto;}

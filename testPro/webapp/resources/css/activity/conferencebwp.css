@@ -1,0 +1,67 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {margin:0;padding:0;border:0;outline:0; font-family: STHeiti,"Microsoft Yahei", "微软雅黑", tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;} article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+a:hover, a:active { outline:none; }
+input, select { vertical-align:middle; }
+ul,ol,li{list-style:none;}
+img { border:0; max-width:100%; }
+hr{ display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+.nocallout {-webkit-touch-callout: none;} /* prevent callout */
+table { margin:0; padding:0; clear:left; width:100%; border-collapse:collapse; border-spacing:0; }
+table td { vertical-align:top; margin:0; }
+html{height:100%; font-family: STHeiti,"Microsoft Yahei", "微软雅黑", tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;}
+body {font:13px/1.4 sans-serif; *font-size: small;word-wrap:break-word;margin:0 auto;-webkit-text-size-adjust: none;color:#3c3c3c;font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif; height:100%;}
+a{color:#1191C3; text-decoration:none;}
+.tcStyle{width:100%;text-align:center;}
+.loading{position:relative;}
+.loadingStyle{width:72%;margin:25% 0}
+.bankerStyle{width:44%;position:absolute;bottom:50px;left:27%}
+.pie {width:200px; height:200px; background-color:#fff;border-radius:100px;position:absolute;}
+.pie1 {clip:rect(0px,200px,200px,100px); }
+.pie2 {clip:rect(0px,100px,200px,0px); }
+.hold {width:200px; height:200px;position:absolute;z-index:1;}
+.hold1 { clip:rect(0px,200px,200px,100px); }
+.hold2 { clip:rect(0px,100px,200px,0px); }
+.bg { width:200px; height:200px; background-color:#01b1ee; border-radius:100px; position:absolute; }
+.timeBg{ width:160px; height:160px; margin:20px 0 0 20px; background:#fff; border-radius:100px; position:absolute; z-index:1;}
+.loadPos{width:200px; height:200px; margin:auto;}
+.bfb{margin:20% 0 2%;width:100%;text-align:center;color:red;font-size:26px}
+.bfb span{font-size:30px}
+.feelGratefulDiv,.activityDiv,.loading,.index{width:100%;height:100%;overflow:hidden;position:relative;}
+.index{position:relative;}
+.textjs{position:relative;top:20%;}
+.indexBg{width:85.2%; height:60px; line-height:50px; padding-bottom:6px; border-bottom: 1px solid #ff854f; position:relative;  right:-100%; text-align:center; font-size:58px; color:#f8ff35; }
+.indextext{width:85.2%; padding: 6px 0px; left:-100%; margin-left:-41.1%; font-size:15px; text-align:left; color:#fff; position:absolute;}
+.conferencebwp{width:100%;}
+.conferencebwp .topbanner img{width:100%;}
+.conferencebwp .text{width:100%; height:166px; padding-top:34px; text-align:center; background:#b2252a; color:#fff;}
+.conferencebwp .text strong{line-height:62px; display:block; font-size:30px; }
+.conferencebwp .text p{line-height:20px; font-size:14px; letter-spacing: 4px;}
+.conferencebwp .text2{padding:24px 10px 24px 10px; background: url(../../image/static/activity/financingbwp/financing_4.jpg) repeat-x; overflow:hidden;}
+.conferencebwp .text2 p{line-height:22px; font-size:13px; color:#626262; text-indent:2em;}
+.conferencebwp .bk_1{padding:23px 10px 0px 10px; height:212px; background:#fff; }
+.conferencebwp .wptis{width:140px; height:34px; position:relative; line-height:34px; letter-spacing:3px; font-size:19px; color:#000; border-bottom:1px solid #c9c9c9;}
+.conferencebwp .wptis p{height:33px; position:relative; bottom: 0px;border-bottom:3px solid #d5353d; float:left;}
+.conferencebwp .text3{padding:20px 0px; }
+.conferencebwp .text3 p{line-height:22px; text-indent:2em; font-size:13px; color:#454545;}
+.conferencebwp .bk_2{padding:35px 0px 10px 0px; background: url(../../image/static/activity/financingbwp/financing_4.jpg) repeat-x; overflow:hidden;}
+.conferencebwp .bk_2 img{width:92%; margin-left:4%;}
+.conferencebwp .bk_2 p{width:92%; line-height:20px; font-size:13px; color:#696969; margin-left:4%; padding:18px 0px 20px 0px;}
+.conferencebwp .bk_3{padding:24px 10px 30px 10px;background:#e3e3e3;}
+.conferencebwp .bk_3 .wptis{margin-bottom:10px;}
+.conferencebwp .bk_3 img{padding:20px 0px; border-bottom:1px solid #d0d0d0;}
+.conferencebwp .bk_4{padding:24px 10px 30px 10px;background:#fff;}
+.conferencebwp .bk_4 .text4{padding:30px 0px 16px 0px;}
+.conferencebwp .bk_4 .text4 p{line-height:20px; font-size:13px; color:#5d5d5d; text-indent:2em; padding-bottom:18px; }
+.conferencebwp .bk_4 .text4 p span{font-weight: bold;}
+.conferencebwp .bk_4 img{width:100%; padding-top:30px;}
+.conferencebwp .bk_4 .yy{line-height:30px; text-align:right; color:#9b9b9b; font-szie:13px; margin:20px 0px 10px 0px;}
+.conferencebwp .bk_5{padding:30px 10px 35px 10px;background:#b2252a;}
+.conferencebwp .bk_5 .wptis{margin-bottom:30px;} 
+.conferencebwp .bk_5 i{ height:28px; line-height:28px; display:block; text-align:center; font-style:normal; margin:10px 0px; color:#fff; border:1px solid #b64c50; border-left:none; border-right:none;}
+.conferencebwp .bk_6{padding:25px 0px 35px 0px; background: url(../../image/static/activity/financingbwp/financing_4.jpg) repeat-x; overflow:hidden;}
+.conferencebwp .bk_6 img{width:92%; margin-left:4%;}
+.musicStyle{text-align: right;width: 32px;height: 33px;position:fixed; top:2%; right:4.6%; z-index:999;}
+.musicStyle img{margin:5% 5% 0 0;}
+.app_fx{width:70.9%; display:none; position:fixed; z-index:9999999; right:5%; top:16px;}
+.app_fx img, .app_fx img{width:100%;}
+.marke{width:100%; height:100%;  display:none; background:#000; position:fixed; top:0px; left:0px; z-index:99999; opacity: 0.7;}
+.fx_btn{width:56%; height:40px; line-height:40px; font-size:16px; border-radius:4px; color:#fff; text-align:center; background:#c5242a; margin:auto;}

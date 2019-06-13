@@ -1,0 +1,85 @@
+
+.login{margin:10px 10px 0;}
+.login-bind-title{margin-bottom: 15px;padding-left: 3%;}
+.login-bind-title img{max-width: 25px;display: inline-block;vertical-align: middle;margin-right: 10px;}
+.phone_box,.password,.code_box{background:#fff; height:40px; position:relative; border:1px solid #e8e8e8; border-radius:5px; overflow: hidden;}
+.phone_box .phone_icon,.password .password_icon{float:left; width:12px; margin:11px 0 0 10px;}
+.phone_box .phone_txt,.password .password_txt{margin:0 30px; right:0px; position:absolute; left:0px; top:0px;}
+.phone_box .phone_txt input,.password .password_txt input ,.code_box .code_txt input{height:30px; font-size:14px; background: none; border:none; outline: none; margin-top:5px; width:100%;}
+.phone_box .success_icon{float:right; width:20px; margin:11px 10px 0 0px; display:none;}
+.password .password_icon{margin-top:12px;}
+.password .password_txt{margin: 0 83px 0 30px;}
+.password .clear_icon{width:20px; height:25px; float:right; margin-top:12px;display:none;}
+.password .toggle_icon{float:right; width:35px; height:40px;  padding-right:10px; background:url('../image/toggle_closed.png') no-repeat left center; background-size:30px;}
+.password .toggle_open{background:url('../image/toggle_open.png') no-repeat left center; background-size:36px;}
+.password .icon_hr{  float: right;
+display:none;
+  line-height: 40px; 
+  margin: 0 5px;
+  color: #cecece;
+  font-size: 17px;}
+
+.login_btn,.open_btn{ height:42px; width:100%; border-radius:5px; line-height: 40px; margin-top:35px; font-size:17px; text-align:center; letter-spacing: 5px; color: #fff; }
+.open_btn a{display:block;}
+.login_btn{margin:0px;}
+.forget_box{ margin-top:20px; font-size:16px; overflow: hidden;}
+.forget_box a{ color:#00afeb; text-decoration: none; display:block; float:left;}
+.forget_box a:active{color:#00afeb;}
+.registration_btn{margin-top:10px;text-align: center;border-radius:4px;}
+.registration_btn a{color:#fff; text-decoration: none;font-size: 15px;padding:10px 0;display: block;}
+.go-register{margin-top:10px;text-align: center;}
+.go-register a{color:#00b1eb; text-decoration: none;font-size: 15px;}
+.yzm_box{height:42px; position:relative;}
+.yzm_box .yzm_left{  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  margin-right: 120px;}  
+  .yzm_box .yzm_right{width: 115px;
+  position: absolute;
+  right: 0px;
+  top: 0px;} 
+.yzm_left .yzm_icon{width:14px; display:block; float:left; margin-top:13px; margin-left:10px;}
+.yzm_left .yzm_txt{ float:left; position: absolute; left:0px; top:0px; right:0px; margin:5px 10px 0 30px}
+.yzm_left .yzm_txt input{width:100%; height: 30px; font-size:14px; color:#cecece; line-height: 30px; background:none; border:none; outline: none;}
+
+.yzm_btn,.yzm_time{border-radius:5px; border:2px solid #fd8010; height:38px; text-align:center; line-height: 40px;}
+.yzm_btn a{text-decoration: none; color:#fd8010; font-size:15px; display: block;}
+.margin_box{min-height:20px; overflow:hidden; padding-bottom:5px; margin-top:5px;}
+.error,.yzm_ts{margin-top:10px; display:none; background: url('../image/error_icon.png') no-repeat 10px center; background-size:16px; font-size:12px; line-height: 20px; padding-left:33px; color:#919191;}
+.error{margin:0px;}
+.yzm_time{border:none; display:none; font-size:13px; height:42px; background: #cecece; line-height: 42px; text-align: center;}
+.yzm_ts{background:none; padding:0px; line-height:normal}
+.yzm_ts a{color:#00afeb}
+ 
+
+.monety_hint{background:url('../image/money_icon.png') no-repeat left center; background-size:23px; height:30px;line-height:30px;
+    padding-left:9%; margin:0 20px; color:#f00;
+}
+
+.code_box .code_icon{width:18px; margin:12px 0 0 10px; float:left;}
+.code_box .code_txt{position:absolute; top:0px;left:0px; right:0px; margin: 0 10px 0 30px;}
+.code_box {display:none;}
+ 
+.safe_img{width:25%; margin: 50px auto;}
+.safe_ts{text-align:center; font-size:14px;}
+.open_btn_box{margin:20px 20px;}
+.open_btn a{display:block;color:#fff;} 
+.open_btn a:link{color:#fff; text-decoration: none;}
+.open_btn a:active{color:#fff; text-decoration: none;}
+.third_js{ margin:0 20px; font-size:20px;}
+.third_js a{color:#00afeb; text-decoration: underline; display:block;text-align:center;}
+.monety_img{width:59.5%; margin:50px auto;}
+.color_red{color:#f00;}
+.open_third{color:#cecece; font-size:12px; padding:0 20px; margin-top:10px;}
+ 
+.code_btn{margin-top:10px;}
+.code_btn a{background:url('../image/code_img-hover.png') no-repeat left center; margin-left: 10px; background-size:18px; padding-left:25px; font-size:15px; color:#00afeb;}
+.code_btn:hover{color:#00afeb}
+
+.page_success_icon{width:35px; display: block; margin:10px ;}
+.xy_box{margin-top:20px; font-size:14px;}
+.xy_box a{color:#00afeb;}
+

@@ -1,0 +1,400 @@
+.alipayPage{
+	max-width:640px;
+	margin:0 auto;
+}
+.alipayPage .banner_t{
+	width:100%;
+	height:1.73rem;
+	background:url(../../image/activity/dadabus/banner_01.png) no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+
+.alipayPage .banner_b{
+	width:100%; 
+	height:1.94rem;
+	background:url(../../image/activity/dadabus/banner_02.png) no-repeat;
+	background-size:100% 100%;
+}
+.container{
+	background:#eee;
+	overflow:hidden;
+}
+.alipayBg{
+	background:#fff;
+	padding:.18rem .45rem 0 .25rem;
+	margin-top:.18rem;
+}
+.alipayBg h3{
+	font-size: .28rem;
+	height:.85rem;
+	line-height:.85rem;
+	border-bottom:.1px solid #eee;
+}
+.alipayBg h3 span{
+	height:.3rem;	
+	font-size:.28rem;
+	color:#39383d;
+	padding-left:.25rem;
+	border-left:.04rem solid #efac4b;
+	font-weight:bold;
+}
+
+.container .phnum {
+    width:5.3rem;
+    height:.7rem;
+    display:block;
+    margin:.6rem auto .24rem;
+    font-size:.26rem;
+    color:#000;
+	background:#eee;
+	text-indent:.22rem;
+	border-radius:.1rem;
+}
+.container .ex_popup {
+    width:5.3rem;
+    margin:0 auto;
+}
+.ex_popup a{
+	display:block;
+	height:.7rem;
+    line-height:.7rem;
+	text-align:center;
+    background-color:#efac4b;
+    font-size:.28rem;
+    color:#fff;
+	cursor:pointer;
+	border-radius:.06rem;
+	margin-top:.24rem;
+}
+.alipayBg .information{
+	line-height:.82rem;
+	text-align:center;
+	font-size:.22rem;
+	color:#393939;
+}
+.plan_cont {
+	padding-bottom:.52rem;
+}
+.treasure{
+	padding:.36rem 0 .46rem;
+	text-align:center;
+	color:#efac4b;
+}
+.treasure div{
+	font-size:.32rem;
+}
+.treasure span{
+	font-size:.8rem;	
+}
+.alipayBg .treasure p{
+	line-height:.3rem;
+	font-size:.22rem;
+	color:#b3b3b3;
+}
+.timelimit{
+	width:49%;
+    border-right: 1px solid #eee;
+}
+.earnings_cont {
+    width:50%;
+}
+.timelimit,.earnings_cont{
+	text-align:center;
+}
+.alipayBg .timelimit p,.alipayBg .earnings_cont p {
+	line-height:.3rem;
+    font-size:.22rem;
+    color: #b3b3b3;
+    margin-top:.12rem;
+}
+.timelimit div, .earnings_cont div {
+    font-size:.22rem;
+	color:#efac4b;
+}
+.timelimit span, .earnings_cont span {
+	font-weight:bold;
+    font-size:.46rem;
+}
+.picList {
+    padding-top: .68rem;
+	overflow:hidden;
+}
+.picList li {
+    overflow: hidden;
+    margin-bottom: .82rem;
+}
+.picList li b{
+	float:left;
+	width:.01rem;
+	height:.52rem;
+	background:#eee;
+	margin:.14rem .28rem 0;
+}
+.picList .units_ioc, .picList .eyes_ioc, .picList .flowers_ioc {
+    width:.8rem;
+    height: .8rem;
+	margin-left:.26rem;
+}
+.picList .units_ioc{
+	background: url(../../image/activity/dadabus/units_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .eyes_ioc{
+	background: url(../../image/activity/dadabus/eyes_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList .flowers_ioc{
+	background: url(../../image/activity/dadabus/flowers_ioc.png) no-repeat;
+    background-size: 100% 100%;
+}
+.picList div {
+    float: left;
+}
+
+.picList h4 {
+    font-size: .26rem;
+    color: #39383d;
+	font-weight:bold;
+    padding:.06rem 0;
+}
+.alipayBg .picList p {
+	line-height:.3rem;
+    font-size: .2rem;
+    color: #b3b3b3;
+}
+.ex_popupTOp{
+	padding:.24rem .42rem .12rem;
+	text-align:center;
+}
+.ex_popupTOp .phone{
+	font-size:.32rem;
+	color:#b3b3b3;
+	padding:.16rem 0;
+	border-top:1px solid #eee;
+}
+.ex_popupTOp .ex_popup{
+	margin-bottom:.25rem;
+}
+.ex_popupTOp p{
+	line-height:.32rem;
+	font-size:.22rem;
+	color:#b3b3b3;
+}
+.verify{
+	display:none; 
+	width: 5.24rem;
+    background-color:#fff;
+    position: fixed;
+    margin: -2.6rem 0 0 -2.9rem;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+	padding:.8rem .3rem .5rem .26rem;
+	z-index:3;
+	border-radius:.1rem;
+}
+.verify ul{
+	width:4.94rem;
+	margin:0 auto;
+	overflow:hidden;
+}
+.verify li{
+	overflow:hidden;
+	margin-bottom:.17rem;
+}
+.verify input{
+	height:.6rem;
+    font-size:.22rem;
+    color:#000;
+    background:#eee;
+	float:left;
+	text-indent:.22rem;
+	border-radius:.1rem;
+}
+.verify .txt{
+    width:4.38rem;
+}
+.verify .verificationCode{
+	width:2.6rem;
+	margin-right:.16rem;
+}
+.verify li i{
+	background:url(../../image/activity/dadabus/small.png) no-repeat;
+	background-size:.5rem;
+	vertical-align:middle;
+	float:left;
+}
+.verify li .insideIcon{
+	width:.28rem;
+	height:.42rem;
+	background-position:0 0;
+	margin:.1rem .15rem 0 .04rem;
+}
+.verify li .refreshIcon{
+	width:.36rem;
+	height:.39rem;
+	background-position:0 -.46rem;
+	margin:.12rem .12rem 0 0;
+}
+.verify li .passwordIcon{
+	width:.34rem;
+	height:.4rem;
+	background-position:0 -1.31rem;
+	margin:.1rem .15rem 0 0;
+}
+.verify li .phoneCode{
+	width:.36rem;
+	height:.32rem;
+	background-position:0 -.9rem;
+	margin:.14rem .12rem 0 0;
+}
+.verify img{
+	width:1.6rem;
+	height:.6rem;
+	float:left;
+}
+
+.pop_agr {
+    margin:.07rem 0 0 .6rem;
+    overflow:hidden;
+}
+.pop_agr .agree{
+    width:.22rem;
+    height:.22rem;
+    margin:.05rem .32rem 0 0;
+    background: url(../../image/activity/dadabus/circle_off.png) center top no-repeat;
+	background-size:100% 100%;
+    float: left;
+}
+
+.pop_agr .pop_agron {
+    background: url(../../image/activity/dadabus/circle_on.png) center top no-repeat;
+	background-size:100% 100%;
+}
+.pop_agr span {
+	font-size:.24rem;
+	color:#b3b3b3;
+    float:left;
+}
+.pop_agr a {
+    color:#b3b3b3;
+}
+.goReg{
+    width:5rem;
+    margin:.18rem auto 0;
+}
+.goReg a{
+	height:.66rem;
+    line-height:.66rem;
+	font-size:.28rem;
+    background-color:#efac4b;
+    text-align:center;
+	border-radius:.1rem;
+	display:block;
+	color:#fff;
+	cursor:pointer;
+}
+
+.verify .pop_msg_count{
+    width:1.6rem;
+    height:.6rem;
+    line-height:.6rem;
+	text-align:center;
+    border-radius:.1rem;
+	background:#efac4b;
+    cursor:pointer;
+    float:left;
+    color:#fff;
+    font-size:.22rem;
+}
+.overlay {
+    background: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.errormsg{
+	display:none;
+	width: 3.8rem;
+    padding: .38rem 0;
+    font-size: .18rem;
+    background-color: #000;
+    background: rgba(3, 3, 3, .6);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -1.9rem;
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+    word-break: break-all;
+}
+.verify .reSendCode{
+	background-color: #b8b8b8;
+}
+
+/*协议*/
+.xyjsp{
+	display:none;
+	width:5.02rem;
+	background-color:#fff;
+	border-radius:.08rem;
+	padding:.28rem .2rem .6rem .3rem;
+	position: fixed;
+	left: 50%;
+	top: 5%;
+	margin-left:-2.76rem;
+	z-index:3;
+}
+.xyjsp .xycont{
+	padding-right:.1rem;
+	height:6.6rem;
+	overflow-x: hidden;
+  	overflow-y: auto;
+}
+.xyjsp .xycont::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+.xyjsp .xycont::-webkit-scrollbar {
+  width: .06rem;
+  background-color: #F5F5F5;
+}
+.xyjsp .xycont::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+.xyjsp .closebtn,.verify .closebtn{
+	width:.38rem;
+	height:.38rem;
+	background: url(../../image/activity/dadabus/closebtn.png) center top no-repeat;
+	background-size:100% 100%;
+	position: absolute;
+	top:.2rem;
+	right:.3rem;
+}
+.xyjsp h3{
+	font-size:.28rem;
+	font-weight:bold;
+	text-align:center;
+	margin:.5rem auto .42rem;
+}
+.xyjsp h5{
+	font-size:.22rem;
+	font-weight:bold;
+	line-height:.34rem;
+}
+.xyjsp p{
+	font-size:.22rem;
+	text-align:justify;
+	text-indent:2em;
+	line-height:.34rem;
+	word-break: break-all;
+}
+.xyjsp .p_second{
+	text-indent:3em;
+}

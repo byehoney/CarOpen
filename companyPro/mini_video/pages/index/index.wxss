@@ -1,0 +1,89 @@
+/**index.wxss**/
+/* pages/home/home.wxss */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.mainContainer{
+  width: 90%;
+  margin:0 auto;
+  padding-bottom: 40rpx;
+}
+.list_item{
+  width: 100%;
+  margin-top: 40rpx;
+  background: #FFFFFF;
+  box-shadow: 0 10px 20px 0 rgba(164,164,164,0.50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_item .banner{
+  width: 100%;
+  height: 370rpx;
+  overflow: hidden;
+  position: relative;
+}
+.list_item .banner .mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: #000000;
+}
+.list_item .banner .play_icon{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width: 52rpx;
+  height: 70rpx;
+  margin-top: -35rpx;
+  margin-left: -25rpx;
+  z-index: 100;
+}
+.list_item .banner .banner_img{
+  width: 100%;
+}
+.list_item .des{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 0;
+}
+.list_item .des .des_title{
+  margin-left: 30rpx;
+  width: 420rpx;
+  font-size: 38rpx;
+  color: #000000;
+  letter-spacing: 4rpx;
+  line-height: 53rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.list_item .des .des_fun{
+  display: flex;
+  margin-right: 50rpx;
+  align-self:flex-start;
+}
+.list_item .des .des_icon{
+  width: 51rpx;
+  height: 51rpx;
+  margin-right: 12rpx;
+}
+.list_item .des .des_text{
+  font-size: 24rpx;
+  color: #45C45D;
+  letter-spacing: 2.53px;
+  align-self:center;
+}

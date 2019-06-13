@@ -1,0 +1,14 @@
+/*我的账户弹窗*/
+.wap_account_Popup .alertmask{position:absolute; left: 0; top: 0;right:0;bottom:0;background:#b2b2b2; opacity:.5; filter:alpha(opacity=50); -moz-opacity:0;  -khtml-opacity: 0;}
+.wap_account_Popup .alertid{width:194px;background-color:#fff;border-radius:5px;position:absolute;left:50%;margin-left:-97px;top:30%;padding:15px 0 8px;}
+.wap_account_Popup .alertid_title{padding:30px 0;}
+.wap_account_Popup .alertid .login_btn{line-height:18px;text-align:center;font-size:12px;color:#666;display:block;}
+
+
+
+/*体验金弹窗*/
+.wap_account_Popup .alertid div p{line-height:18px;font-size:12px;color:#666;}
+.wap_account_Popup .alertid p{text-align:center;}
+.wap_account_Popup .alertid .determine{width:107px;height:32px;line-height:32px;text-align:center;background-color:#00aae9;margin:18px auto 5px;border-radius:2px;}
+.wap_account_Popup .alertid .determine a{font-size:15px;color:#fff;display:block;}
+.wap_account_Popup .alertid p.prompt{font-size:12px;color:#999;}

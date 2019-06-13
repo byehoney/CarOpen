@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, button, input, textarea, th, td 
+body, button, input, select, textarea {padding:0;margin:0; font:.12rem microsoft YaHei, "\5b8b\4f53", Tahoma, Helvetica, Arial, sans-serif;}
+code, kbd, pre, samp, tt {font-family: "Courier New", Courier,monospace;}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;}
+ul, ol {list-style:none;}
+a{text-decoration:none;}
+abbr[title], acronym[title] {border-bottom:1px dotted;cursor:help;}
+q:before, q:after {content: '';}
+legend {color:#000;}
+fieldset {border:none;}
+img{border:none;vertical-align:top;}
+input{ padding:0; border:none 0; outline:none; background:none;}
+table{ border-collapse:collapse;text-align:center; vertical-align:middle;}
+button, input, select, textarea {font-size:100%;}
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+table {border-collapse:collapse;border-spacing:0;}
+.clearfix:after{display:block;clear:both; content:'';}
+.clearfix{zoom:1;}
+.fl{ float:left; }
+.fr{ float:right;}
+html{font-size:625%;}
+@media only screen and (min-width: 320px){
+	html {
+		font-size: 312.5% !important;
+	}
+}
+@media only screen and (min-width: 401px){
+	html {
+		font-size: 390.625% !important;
+	}
+}
+@media only screen and (min-width: 428px){
+	html {
+		font-size: 417.9% !important;
+	}
+}
+@media only screen and (min-width: 481px){
+	html {
+		font-size: 468.75% !important; 
+	}
+}
+@media only screen and (min-width: 569px){
+	html {
+		font-size: 546.875% !important; 
+	}
+}
+@media only screen and (min-width: 641px){
+	html {
+		font-size: 625% !important; 
+	}
+}
+
+.registered{max-width:640px;margin:0 auto;background-color:#fff9d1;}
+.registered .banner_t{width:100%;height:4.1rem;background:url(../../image/activity/new_activities/registered_t.png) no-repeat top center;background-size:100% 100%;}
+.registered .banner_b{width:100%;height:3rem;background:url(../../image/activity/new_activities/registered_b.png) no-repeat top center;background-size:100% 100%;overflow:hidden;}
+.jumpto{text-align:center;font-size:.26rem;color:#fff9d1;margin-top:.26rem;}
+.jumpto span{font-size:.22rem;}
+.registered .container{padding-top:.46rem;overflow:hidden;}
+.make_money{width:4.1rem;height:.68rem;line-height:.68rem; display:block; text-align:center;font-size:.26rem;color:#ffef8a;background:#f54956;border-radius:.3rem;margin:0 auto;cursor:pointer;}
+.container p{text-align:center;font-size:.16rem;color:#f54956;padding:1.5rem 0 2rem;}

@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../utils/wxParse/wxParse.wxml" />
+<view class="mainContainer">
+   <video src="{{src}}" 
+    show-play-btn="{{false}}"
+    show-center-play-btn="{{false}}"
+    object-fit="contain"
+    autoplay="{{true}}"
+    >
+  </video>
+   <cover-view class="des">
+      <cover-view class="des_title">{{title}}</cover-view>
+      <cover-view class="des_fun">
+        <cover-view class="line"></cover-view>
+        <cover-image class="des_icon" src="../../img/shareIcon.png"></cover-image>
+        <cover-view class="des_text">分享</cover-view>
+      </cover-view>
+   </cover-view>
+</view>
