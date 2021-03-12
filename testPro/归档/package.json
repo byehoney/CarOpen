@@ -43,7 +43,7 @@
         "rc-queue-anim": "^1.6.0",
         "rc-tween-one": "^1.8.1",
         "react": "^16.4.0",
-        "react-dev-utils": "^5.0.1",
+        "react-dev-utils": "^11.0.4",
         "react-dom": "^16.4.0",
         "react-loadable": "^5.4.0",
         "react-redux": "^5.0.7",
